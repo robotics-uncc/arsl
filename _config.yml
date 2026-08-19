@@ -25,6 +25,9 @@ baseurl                  : "/arsl"
 repository               : "robotics-uncc/arsl"
 logo                     : "/assets/images/2023-04/ARSL_clearb.png"
 
+atom_feed:
+  hide                   : true
+
 search                   : true
 search_full_content      : true
 words_per_minute         : 200
@@ -46,9 +49,6 @@ author:
     - label: "Google Scholar"
       icon: "fas fa-fw fa-graduation-cap"
       url: "https://scholar.google.com/citations?hl=en&user=D38WTZ8AAAAJ&view_op=list_works&sortby=pubdate"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/arturwolek/"
     - label: "YouTube"
       icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/playlist?list=PL2kZN0CkV04iDJmyfa4pZN371wuY8tPPI"
@@ -61,9 +61,6 @@ footer:
     - label: "Google Scholar"
       icon: "fas fa-fw fa-graduation-cap"
       url: "https://scholar.google.com/citations?hl=en&user=D38WTZ8AAAAJ&view_op=list_works&sortby=pubdate"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/arturwolek/"
     - label: "YouTube"
       icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/playlist?list=PL2kZN0CkV04iDJmyfa4pZN371wuY8tPPI"

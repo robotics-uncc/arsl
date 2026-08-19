@@ -5476,5 +5476,15 @@ figure.fig figcaption {
     grid-column: 2;
   }
 }
+/* Paper summaries: written from each paper's own abstract. Set apart from the
+   citation so the two are not read as one block of text. */
+.pub-summary {
+  margin: 0.5em 0 0;
+  padding-left: 0.75em;
+  border-left: 2px solid #cecfd1;
+  font-size: 0.86em;
+  line-height: 1.55;
+  color: #393e46;
+}
 
 /*# sourceMappingURL=main.css.map */
