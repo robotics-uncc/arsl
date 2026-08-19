@@ -5296,4 +5296,105 @@ figure.fig figcaption {
   margin-bottom: 0.6em;
 }
 
+/* ------------------------------------------------------------------ */
+/* Masthead: all seven sections stay visible                           */
+/*                                                                     */
+/* Replaces the theme's greedy nav (see _includes/masthead.html). The  */
+/* link row wraps to a second line instead of collapsing into a        */
+/* hamburger, so nothing hides behind a menu button at any width.      */
+/* ------------------------------------------------------------------ */
+.arsl-nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+  min-height: 2em;
+  padding: 0.25em 0;
+}
+.arsl-nav a {
+  text-decoration: none;
+}
+.arsl-nav .site-logo img {
+  max-height: 2rem;
+}
+.arsl-nav .site-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 0 0 auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  font-weight: bold;
+  line-height: 1.15;
+  z-index: 20;
+}
+.arsl-nav .site-subtitle {
+  display: block;
+  font-weight: normal;
+  font-size: 0.6875em;
+  color: #393e46;
+}
+.arsl-nav .visible-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.arsl-nav .visible-links li {
+  margin: 0;
+}
+.arsl-nav .visible-links a {
+  position: relative;
+  display: block;
+  margin: 0 0.5rem;
+  padding: 0.5rem 0;
+  color: #222831;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-size: 0.75em;
+  /* underline grows from the centre on hover, as in the stock theme */
+}
+.arsl-nav .visible-links a:hover {
+  color: #222831;
+}
+.arsl-nav .visible-links a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 4px;
+  width: 100%;
+  background: #0092ca;
+  transform: scaleX(0);
+  transition: transform 0.2s ease-in-out;
+}
+.arsl-nav .visible-links a:hover::before {
+  transform: scaleX(1);
+}
+.arsl-nav .search__toggle {
+  margin-left: 0.5rem;
+  border: 0;
+  outline: none;
+  color: #0092ca;
+  background: transparent;
+  cursor: pointer;
+}
+
+/* On narrow screens the title takes the first row and the links the second. */
+@media (max-width: 37.5em) {
+  .arsl-nav .site-title {
+    width: 100%;
+    margin-bottom: 0.25rem;
+  }
+  .arsl-nav .visible-links {
+    justify-content: flex-start;
+  }
+  .arsl-nav .visible-links a {
+    margin: 0 0.75rem 0 0;
+    font-size: 0.75em;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */

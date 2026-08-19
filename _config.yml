@@ -9,7 +9,8 @@ minimal_mistakes_skin    : "air"
 
 title                    : "Autonomous Robots and Systems Laboratory"
 title_separator          : "|"
-subtitle                 : "ARSL | UNC Charlotte"
+subtitle                 : "UNC Charlotte"
+masthead_title           : "ARSL"
 name                     : "Autonomous Robots and Systems Laboratory"
 description              : >-
   Research in aerospace and ocean vehicle guidance, dynamics, control, and path
@@ -31,6 +32,8 @@ words_per_minute         : 200
 # ---------------------------------------------------------------------------
 # Sidebar author card
 # ---------------------------------------------------------------------------
+# Retained for SEO/schema metadata only — author_profile is off site-wide, so
+# none of this renders as a sidebar.
 author:
   name        : "Artur Wolek"
   avatar      : "/assets/images/2023-04/Wolek_sq.png"
@@ -86,7 +89,7 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: false
       share: false
       related: false

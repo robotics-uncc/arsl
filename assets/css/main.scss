@@ -105,3 +105,99 @@ figure.fig {
 
 /* Publication lists are dense; tighten them up. */
 .page__content ol li { margin-bottom: 0.6em; }
+
+/* ------------------------------------------------------------------ */
+/* Masthead: all seven sections stay visible                           */
+/*                                                                     */
+/* Replaces the theme's greedy nav (see _includes/masthead.html). The  */
+/* link row wraps to a second line instead of collapsing into a        */
+/* hamburger, so nothing hides behind a menu button at any width.      */
+/* ------------------------------------------------------------------ */
+
+.arsl-nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+  min-height: $nav-height;
+  padding: 0.25em 0;
+
+  a { text-decoration: none; }
+
+  .site-logo img { max-height: 2rem; }
+
+  .site-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 0 0 auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    font-weight: bold;
+    line-height: 1.15;
+    z-index: 20;
+  }
+
+  .site-subtitle {
+    display: block;
+    font-weight: normal;
+    font-size: $type-size-7;
+    color: $muted-text-color;
+  }
+
+  .visible-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li { margin: 0; }
+
+    a {
+      position: relative;
+      display: block;
+      margin: 0 0.5rem;
+      padding: 0.5rem 0;
+      color: $masthead-link-color;
+      font-family: $sans-serif;
+      font-size: $type-size-6;
+
+      &:hover { color: $masthead-link-color-hover; }
+
+      /* underline grows from the centre on hover, as in the stock theme */
+      &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 4px;
+        width: 100%;
+        background: $primary-color;
+        transform: scaleX(0);
+        transition: transform 0.2s ease-in-out;
+      }
+      &:hover::before { transform: scaleX(1); }
+    }
+  }
+
+  .search__toggle {
+    margin-left: 0.5rem;
+    border: 0;
+    outline: none;
+    color: $primary-color;
+    background: transparent;
+    cursor: pointer;
+  }
+}
+
+/* On narrow screens the title takes the first row and the links the second. */
+@include breakpoint(max-width $small) {
+  .arsl-nav {
+    .site-title { width: 100%; margin-bottom: 0.25rem; }
+    .visible-links { justify-content: flex-start; }
+    .visible-links a { margin: 0 0.75rem 0 0; font-size: $type-size-6; }
+  }
+}
