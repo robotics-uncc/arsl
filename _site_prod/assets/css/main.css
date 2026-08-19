@@ -5409,7 +5409,7 @@ figure.fig figcaption {
 .pub {
   counter-increment: pub;
   display: grid;
-  grid-template-columns: 2.4em 150px 1fr;
+  grid-template-columns: 2.4em 260px 1fr;
   gap: 0 1em;
   align-items: start;
   margin: 0 0 1.4em;
@@ -5467,7 +5467,7 @@ figure.fig figcaption {
   .pub .pub-fig {
     grid-column: 2;
     margin-bottom: 0.6em;
-    max-width: 240px;
+    max-width: 320px;
   }
   .pub .pub-fig--none {
     display: none;
