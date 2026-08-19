@@ -3,3 +3,5 @@ _site/
 .jekyll-metadata
 vendor/
 .bundle/
+update.sh
+_site_check/
