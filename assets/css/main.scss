@@ -216,7 +216,7 @@ figure.fig {
 .pub {
   counter-increment: pub;
   display: grid;
-  grid-template-columns: 2.4em 150px 1fr;
+  grid-template-columns: 2.4em 260px 1fr;
   gap: 0 1em;
   align-items: start;
   margin: 0 0 1.4em;
@@ -266,7 +266,7 @@ figure.fig {
     grid-template-columns: 2em 1fr;
     gap: 0 0.6em;
 
-    .pub-fig { grid-column: 2; margin-bottom: 0.6em; max-width: 240px; }
+    .pub-fig { grid-column: 2; margin-bottom: 0.6em; max-width: 320px; }
     .pub-fig--none { display: none; }
     .pub-body { grid-column: 2; }
   }
