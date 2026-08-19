@@ -1,4 +1,16 @@
 @charset "UTF-8";
+/* ------------------------------------------------------------------ */
+/* Theme variables, overridden before the theme is imported            */
+/* ------------------------------------------------------------------ */
+/* The theme caps its wrapper at 1280px and centres it, which leaves wide
+   margins on a laptop. Let the page use the full width; padding on the
+   containers keeps the text off the very edge. */
+/* Wider TOC column, since its type is no longer tiny (see below). */
+/* One consistent type scale. The theme ships eight sizes spanning 0.625em to
+   2.441em, and uses the small end for navigation, tables of contents, captions
+   and tags — small enough to be hard to read. This collapses the range: four
+   heading steps, one body size, and one slightly-smaller size for fine print.
+   Nothing on the page is smaller than 0.9em. */
 /* ==========================================================================
    Air skin
    ========================================================================== */
@@ -794,7 +806,7 @@ h6 {
 
 small,
 .small {
-  font-size: 0.75em;
+  font-size: 1em;
 }
 
 p {
@@ -947,7 +959,7 @@ figcaption {
   margin-bottom: 0.5em;
   color: #393e46;
   font-family: Georgia, Times, serif;
-  font-size: 0.75em;
+  font-size: 1em;
 }
 figcaption a {
   -webkit-transition: all 0.2s ease-in-out;
@@ -1086,7 +1098,7 @@ label {
   cursor: pointer;
 }
 label small {
-  font-size: 0.75em;
+  font-size: 1em;
 }
 label input,
 label textarea,
@@ -1369,7 +1381,7 @@ table {
   margin-bottom: 1em;
   width: 100%;
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-  font-size: 0.75em;
+  font-size: 1em;
   border-collapse: collapse;
   overflow-x: auto;
 }
@@ -1431,7 +1443,7 @@ th {
   margin-bottom: 0.25em;
   padding: 0.5em 1em;
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-  font-size: 0.75em;
+  font-size: 1em;
   font-weight: bold;
   text-align: center;
   text-decoration: none;
@@ -1624,13 +1636,13 @@ th {
   opacity: 0.65;
 }
 .btn--x-large {
-  font-size: 1.25em;
+  font-size: 1.1em;
 }
 .btn--large {
   font-size: 1em;
 }
 .btn--small {
-  font-size: 0.6875em;
+  font-size: 0.9em;
 }
 
 /* ==========================================================================
@@ -1650,7 +1662,7 @@ th {
   padding: 1em;
   color: #222831;
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-  font-size: 0.75em !important;
+  font-size: 1em !important;
   text-indent: initial; /* override*/
   background-color: #e4e5e6;
   border-radius: 4px;
@@ -1710,7 +1722,7 @@ blockquote.notice, blockquote.markdown-alert {
   padding: 1em;
   color: #222831;
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-  font-size: 0.75em !important;
+  font-size: 1em !important;
   text-indent: initial; /* override*/
   background-color: #bedce7;
   border-radius: 4px;
@@ -1770,7 +1782,7 @@ blockquote.notice--primary, blockquote.markdown-alert-important {
   padding: 1em;
   color: #222831;
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-  font-size: 0.75em !important;
+  font-size: 1em !important;
   text-indent: initial; /* override*/
   background-color: #cadee4;
   border-radius: 4px;
@@ -1830,7 +1842,7 @@ blockquote.notice--info, blockquote.markdown-alert-note {
   padding: 1em;
   color: #222831;
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-  font-size: 0.75em !important;
+  font-size: 1em !important;
   text-indent: initial; /* override*/
   background-color: #e9d8bf;
   border-radius: 4px;
@@ -1890,7 +1902,7 @@ blockquote.notice--warning, blockquote.markdown-alert-warning {
   padding: 1em;
   color: #222831;
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-  font-size: 0.75em !important;
+  font-size: 1em !important;
   text-indent: initial; /* override*/
   background-color: #cbe0cb;
   border-radius: 4px;
@@ -1950,7 +1962,7 @@ blockquote.notice--success, blockquote.markdown-alert-tip {
   padding: 1em;
   color: #222831;
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-  font-size: 0.75em !important;
+  font-size: 1em !important;
   text-indent: initial; /* override*/
   background-color: #eed1d1;
   border-radius: 4px;
@@ -2035,7 +2047,7 @@ blockquote.notice--danger, blockquote.markdown-alert-caution {
 }
 @media (min-width: 80em) {
   .masthead__inner-wrap {
-    max-width: 1280px;
+    max-width: 100%;
   }
 }
 .masthead__inner-wrap nav {
@@ -2060,7 +2072,7 @@ blockquote.notice--danger, blockquote.markdown-alert-caution {
 
 .site-subtitle {
   display: block;
-  font-size: 0.625em;
+  font-size: 0.9em;
 }
 
 .masthead__menu {
@@ -2124,17 +2136,17 @@ blockquote.notice--danger, blockquote.markdown-alert-caution {
 .breadcrumbs ol {
   padding: 0;
   list-style: none;
-  font-size: 0.75em;
+  font-size: 1em;
 }
 @media (min-width: 64em) {
   .breadcrumbs ol {
     float: inline-end;
-    width: calc(100% - 200px);
+    width: calc(100% - 240px);
   }
 }
 @media (min-width: 80em) {
   .breadcrumbs ol {
-    width: calc(100% - 300px);
+    width: calc(100% - 290px);
   }
 }
 .breadcrumbs li {
@@ -2416,7 +2428,7 @@ blockquote.notice--danger, blockquote.markdown-alert-caution {
     display: inline-block;
     padding: 0.5em 2.5em 0.5em 1em;
     color: #7a8288;
-    font-size: 0.75em;
+    font-size: 1em;
     font-weight: bold;
     border: 1px solid #bdc1c4;
     border-radius: 4px;
@@ -2540,7 +2552,7 @@ blockquote.notice--danger, blockquote.markdown-alert-caution {
   margin: 0.5rem 0;
   padding: 0.25rem 0;
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-  font-size: 0.75em;
+  font-size: 1em;
   font-weight: bold;
   text-transform: uppercase;
   border-bottom: 1px solid #cecfd1;
@@ -2560,7 +2572,7 @@ blockquote.notice--danger, blockquote.markdown-alert-caution {
 }
 .toc .nav__title {
   color: #fff;
-  font-size: 0.75em;
+  font-size: 1em;
   background: #0092ca;
   border-start-start-radius: 4px;
   border-start-end-radius: 4px;
@@ -2575,11 +2587,11 @@ blockquote.notice--danger, blockquote.markdown-alert-caution {
   padding: 0;
   width: 100%;
   list-style: none;
-  font-size: 0.75em;
+  font-size: 1em;
 }
 @media (min-width: 64em) {
   .toc__menu {
-    font-size: 0.6875em;
+    font-size: 0.9em;
   }
 }
 .toc__menu a {
@@ -2664,7 +2676,7 @@ blockquote.notice--danger, blockquote.markdown-alert-caution {
 
 .page__footer-copyright {
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-  font-size: 0.6875em;
+  font-size: 0.9em;
 }
 
 .page__footer-follow ul {
@@ -2677,7 +2689,7 @@ blockquote.notice--danger, blockquote.markdown-alert-caution {
   padding-top: 5px;
   padding-bottom: 5px;
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-  font-size: 0.75em;
+  font-size: 1em;
   text-transform: uppercase;
 }
 .page__footer-follow li + li::before {
@@ -2736,7 +2748,7 @@ blockquote.notice--danger, blockquote.markdown-alert-caution {
 }
 @media (min-width: 80em) {
   .search-content__inner-wrap {
-    max-width: 1280px;
+    max-width: 100%;
   }
 }
 .search-content__form {
@@ -2750,16 +2762,16 @@ blockquote.notice--danger, blockquote.markdown-alert-caution {
   outline: none;
   box-shadow: none;
   background-color: transparent;
-  font-size: 1.563em;
+  font-size: 1.3em;
 }
 @media (min-width: 64em) {
   .search-content .search-input {
-    font-size: 1.953em;
+    font-size: 1.6em;
   }
 }
 @media (min-width: 80em) {
   .search-content .search-input {
-    font-size: 2.441em;
+    font-size: 2.1em;
   }
 }
 .search-content.is--visible {
@@ -2772,7 +2784,7 @@ blockquote.notice--danger, blockquote.markdown-alert-caution {
 }
 .search-content .results__found {
   margin-top: 0.5em;
-  font-size: 0.75em;
+  font-size: 1em;
 }
 .search-content .archive__item {
   margin-bottom: 2em;
@@ -2822,7 +2834,7 @@ figure.highlight {
   background: #263238;
   color: #eeffff;
   font-family: Monaco, Consolas, "Lucida Console", monospace;
-  font-size: 0.75em;
+  font-size: 1em;
   line-height: 1.8;
   border-radius: 4px;
 }
@@ -3608,7 +3620,7 @@ body:hover .visually-hidden button {
 .footnotes li,
 .footnotes p {
   margin-bottom: 0;
-  font-size: 0.75em;
+  font-size: 1em;
 }
 
 a.reversefootnote {
@@ -3742,7 +3754,7 @@ pre:hover .clipboard-copy-button {
 }
 @media (min-width: 80em) {
   #main {
-    max-width: 1280px;
+    max-width: 100%;
   }
 }
 
@@ -3765,14 +3777,14 @@ body {
 @media (min-width: 64em) {
   .page {
     float: inline-end;
-    width: calc(100% - 200px);
-    padding-inline-end: 200px;
+    width: calc(100% - 240px);
+    padding-inline-end: 240px;
   }
 }
 @media (min-width: 80em) {
   .page {
-    width: calc(100% - 300px);
-    padding-inline-end: 300px;
+    width: calc(100% - 290px);
+    padding-inline-end: 290px;
   }
 }
 .page .page__inner-wrap {
@@ -3807,7 +3819,7 @@ body {
 
 .page__lead {
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-  font-size: 1.25em;
+  font-size: 1.1em;
 }
 
 .page__content {
@@ -3866,10 +3878,10 @@ body {
 .page__content dd {
   margin-inline-start: 1em;
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-  font-size: 0.75em;
+  font-size: 1em;
 }
 .page__content .small {
-  font-size: 0.75em;
+  font-size: 1em;
 }
 .page__content blockquote + .small {
   margin-top: -1.5em;
@@ -3935,11 +3947,11 @@ body {
   max-width: 768px;
 }
 .page__hero--overlay .page__title {
-  font-size: 1.953em;
+  font-size: 1.6em;
 }
 @media (min-width: 37.5em) {
   .page__hero--overlay .page__title {
-    font-size: 2.441em;
+    font-size: 2.1em;
   }
 }
 
@@ -3957,7 +3969,7 @@ body {
   padding: 2px 5px;
   color: #fff;
   font-family: Georgia, Times, serif;
-  font-size: 0.6875em;
+  font-size: 0.9em;
   background: #000;
   text-align: end;
   z-index: 5;
@@ -3997,7 +4009,7 @@ body {
 
 .page__share-title {
   margin-bottom: 10px;
-  font-size: 0.75em;
+  font-size: 1em;
   text-transform: uppercase;
 }
 
@@ -4008,7 +4020,7 @@ body {
   margin-top: 2em;
   color: #393e46;
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-  font-size: 0.75em;
+  font-size: 1em;
 }
 .page__meta p, .comment__date p {
   margin: 0;
@@ -4019,7 +4031,7 @@ body {
 
 .page__meta-title {
   margin-bottom: 10px;
-  font-size: 0.75em;
+  font-size: 1em;
   text-transform: uppercase;
 }
 
@@ -4130,7 +4142,7 @@ body {
   margin-top: 2rem;
   margin-bottom: 10px;
   padding-top: 2rem;
-  font-size: 0.75em;
+  font-size: 1em;
   border-top: 1px solid #cecfd1;
   text-transform: uppercase;
 }
@@ -4231,12 +4243,12 @@ body {
 @media (min-width: 64em) {
   .page__related {
     float: inline-end;
-    width: calc(100% - 200px);
+    width: calc(100% - 240px);
   }
 }
 @media (min-width: 80em) {
   .page__related {
-    width: calc(100% - 300px);
+    width: calc(100% - 290px);
   }
 }
 .page__related a {
@@ -4246,7 +4258,7 @@ body {
 
 .page__related-title {
   margin-bottom: 10px;
-  font-size: 0.75em;
+  font-size: 1em;
   text-transform: uppercase;
 }
 
@@ -4274,14 +4286,14 @@ body {
 @media (min-width: 64em) {
   .archive {
     float: inline-end;
-    width: calc(100% - 200px);
-    padding-inline-end: 200px;
+    width: calc(100% - 240px);
+    padding-inline-end: 240px;
   }
 }
 @media (min-width: 80em) {
   .archive {
-    width: calc(100% - 300px);
-    padding-inline-end: 300px;
+    width: calc(100% - 290px);
+    padding-inline-end: 290px;
   }
 }
 
@@ -4331,7 +4343,7 @@ body {
 
 .archive__item-excerpt {
   margin-top: 0;
-  font-size: 0.75em;
+  font-size: 1em;
 }
 .archive__item-excerpt + p {
   text-indent: 0;
@@ -4357,7 +4369,7 @@ body {
   padding: 2px 5px;
   color: #fff;
   font-family: Georgia, Times, serif;
-  font-size: 0.625em;
+  font-size: 0.9em;
   background: #000;
   text-align: end;
   z-index: 5;
@@ -4390,12 +4402,12 @@ body {
 }
 @media (min-width: 64em) {
   .archive .grid__wrapper {
-    margin-inline-end: -200px;
+    margin-inline-end: -240px;
   }
 }
 @media (min-width: 80em) {
   .archive .grid__wrapper {
-    margin-inline-end: -300px;
+    margin-inline-end: -290px;
   }
 }
 
@@ -4460,7 +4472,7 @@ body {
 @media (min-width: 48em) {
   .grid__item .archive__item-excerpt {
     display: block;
-    font-size: 0.75em;
+    font-size: 1em;
   }
 }
 @media (min-width: 37.5em) {
@@ -4663,7 +4675,7 @@ body {
 @media (min-width: 64em) {
   .sidebar {
     float: inline-start;
-    width: calc(200px - 1em);
+    width: calc(240px - 1em);
     opacity: 0.75;
     -webkit-transition: opacity 0.2s ease-in-out;
     transition: opacity 0.2s ease-in-out;
@@ -4681,7 +4693,7 @@ body {
 }
 @media (min-width: 80em) {
   .sidebar {
-    width: calc(300px - 1em);
+    width: calc(290px - 1em);
   }
 }
 .sidebar > * {
@@ -4699,7 +4711,7 @@ body {
 .sidebar p,
 .sidebar li {
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-  font-size: 0.75em;
+  font-size: 1em;
   line-height: 1.5;
 }
 .sidebar img {
@@ -4718,8 +4730,8 @@ body {
     position: absolute;
     top: 0;
     inset-inline-end: 0;
-    width: 200px;
-    margin-inline-end: -200px;
+    width: 240px;
+    margin-inline-end: -240px;
     padding-inline-start: 1em;
     z-index: 10;
   }
@@ -4742,8 +4754,8 @@ body {
 }
 @media (min-width: 80em) {
   .sidebar__right {
-    width: 300px;
-    margin-inline-end: -300px;
+    width: 290px;
+    margin-inline-end: -290px;
   }
 }
 
@@ -5193,6 +5205,88 @@ body {
   }
 }
 /* ------------------------------------------------------------------ */
+/* Full-width layout                                                    */
+/* ------------------------------------------------------------------ */
+/* The theme gives the content 10 of 12 columns even when no sidebar is
+   present, so a third of the screen sits empty. Take the whole width and
+   let the table of contents float into it where a page has one. */
+#main {
+  max-width: 100%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+@media (min-width: 64em) {
+  .page,
+  .archive {
+    width: 100%;
+    padding-right: 0;
+  }
+}
+@media (min-width: 80em) {
+  .page,
+  .archive {
+    width: 100%;
+    padding-right: 0;
+  }
+}
+
+.page__inner-wrap {
+  max-width: 100%;
+}
+
+/* The masthead and footer track the same width as the content. */
+.masthead__inner-wrap,
+.page__footer-follow,
+.page__footer-copyright {
+  max-width: 100%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+@media (max-width: 48em) {
+  #main {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .masthead__inner-wrap {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+/* A table of contents floats beside the text rather than sitting above it. */
+@media (min-width: 64em) {
+  .sidebar__right.sticky,
+  .sidebar__right {
+    /* the theme positions this absolutely and hangs it off the page's right
+       padding; with a full-width page that would put it off-screen, so float
+       it into the text column instead */
+    position: relative;
+    inset-inline-end: auto;
+    right: auto;
+    float: right;
+    width: 290px;
+    margin-left: 2rem;
+    margin-right: 0;
+    margin-inline-end: 0;
+    clear: both;
+  }
+  .sidebar__right.sticky {
+    position: sticky;
+    top: 2em;
+  }
+}
+/* TOC links read at body size, matching the prose beside them. */
+.toc__menu a {
+  font-size: 1em;
+  padding: 0.4rem 1rem;
+}
+
+.toc .nav__title {
+  font-size: 1em;
+}
+
+/* ------------------------------------------------------------------ */
 /* ARSL additions on top of the theme                                  */
 /* ------------------------------------------------------------------ */
 /* Figures are plots and multi-panel diagrams drawn on transparent or white
@@ -5331,7 +5425,7 @@ figure.fig figcaption {
 .arsl-nav .site-subtitle {
   display: block;
   font-weight: normal;
-  font-size: 0.6875em;
+  font-size: 0.9em;
   color: #393e46;
 }
 .arsl-nav .visible-links {
@@ -5387,7 +5481,7 @@ figure.fig figcaption {
   }
   .arsl-nav .visible-links a {
     margin: 0 0.75rem 0 0;
-    font-size: 0.75em;
+    font-size: 1em;
   }
 }
 /* ------------------------------------------------------------------ */
@@ -5417,7 +5511,7 @@ figure.fig figcaption {
   content: counter(pub) ".";
   padding-top: 0.15em;
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-  font-size: 0.75em;
+  font-size: 1em;
   font-variant-numeric: tabular-nums;
   color: #393e46;
   text-align: right;
@@ -5444,7 +5538,7 @@ figure.fig figcaption {
 }
 
 .pub-body {
-  font-size: 0.75em;
+  font-size: 1em;
 }
 .pub-body > p {
   margin: 0;

@@ -4,8 +4,108 @@
 
 @charset "utf-8";
 
+/* ------------------------------------------------------------------ */
+/* Theme variables, overridden before the theme is imported            */
+/* ------------------------------------------------------------------ */
+
+/* The theme caps its wrapper at 1280px and centres it, which leaves wide
+   margins on a laptop. Let the page use the full width; padding on the
+   containers keeps the text off the very edge. */
+$max-width: 100%;
+
+/* Wider TOC column, since its type is no longer tiny (see below). */
+$right-sidebar-width-narrow: 240px;
+$right-sidebar-width: 290px;
+$right-sidebar-width-wide: 320px;
+
+/* One consistent type scale. The theme ships eight sizes spanning 0.625em to
+   2.441em, and uses the small end for navigation, tables of contents, captions
+   and tags — small enough to be hard to read. This collapses the range: four
+   heading steps, one body size, and one slightly-smaller size for fine print.
+   Nothing on the page is smaller than 0.9em. */
+$type-size-1: 2.1em;    // page titles
+$type-size-2: 1.6em;    // h2
+$type-size-3: 1.3em;    // h3
+$type-size-4: 1.1em;    // h4, lead-ins
+$type-size-5: 1em;      // body
+$type-size-6: 1em;      // was 0.75em - TOC, nav, meta
+$type-size-7: 0.9em;    // fine print
+$type-size-8: 0.9em;    // was 0.625em
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
+
+/* ------------------------------------------------------------------ */
+/* Full-width layout                                                    */
+/* ------------------------------------------------------------------ */
+
+/* The theme gives the content 10 of 12 columns even when no sidebar is
+   present, so a third of the screen sits empty. Take the whole width and
+   let the table of contents float into it where a page has one. */
+#main {
+  max-width: 100%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.page,
+.archive {
+  @include breakpoint($large) {
+    width: 100%;
+    padding-right: 0;
+  }
+  @include breakpoint($x-large) {
+    width: 100%;
+    padding-right: 0;
+  }
+}
+
+.page__inner-wrap { max-width: 100%; }
+
+/* The masthead and footer track the same width as the content. */
+.masthead__inner-wrap,
+.page__footer-follow,
+.page__footer-copyright {
+  max-width: 100%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+@include breakpoint(max-width $medium) {
+  #main { padding-left: 1rem; padding-right: 1rem; }
+  .masthead__inner-wrap { padding-left: 1rem; padding-right: 1rem; }
+}
+
+/* A table of contents floats beside the text rather than sitting above it. */
+@include breakpoint($large) {
+  .sidebar__right.sticky,
+  .sidebar__right {
+    /* the theme positions this absolutely and hangs it off the page's right
+       padding; with a full-width page that would put it off-screen, so float
+       it into the text column instead */
+    position: relative;
+    inset-inline-end: auto;
+    right: auto;
+    float: right;
+    width: $right-sidebar-width;
+    margin-left: 2rem;
+    margin-right: 0;
+    margin-inline-end: 0;
+    clear: both;
+  }
+
+  .sidebar__right.sticky {
+    position: sticky;
+    top: 2em;
+  }
+}
+
+/* TOC links read at body size, matching the prose beside them. */
+.toc__menu a {
+  font-size: $type-size-6;
+  padding: 0.4rem 1rem;
+}
+.toc .nav__title { font-size: $type-size-6; }
 
 /* ------------------------------------------------------------------ */
 /* ARSL additions on top of the theme                                  */
