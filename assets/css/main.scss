@@ -185,14 +185,6 @@ figure.fig {
     }
   }
 
-  .search__toggle {
-    margin-left: auto;
-    border: 0;
-    outline: none;
-    color: $primary-color;
-    background: transparent;
-    cursor: pointer;
-  }
 }
 
 /* On narrow screens the title takes the first row and the links the second. */
@@ -253,8 +245,8 @@ figure.fig {
   &:hover img { border-color: $primary-color; }
 }
 
-/* Entries with no figure keep the column, so every row still lines up. */
-.pub-fig--none { display: block; }
+/* Entries with no figure collapse the image column instead of leaving a gap. */
+.pub--nofig { grid-template-columns: 2.4em 1fr; }
 
 .pub-body {
   font-size: $type-size-6;
@@ -269,7 +261,6 @@ figure.fig {
     gap: 0 0.6em;
 
     .pub-fig { grid-column: 2; margin-bottom: 0.6em; max-width: 320px; }
-    .pub-fig--none { display: none; }
     .pub-body { grid-column: 2; }
   }
 }

@@ -28,8 +28,7 @@ logo                     : "/assets/images/2023-04/ARSL_clearb.png"
 atom_feed:
   hide                   : true
 
-search                   : true
-search_full_content      : true
+search                   : false
 words_per_minute         : 200
 
 # ---------------------------------------------------------------------------
