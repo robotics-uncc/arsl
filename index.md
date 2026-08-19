@@ -11,29 +11,22 @@ feature_row:
     alt: "Seven-panel figure on trajectory optimization: maximum kinetic energy paths for a decaying-speed Dubins vehicle, sampling-based risk-aware planning around dynamic engagement zones, energy-optimal glider paths with speed and load factor controls, the orbiting Dubins traveling salesman problem, time-optimal planning for a variable-speed kinematic car, and minimum-time Dubins airplane inspection tours with visibility and dwell constraints."
     title: "Trajectory optimization and optimal path planning"
     excerpt: "Designing trajectories/paths for curvature-constrained (e.g., Dubins-like) vehicle models that optimize some criteria such as time, energy, or risk"
-    url: /research/
-    btn_label: "Learn more"
-    btn_class: "btn--primary"
   - image_path: /assets/images/2025-10/behaviors_work.png
     alt: "Six-panel figure on adaptive motion-control behaviors: urban mapping and search using mutual information, occlusion-aware ground target tracking by a Dubins vehicle using visibility volumes, underwater vehicle behaviors for passive sonar target tracking, path planning for a cooperative navigation aid serving multiple agents, planar formation control of a school of robotic fish, and adaptive sampling of a Gaussian spatial process by a heterogeneous robot team."
     title: "Informative/adaptive path planning and multi-vehicle coordination"
     excerpt: "Planning paths and coordinating teams to collect data efficiently or adaptively (e.g., target tracking, search, or environmental monitoring)"
-    url: /research/
-    btn_label: "Learn more"
-    btn_class: "btn--primary"
   - image_path: /assets/images/2023-04/robots_arsl.png
     alt: "Six of the lab's vehicles: two yellow autonomous surface vessels on a pond, a Clearpath Jackal ground robot, an underwater ROV in the water tank, a quadrotor with a wind-sensing mast, the MiniUUV underwater vehicle, and a researcher flying a small fixed-wing UAV."
     title: "Aerial and marine field robotics"
     excerpt: "Developing novel vehicle platforms and conducting field experimentation with UAVs, USVs, UUVs, and underwater gliders in unique applications"
-    url: /facilities/
-    btn_label: "Learn more"
-    btn_class: "btn--primary"
 ---
 The Autonomous Robots and Systems Laboratory (ARSL) is part of the Mechanical Engineering and Engineering Science Department at the University of North Carolina at Charlotte (UNC Charlotte). Our research is in the area of **aerospace and ocean vehicle guidance, dynamics, control and path planning.**
 
 Research areas of expertise include:
 
 {% include feature_row %}
+
+<p class="feature-cta"><a class="btn btn--primary btn--large" href="{{ "/research/" | relative_url }}">Learn more</a></p>
 
 ## Lab Director
 

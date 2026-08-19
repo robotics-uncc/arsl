@@ -5322,7 +5322,7 @@ figure.fig figcaption {
   flex-direction: column;
   justify-content: center;
   flex: 0 0 auto;
-  margin-right: auto;
+  margin-right: 1.5rem; /* was auto: pulls the links in toward the logo */
   padding-left: 0.5rem;
   font-weight: bold;
   line-height: 1.15;
@@ -5337,7 +5337,8 @@ figure.fig figcaption {
 .arsl-nav .visible-links {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end;
+  flex: 1 1 auto;
+  justify-content: flex-start;
   align-items: center;
   margin: 0;
   padding: 0;
@@ -5349,11 +5350,12 @@ figure.fig figcaption {
 .arsl-nav .visible-links a {
   position: relative;
   display: block;
-  margin: 0 0.5rem;
+  margin: 0 0.85rem;
   padding: 0.5rem 0;
   color: #222831;
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-  font-size: 0.75em;
+  font-size: 1em;
+  font-weight: 600;
   /* underline grows from the centre on hover, as in the stock theme */
 }
 .arsl-nav .visible-links a:hover {
@@ -5374,7 +5376,7 @@ figure.fig figcaption {
   transform: scaleX(1);
 }
 .arsl-nav .search__toggle {
-  margin-left: 0.5rem;
+  margin-left: auto;
   border: 0;
   outline: none;
   color: #0092ca;
@@ -5485,6 +5487,33 @@ figure.fig figcaption {
   font-size: 0.86em;
   line-height: 1.55;
   color: #393e46;
+}
+
+/* Keyword chips under each publication */
+.pub-tags {
+  margin: 0.55em 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3em;
+}
+
+.pub-tag {
+  display: inline-block;
+  padding: 0.18em 0.55em;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-size: 0.68em;
+  line-height: 1.5;
+  color: #0092ca;
+  background: #e6f4fa;
+  border: 1px solid #b8e0f0;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+/* single call to action under the homepage cards */
+.feature-cta {
+  margin: 0.5em 0 2em;
+  text-align: center;
 }
 
 /*# sourceMappingURL=main.css.map */
