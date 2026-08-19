@@ -1,0 +1,17 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "Research"
+    url: /research/
+  - title: "Publications"
+    url: /publications/
+  - title: "People"
+    url: /people/
+  - title: "Facilities"
+    url: /facilities/
+  - title: "Teaching"
+    url: /teaching/
+  - title: "Outreach"
+    url: /outreach/
+  - title: "Gallery"
+    url: /gallery/

@@ -1,49 +1,97 @@
-title: Autonomous Robots and Systems Laboratory
-abbr: ARSL
-description: >-
+# ---------------------------------------------------------------------------
+# Minimal Mistakes — https://mmistakes.github.io/minimal-mistakes/
+#
+# Skin: one-line swap. Options are
+#   default, air, aqua, contrast, dark, dirt, mint, neon, plum, sunrise
+# ---------------------------------------------------------------------------
+theme                    : "minimal-mistakes-jekyll"
+minimal_mistakes_skin    : "air"
+
+title                    : "Autonomous Robots and Systems Laboratory"
+title_separator          : "|"
+subtitle                 : "UNC Charlotte"
+masthead_title           : "ARSL"
+name                     : "Autonomous Robots and Systems Laboratory"
+description              : >-
   Research in aerospace and ocean vehicle guidance, dynamics, control, and path
   planning — trajectory optimization, informative path planning, and aerial and
   marine field robotics.
+locale                   : "en-US"
 
-# ---------------------------------------------------------------------------
-# Project site: repo github.com/robotics-uncc/arsl serves at
-# https://robotics-uncc.github.io/arsl/ , so every URL needs the /arsl prefix.
+# Project site: repo github.com/robotics-uncc/arsl serves under /arsl.
 # The Pages workflow passes the same value via --baseurl at build time.
-# For a custom domain later: set url to it, set baseurl to "", and add a CNAME.
+url                      : "https://robotics-uncc.github.io"
+baseurl                  : "/arsl"
+repository               : "robotics-uncc/arsl"
+logo                     : "/assets/images/2023-04/ARSL_clearb.png"
+
+search                   : true
+search_full_content      : true
+words_per_minute         : 200
+
 # ---------------------------------------------------------------------------
-url: "https://robotics-uncc.github.io"
-baseurl: "/arsl"
+# Sidebar author card
+# ---------------------------------------------------------------------------
+# Retained for SEO/schema metadata only — author_profile is off site-wide, so
+# none of this renders as a sidebar.
+author:
+  name        : "Artur Wolek"
+  avatar      : "/assets/images/2023-04/Wolek_sq.png"
+  bio         : "Assistant Professor, Mechanical Engineering and Engineering
+                 Science, UNC Charlotte. Aerospace and ocean vehicle guidance,
+                 dynamics, control and path planning."
+  location    : "BATT CAVE Research Building, Room 103"
+  email       : "awolek@charlotte.edu"
+  links:
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?hl=en&user=D38WTZ8AAAAJ&view_op=list_works&sortby=pubdate"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/arturwolek/"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/playlist?list=PL2kZN0CkV04iDJmyfa4pZN371wuY8tPPI"
+    # NOTE: minimal-mistakes emits author/footer link URLs verbatim, with no
+    # relative_url filter, so only absolute URLs belong here. The CV is linked
+    # from the homepage body instead, where the filter does apply.
 
-scholar: https://scholar.google.com/citations?hl=en&user=D38WTZ8AAAAJ&view_op=list_works&sortby=pubdate
-linkedin: https://www.linkedin.com/in/arturwolek/
-youtube: https://www.youtube.com/playlist?list=PL2kZN0CkV04iDJmyfa4pZN371wuY8tPPI
+footer:
+  links:
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?hl=en&user=D38WTZ8AAAAJ&view_op=list_works&sortby=pubdate"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/arturwolek/"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/playlist?list=PL2kZN0CkV04iDJmyfa4pZN371wuY8tPPI"
 
-contact_html: >
-  <p>Dr. Artur Wolek<br>
-  Assistant Professor<br>
-  Department of Mechanical Engineering and Engineering Science<br>
-  8415 Phillips Rd, Charlotte, NC 28223<br>
-  Email: awolek [at] charlotte [dot] edu</p>
-
-locations_html: >
-  <p><strong>Duke Lab</strong> — Duke Centennial Hall, Room 370<br>
-  <strong>Water tank &amp; student offices</strong> — BATT CAVE Research Building, Room 124<br>
-  <strong>Office</strong> — BATT CAVE Research Building, Room 103</p>
-
-plugins:
-  - jekyll-sitemap
-  - jekyll-seo-tag
+# ---------------------------------------------------------------------------
+include: ["_pages"]
+exclude: ["README.md", "Gemfile", "Gemfile.lock", "vendor", "node_modules"]
 
 markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: false
 
-defaults:
-  - scope: { path: "" }
-    values: { layout: "default" }
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-include-cache
+  - jekyll-feed
 
-exclude:
-  - README.md
-  - Gemfile
-  - Gemfile.lock
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+      read_time: false
+      share: false
+      related: false
+      sidebar:
+        nav: null
