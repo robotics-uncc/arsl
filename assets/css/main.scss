@@ -201,3 +201,73 @@ figure.fig {
     .visible-links a { margin: 0 0.75rem 0 0; font-size: $type-size-6; }
   }
 }
+
+/* ------------------------------------------------------------------ */
+/* Publication list with a figure from each paper                      */
+/* ------------------------------------------------------------------ */
+
+.pub-list {
+  list-style: none;
+  counter-reset: pub;
+  margin: 0 0 2em;
+  padding: 0;
+}
+
+.pub {
+  counter-increment: pub;
+  display: grid;
+  grid-template-columns: 2.4em 150px 1fr;
+  gap: 0 1em;
+  align-items: start;
+  margin: 0 0 1.4em;
+  padding-bottom: 1.4em;
+  border-bottom: 1px solid $border-color;
+
+  &:last-child { border-bottom: 0; }
+
+  &::before {
+    content: counter(pub) ".";
+    padding-top: 0.15em;
+    font-family: $sans-serif;
+    font-size: $type-size-6;
+    font-variant-numeric: tabular-nums;
+    color: $muted-text-color;
+    text-align: right;
+  }
+}
+
+.pub-fig {
+  display: block;
+
+  img {
+    display: block;
+    width: 100%;
+    background: #fff;                 /* line art is drawn on transparency */
+    border: 1px solid $border-color;
+    border-radius: $border-radius;
+    padding: 3px;
+  }
+
+  &:hover img { border-color: $primary-color; }
+}
+
+/* Entries with no figure keep the column, so every row still lines up. */
+.pub-fig--none { display: block; }
+
+.pub-body {
+  font-size: $type-size-6;
+
+  > p { margin: 0; }
+  > p + p { margin-top: 0.4em; }
+}
+
+@include breakpoint(max-width $small) {
+  .pub {
+    grid-template-columns: 2em 1fr;
+    gap: 0 0.6em;
+
+    .pub-fig { grid-column: 2; margin-bottom: 0.6em; max-width: 240px; }
+    .pub-fig--none { display: none; }
+    .pub-body { grid-column: 2; }
+  }
+}

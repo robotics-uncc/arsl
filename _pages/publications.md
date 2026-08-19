@@ -9,77 +9,436 @@ classes: wide
 ---
 
 ## Journal Publications and Book Chapters
-  1. A. Wolek and D. Maity, **Optimal duty-cycle-based control design to regulate a linear system**. Submitted.
-  2. C. Hague and A. Wolek **Occlusion-aware ground target search by a UAV in an urban environment**. Submitted. [[preprint](https://arxiv.org/abs/2511.07822)]
-  3. A. Wolek, I. E. Weintraub, A. Von Moll, D. Casbeer, and S.G. Manyam, **Risk-aware autonomy for managing weapon engagement zones**. Submitted.
-  4. N. Kakavitsas, A. Willis, D. Maity, and A. Wolek, **[Fast estimation of the diffractive loads on a quadrotor UAV following an explosive blast](https://www.mdpi.com/2226-4310/13/7/646)**. MDPI Aerospace, _13_(7), 646.
-  5. C. Hague and A. Wolek, **Occlusion-aware ground target tracking by a Dubins vehicle using visibility volumes**. AIAA J. Guidance, Control, and Dynamics. Accepted. In press, 2026. [[preprint](https://arxiv.org/abs/2506.03400)]
-  6. M. Nguyen, N. Kakavitsas, and A. Wolek, **[Spherical pendulum in wind: an inexpensive laboratory-scale experiment for exploring nonlinear dynamics and estimation](https://doi.org/10.1177/03064190261463677)**. International Journal of Mechanical Engineering Education, 2026.
-  7. A. Nikonowicz and A. Wolek, **[Performance characterization of a small portable uncrewed surface vessel for bathymetry mapping near bridges using a single-beam echosounder](http://doi.org/10.1139/dsa-2025-0051)** , Drone Systems and Applications, 14:1-16, 2026. 
-  8. A. Nikonowicz and A. Wolek, **A survey of uncrewed surface vessels for inland bathymetric data collection by U.S. state transportation agencies** , Marine Technology Society J. Accepted. In press, 2026.
-  9. C. Hague, A. Willis, D. Maity, and A. Wolek, **[Minimum-time Dubins airplane tours to inspect targets with visibility and dwell time constraints](https://doi.org/10.2514/1.I011541)**. AIAA J. Aerospace Information Systems, 23(6):507-528, 2026.
-  10. J. Zhang, A. Wolek, and A. Willis. **[UAV-borne mapping algorithms for low-altitude and high-speed drone applications](https://doi.org/10.3390/s24072204)**. Sensors, 24(7):1-22, 2024. [[preprint](https://arxiv.org/pdf/2401.06407v1.pdf)]
-  11. M. Brancato and A. Wolek. **[Adaptive sampling of a stationary Gaussian spatial process by a team of robots with heterogeneous dynamics and measurement noise variance](https://doi.org/10.1109/ACCESS.2024.3425430)**. IEEE Access, 12:94407-94423, 2024. [[preprint](https://www.techrxiv.org/doi/full/10.36227/techrxiv.171340715.51711123/v1)]
-  12. J. Jimenez, D. Stilwell, A. Wolek, J. McMahon, and B. R. Dzikowicz, **[Improved multitarget tracking the presence of port-starboard measurement ambiguity using the Bayes factor](https://doi.org/10.1109/JOE.2022.3193734)**. IEEE J. Oceanic Engineering, 48(1):199-217, 2023.
-  13. A. Wolek, J. McMahon, B. R. Dzikowicz, B. H. Houston, **[Tracking multiple surface vessels with an autonomous underwater vehicle: Field results.](https://doi.org/10.1109/JOE.2020.3015415)** IEEE J. Oceanic Engineering, 47(1):32-45, 2022.
-  14. D. A. Paley, A. A. Thompson, A. Wolek, and P. Ghanem, **[Planar formation control of a school of robotic fish: Theory and experiments.](https://doi.org/10.3389/fcteg.2021.782121)** Frontiers in Control Engineering, 2:782121, 2021.
-  15. A. Wolek, J. McMahon, B. R. Dzikowicz, and B. H. Houston, **[The orbiting Dubins traveling salesman problem: Planning inspection tours for a minehunting AUV.](https://doi.org/10.1007/s10514-020-09946-5)** Autonomous Robots, 45(1), 31-49, 2021.
-  16. A. Wolek, D. A. Paley, **[A 3D underwater robotic collective called Blueswarm](http://robotics.sciencemag.org/cgi/content/full/6/50/eabf4315?ijkey=ijQDZK6UycwEQ&keytype=ref&siteid=robotics)**. Science Robotics, 6(50):eabf4315, 2021.
-  17. D. A. Paley, and A. Wolek, **[Mobile sensor networks and control: Adaptive sampling of spatiotemporal processes.](https://doi.org/10.1146/annurev-control-073119-090634)** Annual Reviews: Control, Robotics, and Autonomous Systems, 3:91-114, 2020.
-  18. A. Wolek, S. Cheng, D. Goswami, D. A. Paley, **[Cooperative mapping and target search over an unknown occupancy graph using mutual information.](https://doi.org/10.1109/LRA.2020.2966394)** IEEE Robotics and Automation Letters, 5(2):1071-1078, 2020.
-  19. A. Wolek, B. R. Dzikowicz, J. McMahon, and B. H. Houston, **[At-sea evaluation of an underwater vehicle behavior for passive target tracking.](https://doi.org/10.1109/JOE.2018.2817268)** IEEE J. Oceanic Engineering, 44(2):514-523, 2019.
-  20. M. A. Wilson, J. McMahon, A. Wolek, D. Aha, and B. H. Houston, **[Goal reasoning for autonomous underwater vehicles: responding to unexpected agents.](https://doi.org/10.3233/AIC-180755)** AI Comm. 31(2):151-166, 2018.
-  21. A. Wolek and C. A. Woolsey, **[Model-based path planning](https://doi.org/10.1007/978-3-319-55372-6_9)** in Sensing and Control for Autonomous Vehicles, (Eds: T. Fossen, K. Pettersen, H. Nijmeijer), Springer Lect. Notes in Control and Information Sci., pp. 183-206, 2017.
-  22. A. Wolek, E. M. Cliff, and C. A. Woolsey, **[Time-optimal path planning for a kinematic car with variable speed.](https://doi.org/10.2514/1.G001317)** AIAA J. Guidance, Control, and Dynamics, 39(10):2374-2390, 2016.
-  23. A. Wolek, E. M. Cliff, and C. A. Woolsey, **[Energy-optimal paths for a glider with speed and load factor controls.](https://doi.org/10.2514/1.G001345)** AIAA J. Guidance, Control, and Dynamics, 39(2):397-405, 2016.
-  24. A. Wolek, and C. A. Woolsey, **[Optimal paths in still air for a sailplane with a quadratic glide polar.](https://journals.sfu.ca/ts/index.php/ts/article/view/1246)** Technical Soaring, 40(2):9-23, 2016.
-  25. A. Wolek, and C. A. Woolsey, **[Feasible Dubins paths in the presence of unknown, unsteady velocity disturbances.](https://doi.org/10.2514/1.G000629)** AIAA J. Guidance, Control, and Dynamics, 38(4):782-787, 2015.
-  26. O. Bilgen, L. Butt, S. Day, C. Sossi, J. Weaver, A. Wolek, W. Mason, and D. Inman, **[A novel unmanned aircraft with solid-state control surfaces.](https://doi.org/10.1177%2F1045389X12459592)** J. Intelligent Material Systems and Structures, 24(2):147-167, 2012.
+
+<ol class="pub-list">
+<li class="pub"><span class="pub-fig pub-fig--none" aria-hidden="true"></span>
+<div class="pub-body" markdown="1">
+
+A. Wolek and D. Maity, **Optimal duty-cycle-based control design to regulate a linear system**. Submitted.
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2025-hague-arxiv-targetsearch.jpg" | relative_url }}"><img src="{{ "/assets/figures/2025-hague-arxiv-targetsearch.jpg" | relative_url }}" loading="lazy" alt="Figure from: C. Hague and A. Wolek Occlusion-aware ground target search by a UAV in an urban environment. Submitted. preprint]"></a>
+<div class="pub-body" markdown="1">
+
+C. Hague and A. Wolek **Occlusion-aware ground target search by a UAV in an urban environment**. Submitted. [[preprint](https://arxiv.org/abs/2511.07822)]
+</div>
+</li>
+<li class="pub"><span class="pub-fig pub-fig--none" aria-hidden="true"></span>
+<div class="pub-body" markdown="1">
+
+A. Wolek, I. E. Weintraub, A. Von Moll, D. Casbeer, and S.G. Manyam, **Risk-aware autonomy for managing weapon engagement zones**. Submitted.
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2026-kakavitsas-blast.jpg" | relative_url }}"><img src="{{ "/assets/figures/2026-kakavitsas-blast.jpg" | relative_url }}" loading="lazy" alt="Figure from: N. Kakavitsas, A. Willis, D. Maity, and A. Wolek, Fast estimation of the diffractive loads on a quadrotor UAV following "></a>
+<div class="pub-body" markdown="1">
+
+N. Kakavitsas, A. Willis, D. Maity, and A. Wolek, **[Fast estimation of the diffractive loads on a quadrotor UAV following an explosive blast](https://www.mdpi.com/2226-4310/13/7/646)**. MDPI Aerospace, _13_(7), 646.
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2026-hague-arxiv-tracking.jpg" | relative_url }}"><img src="{{ "/assets/figures/2026-hague-arxiv-tracking.jpg" | relative_url }}" loading="lazy" alt="Figure from: C. Hague and A. Wolek, Occlusion-aware ground target tracking by a Dubins vehicle using visibility volumes. AIAA J. Guid"></a>
+<div class="pub-body" markdown="1">
+
+C. Hague and A. Wolek, **Occlusion-aware ground target tracking by a Dubins vehicle using visibility volumes**. AIAA J. Guidance, Control, and Dynamics. Accepted. In press, 2026. [[preprint](https://arxiv.org/abs/2506.03400)]
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2026-nguyen-penduluminwind.jpg" | relative_url }}"><img src="{{ "/assets/figures/2026-nguyen-penduluminwind.jpg" | relative_url }}" loading="lazy" alt="Figure from: M. Nguyen, N. Kakavitsas, and A. Wolek, Spherical pendulum in wind: an inexpensive laboratory-scale experiment for explo"></a>
+<div class="pub-body" markdown="1">
+
+M. Nguyen, N. Kakavitsas, and A. Wolek, **[Spherical pendulum in wind: an inexpensive laboratory-scale experiment for exploring nonlinear dynamics and estimation](https://doi.org/10.1177/03064190261463677)**. International Journal of Mechanical Engineering Education, 2026.
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2026-nikonowicz-performanceusv-dsa.jpg" | relative_url }}"><img src="{{ "/assets/figures/2026-nikonowicz-performanceusv-dsa.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Nikonowicz and A. Wolek, Performance characterization of a small portable uncrewed surface vessel for bathymetry mapp"></a>
+<div class="pub-body" markdown="1">
+
+A. Nikonowicz and A. Wolek, **[Performance characterization of a small portable uncrewed surface vessel for bathymetry mapping near bridges using a single-beam echosounder](http://doi.org/10.1139/dsa-2025-0051)** , Drone Systems and Applications, 14:1-16, 2026. 
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2026-nikonowicz-surveyusv.jpg" | relative_url }}"><img src="{{ "/assets/figures/2026-nikonowicz-surveyusv.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Nikonowicz and A. Wolek, A survey of uncrewed surface vessels for inland bathymetric data collection by U.S. state tr"></a>
+<div class="pub-body" markdown="1">
+
+A. Nikonowicz and A. Wolek, **A survey of uncrewed surface vessels for inland bathymetric data collection by U.S. state transportation agencies** , Marine Technology Society J. Accepted. In press, 2026.
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2026-hague-dubinsairplanetsp.jpg" | relative_url }}"><img src="{{ "/assets/figures/2026-hague-dubinsairplanetsp.jpg" | relative_url }}" loading="lazy" alt="Figure from: C. Hague, A. Willis, D. Maity, and A. Wolek, Minimum-time Dubins airplane tours to inspect targets with visibility and d"></a>
+<div class="pub-body" markdown="1">
+
+C. Hague, A. Willis, D. Maity, and A. Wolek, **[Minimum-time Dubins airplane tours to inspect targets with visibility and dwell time constraints](https://doi.org/10.2514/1.I011541)**. AIAA J. Aerospace Information Systems, 23(6):507-528, 2026.
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2024-zhang-sensors.jpg" | relative_url }}"><img src="{{ "/assets/figures/2024-zhang-sensors.jpg" | relative_url }}" loading="lazy" alt="Figure from: J. Zhang, A. Wolek, and A. Willis. UAV-borne mapping algorithms for low-altitude and high-speed drone applications. Sens"></a>
+<div class="pub-body" markdown="1">
+
+J. Zhang, A. Wolek, and A. Willis. **[UAV-borne mapping algorithms for low-altitude and high-speed drone applications](https://doi.org/10.3390/s24072204)**. Sensors, 24(7):1-22, 2024. [[preprint](https://arxiv.org/pdf/2401.06407v1.pdf)]
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2024-brancato-access.jpg" | relative_url }}"><img src="{{ "/assets/figures/2024-brancato-access.jpg" | relative_url }}" loading="lazy" alt="Figure from: M. Brancato and A. Wolek. Adaptive sampling of a stationary Gaussian spatial process by a team of robots with heterogene"></a>
+<div class="pub-body" markdown="1">
+
+M. Brancato and A. Wolek. **[Adaptive sampling of a stationary Gaussian spatial process by a team of robots with heterogeneous dynamics and measurement noise variance](https://doi.org/10.1109/ACCESS.2024.3425430)**. IEEE Access, 12:94407-94423, 2024. [[preprint](https://www.techrxiv.org/doi/full/10.36227/techrxiv.171340715.51711123/v1)]
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2023-jimenez-joe.jpg" | relative_url }}"><img src="{{ "/assets/figures/2023-jimenez-joe.jpg" | relative_url }}" loading="lazy" alt="Figure from: J. Jimenez, D. Stilwell, A. Wolek, J. McMahon, and B. R. Dzikowicz, Improved multitarget tracking the presence of port-s"></a>
+<div class="pub-body" markdown="1">
+
+J. Jimenez, D. Stilwell, A. Wolek, J. McMahon, and B. R. Dzikowicz, **[Improved multitarget tracking the presence of port-starboard measurement ambiguity using the Bayes factor](https://doi.org/10.1109/JOE.2022.3193734)**. IEEE J. Oceanic Engineering, 48(1):199-217, 2023.
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2020-wolek-joe.jpg" | relative_url }}"><img src="{{ "/assets/figures/2020-wolek-joe.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Wolek, J. McMahon, B. R. Dzikowicz, B. H. Houston, Tracking multiple surface vessels with an autonomous underwater ve"></a>
+<div class="pub-body" markdown="1">
+
+A. Wolek, J. McMahon, B. R. Dzikowicz, B. H. Houston, **[Tracking multiple surface vessels with an autonomous underwater vehicle: Field results.](https://doi.org/10.1109/JOE.2020.3015415)** IEEE J. Oceanic Engineering, 47(1):32-45, 2022.
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2021-paley-fce.jpg" | relative_url }}"><img src="{{ "/assets/figures/2021-paley-fce.jpg" | relative_url }}" loading="lazy" alt="Figure from: D. A. Paley, A. A. Thompson, A. Wolek, and P. Ghanem, Planar formation control of a school of robotic fish: Theory and e"></a>
+<div class="pub-body" markdown="1">
+
+D. A. Paley, A. A. Thompson, A. Wolek, and P. Ghanem, **[Planar formation control of a school of robotic fish: Theory and experiments.](https://doi.org/10.3389/fcteg.2021.782121)** Frontiers in Control Engineering, 2:782121, 2021.
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2021-wolek-auro.jpg" | relative_url }}"><img src="{{ "/assets/figures/2021-wolek-auro.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Wolek, J. McMahon, B. R. Dzikowicz, and B. H. Houston, The orbiting Dubins traveling salesman problem: Planning inspe"></a>
+<div class="pub-body" markdown="1">
+
+A. Wolek, J. McMahon, B. R. Dzikowicz, and B. H. Houston, **[The orbiting Dubins traveling salesman problem: Planning inspection tours for a minehunting AUV.](https://doi.org/10.1007/s10514-020-09946-5)** Autonomous Robots, 45(1), 31-49, 2021.
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2021-wolek-sciencerobotics.jpg" | relative_url }}"><img src="{{ "/assets/figures/2021-wolek-sciencerobotics.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Wolek, D. A. Paley, A 3D underwater robotic collective called Blueswarm. Science Robotics, 6(50):eabf4315, 2021."></a>
+<div class="pub-body" markdown="1">
+
+A. Wolek, D. A. Paley, **[A 3D underwater robotic collective called Blueswarm](http://robotics.sciencemag.org/cgi/content/full/6/50/eabf4315?ijkey=ijQDZK6UycwEQ&keytype=ref&siteid=robotics)**. Science Robotics, 6(50):eabf4315, 2021.
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2020-paley-ar.jpg" | relative_url }}"><img src="{{ "/assets/figures/2020-paley-ar.jpg" | relative_url }}" loading="lazy" alt="Figure from: D. A. Paley, and A. Wolek, Mobile sensor networks and control: Adaptive sampling of spatiotemporal processes. Annual Rev"></a>
+<div class="pub-body" markdown="1">
+
+D. A. Paley, and A. Wolek, **[Mobile sensor networks and control: Adaptive sampling of spatiotemporal processes.](https://doi.org/10.1146/annurev-control-073119-090634)** Annual Reviews: Control, Robotics, and Autonomous Systems, 3:91-114, 2020.
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2020-wolek-ral.jpg" | relative_url }}"><img src="{{ "/assets/figures/2020-wolek-ral.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Wolek, S. Cheng, D. Goswami, D. A. Paley, Cooperative mapping and target search over an unknown occupancy graph using"></a>
+<div class="pub-body" markdown="1">
+
+A. Wolek, S. Cheng, D. Goswami, D. A. Paley, **[Cooperative mapping and target search over an unknown occupancy graph using mutual information.](https://doi.org/10.1109/LRA.2020.2966394)** IEEE Robotics and Automation Letters, 5(2):1071-1078, 2020.
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2018-wolek-joe.jpg" | relative_url }}"><img src="{{ "/assets/figures/2018-wolek-joe.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Wolek, B. R. Dzikowicz, J. McMahon, and B. H. Houston, At-sea evaluation of an underwater vehicle behavior for passiv"></a>
+<div class="pub-body" markdown="1">
+
+A. Wolek, B. R. Dzikowicz, J. McMahon, and B. H. Houston, **[At-sea evaluation of an underwater vehicle behavior for passive target tracking.](https://doi.org/10.1109/JOE.2018.2817268)** IEEE J. Oceanic Engineering, 44(2):514-523, 2019.
+</div>
+</li>
+<li class="pub"><span class="pub-fig pub-fig--none" aria-hidden="true"></span>
+<div class="pub-body" markdown="1">
+
+M. A. Wilson, J. McMahon, A. Wolek, D. Aha, and B. H. Houston, **[Goal reasoning for autonomous underwater vehicles: responding to unexpected agents.](https://doi.org/10.3233/AIC-180755)** AI Comm. 31(2):151-166, 2018.
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2017-wolek-springer-modelbased.jpg" | relative_url }}"><img src="{{ "/assets/figures/2017-wolek-springer-modelbased.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Wolek and C. A. Woolsey, Model-based path planning in Sensing and Control for Autonomous Vehicles, (Eds: T. Fossen, K"></a>
+<div class="pub-body" markdown="1">
+
+A. Wolek and C. A. Woolsey, **[Model-based path planning](https://doi.org/10.1007/978-3-319-55372-6_9)** in Sensing and Control for Autonomous Vehicles, (Eds: T. Fossen, K. Pettersen, H. Nijmeijer), Springer Lect. Notes in Control and Information Sci., pp. 183-206, 2017.
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2016-wolek-jgcd-varspeeddubins.jpg" | relative_url }}"><img src="{{ "/assets/figures/2016-wolek-jgcd-varspeeddubins.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Wolek, E. M. Cliff, and C. A. Woolsey, Time-optimal path planning for a kinematic car with variable speed. AIAA J. Gu"></a>
+<div class="pub-body" markdown="1">
+
+A. Wolek, E. M. Cliff, and C. A. Woolsey, **[Time-optimal path planning for a kinematic car with variable speed.](https://doi.org/10.2514/1.G001317)** AIAA J. Guidance, Control, and Dynamics, 39(10):2374-2390, 2016.
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2016-wolek-jgcd-energyoptglides.jpg" | relative_url }}"><img src="{{ "/assets/figures/2016-wolek-jgcd-energyoptglides.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Wolek, E. M. Cliff, and C. A. Woolsey, Energy-optimal paths for a glider with speed and load factor controls. AIAA J."></a>
+<div class="pub-body" markdown="1">
+
+A. Wolek, E. M. Cliff, and C. A. Woolsey, **[Energy-optimal paths for a glider with speed and load factor controls.](https://doi.org/10.2514/1.G001345)** AIAA J. Guidance, Control, and Dynamics, 39(2):397-405, 2016.
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2016-ts-wolekwoolsey.jpg" | relative_url }}"><img src="{{ "/assets/figures/2016-ts-wolekwoolsey.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Wolek, and C. A. Woolsey, Optimal paths in still air for a sailplane with a quadratic glide polar. Technical Soaring,"></a>
+<div class="pub-body" markdown="1">
+
+A. Wolek, and C. A. Woolsey, **[Optimal paths in still air for a sailplane with a quadratic glide polar.](https://journals.sfu.ca/ts/index.php/ts/article/view/1246)** Technical Soaring, 40(2):9-23, 2016.
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2015-wolek-jgcd-feasibledubins.jpg" | relative_url }}"><img src="{{ "/assets/figures/2015-wolek-jgcd-feasibledubins.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Wolek, and C. A. Woolsey, Feasible Dubins paths in the presence of unknown, unsteady velocity disturbances. AIAA J. G"></a>
+<div class="pub-body" markdown="1">
+
+A. Wolek, and C. A. Woolsey, **[Feasible Dubins paths in the presence of unknown, unsteady velocity disturbances.](https://doi.org/10.2514/1.G000629)** AIAA J. Guidance, Control, and Dynamics, 38(4):782-787, 2015.
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2012-bilgen-jimss.jpg" | relative_url }}"><img src="{{ "/assets/figures/2012-bilgen-jimss.jpg" | relative_url }}" loading="lazy" alt="Figure from: O. Bilgen, L. Butt, S. Day, C. Sossi, J. Weaver, A. Wolek, W. Mason, and D. Inman, A novel unmanned aircraft with solid-"></a>
+<div class="pub-body" markdown="1">
+
+O. Bilgen, L. Butt, S. Day, C. Sossi, J. Weaver, A. Wolek, W. Mason, and D. Inman, **[A novel unmanned aircraft with solid-state control surfaces.](https://doi.org/10.1177%2F1045389X12459592)** J. Intelligent Material Systems and Structures, 24(2):147-167, 2012.
+</div>
+</li>
+</ol>
 
 ## Conference Proceedings
-  1. D. Sims, A. Wolek, **Optimal spacecraft trajectory design with coupled thruster and reaction-wheel allocation: A comparison of approaches**. Submitted.
-  2. A. Wolek, D. Maity, A. Von Moll, S. Manyam, T. Chapman, D. Casbeer, I. Weintruab,**Sequential path planning through uncertain risk regions**. Submitted.
-  3. D. Maity, A. Wolek, A. Von Moll, S. Manyam, T. Chapman, D. Casbeer, I. Weintruab,**Minimum-time paths exploiting escorts in the presence of mobile pursuers**. Submitted.
-  4. F. Rankin, A. Wolek, A. Willis, and D. Maity, **Neural switching control with Lyapunov stability guarantees for robust multi-controller UAV operation**. Submitted.
-  5. Z. Hashemi, D. Maity, and A. Wolek, **[POWER-Net: Predictive optimization and wave energy regulation in networked WEC systems](https://tethys-engineering.pnnl.gov/sites/default/files/publications/Hashemi_et_al_2025_paper.pdf)**. In Proc. 2025 University Marine Energy Research Community (UMERC) Annual Conference, Corvallis, OR, 2025.
-  6. I. Albool, A. Willis, A. Wolek, and D. Maity, **[A reinforcement learning framework to adaptively schedule controllers for UAVs operating under harsh environmental conditions](https://doi.org/10.1109/ICUAS65942.2025.11007841)**. In Proc. 2025 International Conference on Unmanned Aerial Systems (ICUAS), Charlotte, NC, 2025.
-  7. C. Beam, A. Wolek, and A. Willis, **[Recreation of 3D UAS flights in high-realism virtual environments](https://doi.org/10.1109/ICUAS65942.2025.11007798)** , In Proc. 2025 International Conference on Unmanned Aerial Systems (ICUAS), Charlotte, NC, 2025.
-  8. S. Parab, A. Wolek, D. Maity, and A. Willis, **[Real-time simulation of complex 4D wind fields and gusts for UAS control system development](https://doi.org/10.1109/ICUAS65942.2025.11007887)** , In Proc. 2025 International Conference on Unmanned Aerial Systems (ICUAS), Charlotte, NC, 2025.
-  9. C. Hahn, A. Wolek, and M. Uddin, **[Characterizing vortex ring state during UAV landing on a ground vehicle using CFD](https://doi.org/10.2514/6.2025-1686)** , In Proc. AIAA SciTech 2025 Forum, Orlando, FL, 2025.
-  10. N. Kakavitsas and A. Wolek, **[Mapping urban wind fields via Gaussian processes regression models that consider building morphology](https://doi.org/10.2514/6.2025-2282)** , In Proc. AIAA SciTech 2025 Forum, Orlando, FL, 2025. [[preprint](https://doi.org/10.36227/techrxiv.173386085.57156083/v1)]
-  11. N. Kakavitsas, A. Willis, D. Maity, and A. Wolek, **[A quadrotor model for evaluating dynamic response to a blast pressure wave](https://doi.org/10.2514/6.2025-0659)** , In Proc. AIAA SciTech 2025 Forum, Orlando, FL, 2025. [[preprint](https://doi.org/10.36227/techrxiv.173386079.95797455/v1)]
-  12. A. Wolek, D. Casbeer, I. Weintraub, and A. Von Moll, **[Maximum kinetic energy paths for a decaying-speed Dubins vehicle](https://doi.org/10.2514/6.2025-1351)** , In Proc. AIAA SciTech 2025 Forum, Orlando, FL, 2025. [[preprint](https://doi.org/10.36227/techrxiv.173386166.63127385/v1)]
-  13. H. Moradi, A. Wolek, and S. D. Kelly, **[Mechanics and control of a freely rolling two-link robot with joint actuation](https://doi.org/10.1016/j.ifacol.2025.01.118)** , In Proc. IFAC 2024 Modeling, Estimation and Control Conference, Chicago, IL, 2024.
-  14. A. Wolek, I. E. Weintraub, A. Von Moll, D. Casbeer, and S.G. Manyam, **[Sampling-based risk-aware path planning around dynamic engagement zones](https://doi.org/10.1016/j.ifacol.2025.01.030)** , In Proc. IFAC 2024 Modeling, Estimation and Control Conference, Chicago, IL, 2024. [[preprint](https://arxiv.org/pdf/2403.05480.pdf)]
-  15. A. Wolek, **[Path planning for a cooperative navigation aid vehicle to assist multiple agents sequentially](https://doi.org/10.1016/j.ifacol.2024.10.044)**. In Proc. 15th IFAC Conference on Control Applications in Marine Systems, Robotics, and Vehicles, Blacksburg, VA, 2024. [[preprint](https://arxiv.org/pdf/2402.17071.pdf)]
-  16. A. Wolek and J. McMahon, **[Batch estimation of a steady, uniform, flow-field from ground velocity and heading measurements](https://doi.org/10.1016/j.ifacol.2024.10.071)**. In Proc. 15th IFAC Conference on Control Applications in Marine Systems, Robotics, and Vehicles, Blacksburg, VA, 2024. [[preprint](https://arxiv.org/pdf/2402.17078.pdf)]
-  17. C. Beam, J. Zhang, N. Kakavitsas, C. Hague, A. Wolek, and A. Willis, **[Cesium Tiles for high-realism simulation and comparing SLAM results in corresponding virtual and real-world environments](https://ieeexplore.ieee.org/document/10500076)**. In Proc. 2024 IEEE Southeast Con, Atlanta, GA, 2024. [[preprint](https://arxiv.org/pdf/2401.07962.pdf)]
-  18. A. Willis, C. Hague, A. Wolek, and K. Brink, **[GPU-Accelerated 3D polygon visibility volumes for synergistic perception and navigation](https://ieeexplore.ieee.org/document/10500285)**. In Proc. 2024 IEEE Southeast Con, Atlanta, GA, 2024. [[preprint](https://arxiv.org/pdf/2402.03135.pdf)]
-  19. C. Hague, N. Kakavitsas, J. Zhang, C. Beam, A. Willis, and A. Wolek, **[Design and flight demonstration of a quadrotor for urban mapping and target tracking applications](https://ieeexplore.ieee.org/document/10500131)**. In Proc. 2024 IEEE Southeast Con, Atlanta, GA, 2024. [[preprint](https://arxiv.org/abs/2402.13195)]
-  20. J. Herbert and A. Wolek, **[Design of a miniature underwater vehicle and data collection system for indoor experimentation](https://ieeexplore.ieee.org/document/10500036)**. In Proc. 2024 IEEE Southeast Con, Atlanta, GA, 2024. [[preprint](https://arxiv.org/pdf/2402.13837.pdf)]
-  21. N. Kakavitsas, A. Willis, R. Jacobik, M. Uddin, and A. Wolek, **[Quadrotor flight simulation in a CFD-generated urban wind field](https://doi.org/10.1109/AERO58975.2024.10521032)**. In Proc. 2024 IEEE Aerospace Conference, Big Sky, MT, 2024. [[preprint](https://d197for5662m48.cloudfront.net/documents/publicationstatus/200550/preprint_pdf/21cff21344349abf7e28ae6d4c24612a.pdf)]
-  22. N. Kakavitsas, A. Willis, J. Conrad, and A. Wolek, **[Comparison of size and performance of small vertical and short takeoff and landing UAS](https://doi.org/10.1109/AERO58975.2024.10521006)**. In Proc. 2024 IEEE Aerospace Conference, Big Sky, MT, 2024. [[preprint](https://d197for5662m48.cloudfront.net/documents/publicationstatus/200549/preprint_pdf/5f8bc0fa7abc14f102e376954bf0d06b.pdf)]
-  23. N. Kakavitsas and A. Wolek, **[Quadrotor takeoff trajectory planning in a one-dimensional uncertain wind-field aided by wind-sensing infrastructure](https://doi.org/10.2514/6.2024-0987)**. In Proc. AIAA SciTech 2024 Forum, Orlando, FL, 2024. [[preprint](https://arxiv.org/pdf/2402.01518.pdf)]
-  24. A. Wolek and D. A. Paley, **[Output feedback formation control of a school of robotic fish with artificial lateral line sensing](https://cdcl.umd.edu/papers/iros23.pdf)**. In Proc. IEEE/RSJ Int. Conf. Intelligent Robots Sys., Detroit, MI, 2023. [[preprint](https://cdcl.umd.edu/papers/iros23.pdf)]
-  25. C. Hague, A. Willis, D. Maity, and A. Wolek, **[Planning visual inspection tours for a 3D Dubins airplane model in an urban environment](https://arc.aiaa.org/doi/10.2514/6.2023-0108)**. In Proc. AIAA SciTech 2023 Forum, National Harbor, MD, 2023. [[preprint](https://arxiv.org/abs/2301.05309)]
-  26. D. Goswami, A. Wolek, D. A. Paley, **[Data-driven estimation using an Echo-State Neural Network equipped with an Ensemble Kalman Filter](https://doi.org/10.23919/ACC50511.2021.9483373)**. In Proc. 2021 American Control Conference, New Orleans, LA, 2021. [[preprint](https://cdcl.umd.edu/papers/acc21a.pdf)]
-  27. P. Ghanem, A. Wolek, D. A. Paley, **[Planar formation control of a school of robotic fish.](https://doi.org/10.23919/ACC45564.2020.9147969)** In Proc. 2020 American Control Conference, Denver, CO, 2020. [[preprint](https://cdcl.umd.edu/papers/acc20a.pdf)]
-  28. H. Yetkin, J. McMahon, N. Topin, A. Wolek, Z. Waters, and D. Stilwell, **[Online planning for autonomous underwater vehicles performing information gathering tasks in large sub-sea environments.](https://doi.org/10.1109/IROS40897.2019.8967898)** In Proc. IEEE/RSJ Int. Conf. Intelligent Robots Sys., Macau, China, 2019.
-  29. J. G. Jimenez, A. Wolek, D. Stilwell, J. McMahon, and B. Dzikowicz, **[Experimental results in bearings-only tracking with the sequential Monte-Carlo probability hypothesis density filter.](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11018/1101808/Experimental-results-in-bearings-only-tracking-using-the-sequential-Monte/10.1117/12.2519047.short?SSO=1)** In Proc. SPIE Defense + Commercial Sensing, Baltimore, MD, 2019.
-  30. B. Simmons, P. Adwani, H. Pham, Y. Alhuthifi, and A. Wolek, **[Training a remote-control car to autonomously lane-follow using end-to-end neural networks.](https://doi.org/10.1109/CISS.2019.8692851)** In Proc. IEEE Conf. Info. Sci. Sys., Baltimore, MD, 2019.
-  31. J. McMahon, H. Yetkin, A. Wolek, Z. Waters, and D. J. Stilwell, **[Towards real-time search planning in subsea environments.](https://doi.org/10.1109/IROS.2017.8202142)** In Proc. IEEE/RSJ Int. Conf. Intelligent Robots Sys., Vancouver, Canada, 2017. [[preprint](https://arxiv.org/pdf/1707.07662.pdf)]
-  32. M. A. Wilson, J. McMahon, A. Wolek, D. Aha, and B. Houston, **[Toward goal reasoning for AUVs: responding to unexpected agents.](http://makro.ink/ijcai2016grw/papers/wilsonEtAl.towardGoalReasoningforAUVs.pdf)** In Proc. Workshop on Goal Reasoning at the 25th Int. Joint Conf. Artificial Intelligence, New York, NY, 2016.
-  33. A. Wolek, T. Gode, C. A. Woolsey, J. Quenzer, K. A. and Morgansen, **[Testing a pneumatic underwater glider in shallow water.](https://doi.org/10.23919/OCEANS.2015.7401980)** In Proc. MTS/IEEE OCEANS’15, Washington, DC, 2015. [[preprint](https://www.researchgate.net/profile/Artur-Wolek/publication/283506011_Testing_a_pneumatic_underwater_glider_in_shallow_water/links/5fc0fdce299bf104cf83ab65/Testing-a-pneumatic-underwater-glider-in-shallow-water.pdf)]
-  34. A. Wolek, and C. A. Woolsey, **[Disturbance rejection in Dubins path planning.](https://doi.org/10.1109/ACC.2012.6315582)** In Proc. American Control Conf., Montreal, Canada, 2012.
-  35. A. Wolek, J. Burns, C. A. Woolsey, J. Quenzer, L. Techy, and K. A. Morgansen., **[A maneuverable, pneumatic underwater glider.](https://doi.org/10.1109/OCEANS.2012.6404989)** In Proc. MTS/IEEE OCEANS’12 Conf. and Expo., Hampton Roads, VA, 2012.
-  36. S. Fan, A. Wolek, and C. A. Woolsey, **[Stability and performance of underwater gliders.](https://doi.org/10.1109/OCEANS.2012.6404993)** In Proc. MTS/IEEE OCEANS’12 Conf. and Expo., Hampton Roads, VA, 2012.
-  37. O. Bilgen, L. Butt, S. Day, C. Sossi, J. Weaver, A. Wolek, W. Mason, and D. Inman, **[A novel unmanned aircraft with solid-state control surfaces.](https://doi.org/10.2514/6.2011-2071)** In Proc. 52nd AIAA Structural Dynamics and Materials Conf., Denver, CO, 2011.
-  38. O. Bilgen, L. Butt, S. Day, C. Sossi, J. Weaver, A. Wolek, W. Mason, and D. Inman, **Wing morphing design utilizing macro-fiber composite smart materials.** In Proc. 69th Annual Conf. of The Society of Allied Weight Engineers, Virginia Beach, VA, 2010.
-  39. M. C. Cotting, A. Wolek, J. F. Murtha, C. and A. Woolsey, **[Developmental flight testing of the SPAARO UAV.](https://doi.org/10.2514/6.2010-295)** In Proc. 48th AIAA Aerospace Sciences Meeting and Expo., Orlando, FL, 2010. [[preprint](https://web.archive.org/web/20141224020220id_/http://filebox.vt.edu/~woleka/SPAARO/2010_SPAAROFlightTest.pdf)]
-  40. J. F. Murtha, M. C. Cotting, A. Wolek, T. Aarons, and C. A. Woolsey, **[The educational impact of creating a new UAV for curriculum enhancement.](https://doi.org/10.2514/6.2009-5851)** In Proc. AIAA Atmospheric Flight Mech. Conf., Chicago, IL, 2009.
+
+<ol class="pub-list">
+<li class="pub"><span class="pub-fig pub-fig--none" aria-hidden="true"></span>
+<div class="pub-body" markdown="1">
+
+D. Sims, A. Wolek, **Optimal spacecraft trajectory design with coupled thruster and reaction-wheel allocation: A comparison of approaches**. Submitted.
+</div>
+</li>
+<li class="pub"><span class="pub-fig pub-fig--none" aria-hidden="true"></span>
+<div class="pub-body" markdown="1">
+
+A. Wolek, D. Maity, A. Von Moll, S. Manyam, T. Chapman, D. Casbeer, I. Weintruab,**Sequential path planning through uncertain risk regions**. Submitted.
+</div>
+</li>
+<li class="pub"><span class="pub-fig pub-fig--none" aria-hidden="true"></span>
+<div class="pub-body" markdown="1">
+
+D. Maity, A. Wolek, A. Von Moll, S. Manyam, T. Chapman, D. Casbeer, I. Weintruab,**Minimum-time paths exploiting escorts in the presence of mobile pursuers**. Submitted.
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2026-fatin-iros-submission.jpg" | relative_url }}"><img src="{{ "/assets/figures/2026-fatin-iros-submission.jpg" | relative_url }}" loading="lazy" alt="Figure from: F. Rankin, A. Wolek, A. Willis, and D. Maity, Neural switching control with Lyapunov stability guarantees for robust mul"></a>
+<div class="pub-body" markdown="1">
+
+F. Rankin, A. Wolek, A. Willis, and D. Maity, **Neural switching control with Lyapunov stability guarantees for robust multi-controller UAV operation**. Submitted.
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2025-hashemi-powernet.jpg" | relative_url }}"><img src="{{ "/assets/figures/2025-hashemi-powernet.jpg" | relative_url }}" loading="lazy" alt="Figure from: Z. Hashemi, D. Maity, and A. Wolek, POWER-Net: Predictive optimization and wave energy regulation in networked WEC syste"></a>
+<div class="pub-body" markdown="1">
+
+Z. Hashemi, D. Maity, and A. Wolek, **[POWER-Net: Predictive optimization and wave energy regulation in networked WEC systems](https://tethys-engineering.pnnl.gov/sites/default/files/publications/Hashemi_et_al_2025_paper.pdf)**. In Proc. 2025 University Marine Energy Research Community (UMERC) Annual Conference, Corvallis, OR, 2025.
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2025-albool-rlswitching.jpg" | relative_url }}"><img src="{{ "/assets/figures/2025-albool-rlswitching.jpg" | relative_url }}" loading="lazy" alt="Figure from: I. Albool, A. Willis, A. Wolek, and D. Maity, A reinforcement learning framework to adaptively schedule controllers for "></a>
+<div class="pub-body" markdown="1">
+
+I. Albool, A. Willis, A. Wolek, and D. Maity, **[A reinforcement learning framework to adaptively schedule controllers for UAVs operating under harsh environmental conditions](https://doi.org/10.1109/ICUAS65942.2025.11007841)**. In Proc. 2025 International Conference on Unmanned Aerial Systems (ICUAS), Charlotte, NC, 2025.
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2025-beam-reconstructingflights.jpg" | relative_url }}"><img src="{{ "/assets/figures/2025-beam-reconstructingflights.jpg" | relative_url }}" loading="lazy" alt="Figure from: C. Beam, A. Wolek, and A. Willis, Recreation of 3D UAS flights in high-realism virtual environments , In Proc. 2025 Inte"></a>
+<div class="pub-body" markdown="1">
+
+C. Beam, A. Wolek, and A. Willis, **[Recreation of 3D UAS flights in high-realism virtual environments](https://doi.org/10.1109/ICUAS65942.2025.11007798)** , In Proc. 2025 International Conference on Unmanned Aerial Systems (ICUAS), Charlotte, NC, 2025.
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2025-parab-windfieldfourier.jpg" | relative_url }}"><img src="{{ "/assets/figures/2025-parab-windfieldfourier.jpg" | relative_url }}" loading="lazy" alt="Figure from: S. Parab, A. Wolek, D. Maity, and A. Willis, Real-time simulation of complex 4D wind fields and gusts for UAS control sy"></a>
+<div class="pub-body" markdown="1">
+
+S. Parab, A. Wolek, D. Maity, and A. Willis, **[Real-time simulation of complex 4D wind fields and gusts for UAS control system development](https://doi.org/10.1109/ICUAS65942.2025.11007887)** , In Proc. 2025 International Conference on Unmanned Aerial Systems (ICUAS), Charlotte, NC, 2025.
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2025-hahn-aiaa-vortexringstate.jpg" | relative_url }}"><img src="{{ "/assets/figures/2025-hahn-aiaa-vortexringstate.jpg" | relative_url }}" loading="lazy" alt="Figure from: C. Hahn, A. Wolek, and M. Uddin, Characterizing vortex ring state during UAV landing on a ground vehicle using CFD , In "></a>
+<div class="pub-body" markdown="1">
+
+C. Hahn, A. Wolek, and M. Uddin, **[Characterizing vortex ring state during UAV landing on a ground vehicle using CFD](https://doi.org/10.2514/6.2025-1686)** , In Proc. AIAA SciTech 2025 Forum, Orlando, FL, 2025.
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2025-kakavitsas-aiaa-morphology.jpg" | relative_url }}"><img src="{{ "/assets/figures/2025-kakavitsas-aiaa-morphology.jpg" | relative_url }}" loading="lazy" alt="Figure from: N. Kakavitsas and A. Wolek, Mapping urban wind fields via Gaussian processes regression models that consider building mo"></a>
+<div class="pub-body" markdown="1">
+
+N. Kakavitsas and A. Wolek, **[Mapping urban wind fields via Gaussian processes regression models that consider building morphology](https://doi.org/10.2514/6.2025-2282)** , In Proc. AIAA SciTech 2025 Forum, Orlando, FL, 2025. [[preprint](https://doi.org/10.36227/techrxiv.173386085.57156083/v1)]
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2025-kakavitsas-aiaa-blast.jpg" | relative_url }}"><img src="{{ "/assets/figures/2025-kakavitsas-aiaa-blast.jpg" | relative_url }}" loading="lazy" alt="Figure from: N. Kakavitsas, A. Willis, D. Maity, and A. Wolek, A quadrotor model for evaluating dynamic response to a blast pressure "></a>
+<div class="pub-body" markdown="1">
+
+N. Kakavitsas, A. Willis, D. Maity, and A. Wolek, **[A quadrotor model for evaluating dynamic response to a blast pressure wave](https://doi.org/10.2514/6.2025-0659)** , In Proc. AIAA SciTech 2025 Forum, Orlando, FL, 2025. [[preprint](https://doi.org/10.36227/techrxiv.173386079.95797455/v1)]
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2025-wolek-aiaa-decayingspeed.jpg" | relative_url }}"><img src="{{ "/assets/figures/2025-wolek-aiaa-decayingspeed.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Wolek, D. Casbeer, I. Weintraub, and A. Von Moll, Maximum kinetic energy paths for a decaying-speed Dubins vehicle , "></a>
+<div class="pub-body" markdown="1">
+
+A. Wolek, D. Casbeer, I. Weintraub, and A. Von Moll, **[Maximum kinetic energy paths for a decaying-speed Dubins vehicle](https://doi.org/10.2514/6.2025-1351)** , In Proc. AIAA SciTech 2025 Forum, Orlando, FL, 2025. [[preprint](https://doi.org/10.36227/techrxiv.173386166.63127385/v1)]
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2024-moradi-mecc-submission.jpg" | relative_url }}"><img src="{{ "/assets/figures/2024-moradi-mecc-submission.jpg" | relative_url }}" loading="lazy" alt="Figure from: H. Moradi, A. Wolek, and S. D. Kelly, Mechanics and control of a freely rolling two-link robot with joint actuation , In"></a>
+<div class="pub-body" markdown="1">
+
+H. Moradi, A. Wolek, and S. D. Kelly, **[Mechanics and control of a freely rolling two-link robot with joint actuation](https://doi.org/10.1016/j.ifacol.2025.01.118)** , In Proc. IFAC 2024 Modeling, Estimation and Control Conference, Chicago, IL, 2024.
+</div>
+</li>
+<li class="pub"><span class="pub-fig pub-fig--none" aria-hidden="true"></span>
+<div class="pub-body" markdown="1">
+
+A. Wolek, I. E. Weintraub, A. Von Moll, D. Casbeer, and S.G. Manyam, **[Sampling-based risk-aware path planning around dynamic engagement zones](https://doi.org/10.1016/j.ifacol.2025.01.030)** , In Proc. IFAC 2024 Modeling, Estimation and Control Conference, Chicago, IL, 2024. [[preprint](https://arxiv.org/pdf/2403.05480.pdf)]
+</div>
+</li>
+<li class="pub"><span class="pub-fig pub-fig--none" aria-hidden="true"></span>
+<div class="pub-body" markdown="1">
+
+A. Wolek, **[Path planning for a cooperative navigation aid vehicle to assist multiple agents sequentially](https://doi.org/10.1016/j.ifacol.2024.10.044)**. In Proc. 15th IFAC Conference on Control Applications in Marine Systems, Robotics, and Vehicles, Blacksburg, VA, 2024. [[preprint](https://arxiv.org/pdf/2402.17071.pdf)]
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2024-wolek-cams-currents2.jpg" | relative_url }}"><img src="{{ "/assets/figures/2024-wolek-cams-currents2.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Wolek and J. McMahon, Batch estimation of a steady, uniform, flow-field from ground velocity and heading measurements"></a>
+<div class="pub-body" markdown="1">
+
+A. Wolek and J. McMahon, **[Batch estimation of a steady, uniform, flow-field from ground velocity and heading measurements](https://doi.org/10.1016/j.ifacol.2024.10.071)**. In Proc. 15th IFAC Conference on Control Applications in Marine Systems, Robotics, and Vehicles, Blacksburg, VA, 2024. [[preprint](https://arxiv.org/pdf/2402.17078.pdf)]
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2024-beam-southeastcon.jpg" | relative_url }}"><img src="{{ "/assets/figures/2024-beam-southeastcon.jpg" | relative_url }}" loading="lazy" alt="Figure from: C. Beam, J. Zhang, N. Kakavitsas, C. Hague, A. Wolek, and A. Willis, Cesium Tiles for high-realism simulation and compar"></a>
+<div class="pub-body" markdown="1">
+
+C. Beam, J. Zhang, N. Kakavitsas, C. Hague, A. Wolek, and A. Willis, **[Cesium Tiles for high-realism simulation and comparing SLAM results in corresponding virtual and real-world environments](https://ieeexplore.ieee.org/document/10500076)**. In Proc. 2024 IEEE Southeast Con, Atlanta, GA, 2024. [[preprint](https://arxiv.org/pdf/2401.07962.pdf)]
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2024-willis-southeastcon.jpg" | relative_url }}"><img src="{{ "/assets/figures/2024-willis-southeastcon.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Willis, C. Hague, A. Wolek, and K. Brink, GPU-Accelerated 3D polygon visibility volumes for synergistic perception an"></a>
+<div class="pub-body" markdown="1">
+
+A. Willis, C. Hague, A. Wolek, and K. Brink, **[GPU-Accelerated 3D polygon visibility volumes for synergistic perception and navigation](https://ieeexplore.ieee.org/document/10500285)**. In Proc. 2024 IEEE Southeast Con, Atlanta, GA, 2024. [[preprint](https://arxiv.org/pdf/2402.03135.pdf)]
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2024-hague-southeastcon.jpg" | relative_url }}"><img src="{{ "/assets/figures/2024-hague-southeastcon.jpg" | relative_url }}" loading="lazy" alt="Figure from: C. Hague, N. Kakavitsas, J. Zhang, C. Beam, A. Willis, and A. Wolek, Design and flight demonstration of a quadrotor for "></a>
+<div class="pub-body" markdown="1">
+
+C. Hague, N. Kakavitsas, J. Zhang, C. Beam, A. Willis, and A. Wolek, **[Design and flight demonstration of a quadrotor for urban mapping and target tracking applications](https://ieeexplore.ieee.org/document/10500131)**. In Proc. 2024 IEEE Southeast Con, Atlanta, GA, 2024. [[preprint](https://arxiv.org/abs/2402.13195)]
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2024-herbert-southeastcon.jpg" | relative_url }}"><img src="{{ "/assets/figures/2024-herbert-southeastcon.jpg" | relative_url }}" loading="lazy" alt="Figure from: J. Herbert and A. Wolek, Design of a miniature underwater vehicle and data collection system for indoor experimentation."></a>
+<div class="pub-body" markdown="1">
+
+J. Herbert and A. Wolek, **[Design of a miniature underwater vehicle and data collection system for indoor experimentation](https://ieeexplore.ieee.org/document/10500036)**. In Proc. 2024 IEEE Southeast Con, Atlanta, GA, 2024. [[preprint](https://arxiv.org/pdf/2402.13837.pdf)]
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2024-kakavitsas-aeroconf-urbanwindsim.jpg" | relative_url }}"><img src="{{ "/assets/figures/2024-kakavitsas-aeroconf-urbanwindsim.jpg" | relative_url }}" loading="lazy" alt="Figure from: N. Kakavitsas, A. Willis, R. Jacobik, M. Uddin, and A. Wolek, Quadrotor flight simulation in a CFD-generated urban wind "></a>
+<div class="pub-body" markdown="1">
+
+N. Kakavitsas, A. Willis, R. Jacobik, M. Uddin, and A. Wolek, **[Quadrotor flight simulation in a CFD-generated urban wind field](https://doi.org/10.1109/AERO58975.2024.10521032)**. In Proc. 2024 IEEE Aerospace Conference, Big Sky, MT, 2024. [[preprint](https://d197for5662m48.cloudfront.net/documents/publicationstatus/200550/preprint_pdf/21cff21344349abf7e28ae6d4c24612a.pdf)]
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2024-kakavitsas-aeroconf-vtol.jpg" | relative_url }}"><img src="{{ "/assets/figures/2024-kakavitsas-aeroconf-vtol.jpg" | relative_url }}" loading="lazy" alt="Figure from: N. Kakavitsas, A. Willis, J. Conrad, and A. Wolek, Comparison of size and performance of small vertical and short takeof"></a>
+<div class="pub-body" markdown="1">
+
+N. Kakavitsas, A. Willis, J. Conrad, and A. Wolek, **[Comparison of size and performance of small vertical and short takeoff and landing UAS](https://doi.org/10.1109/AERO58975.2024.10521006)**. In Proc. 2024 IEEE Aerospace Conference, Big Sky, MT, 2024. [[preprint](https://d197for5662m48.cloudfront.net/documents/publicationstatus/200549/preprint_pdf/5f8bc0fa7abc14f102e376954bf0d06b.pdf)]
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2024-kakavitsas-aiaa-gp-trajplanner.jpg" | relative_url }}"><img src="{{ "/assets/figures/2024-kakavitsas-aiaa-gp-trajplanner.jpg" | relative_url }}" loading="lazy" alt="Figure from: N. Kakavitsas and A. Wolek, Quadrotor takeoff trajectory planning in a one-dimensional uncertain wind-field aided by win"></a>
+<div class="pub-body" markdown="1">
+
+N. Kakavitsas and A. Wolek, **[Quadrotor takeoff trajectory planning in a one-dimensional uncertain wind-field aided by wind-sensing infrastructure](https://doi.org/10.2514/6.2024-0987)**. In Proc. AIAA SciTech 2024 Forum, Orlando, FL, 2024. [[preprint](https://arxiv.org/pdf/2402.01518.pdf)]
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2023-wolek-iros.jpg" | relative_url }}"><img src="{{ "/assets/figures/2023-wolek-iros.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Wolek and D. A. Paley, Output feedback formation control of a school of robotic fish with artificial lateral line sen"></a>
+<div class="pub-body" markdown="1">
+
+A. Wolek and D. A. Paley, **[Output feedback formation control of a school of robotic fish with artificial lateral line sensing](https://cdcl.umd.edu/papers/iros23.pdf)**. In Proc. IEEE/RSJ Int. Conf. Intelligent Robots Sys., Detroit, MI, 2023. [[preprint](https://cdcl.umd.edu/papers/iros23.pdf)]
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2022-hague-aiaa.jpg" | relative_url }}"><img src="{{ "/assets/figures/2022-hague-aiaa.jpg" | relative_url }}" loading="lazy" alt="Figure from: C. Hague, A. Willis, D. Maity, and A. Wolek, Planning visual inspection tours for a 3D Dubins airplane model in an urban"></a>
+<div class="pub-body" markdown="1">
+
+C. Hague, A. Willis, D. Maity, and A. Wolek, **[Planning visual inspection tours for a 3D Dubins airplane model in an urban environment](https://arc.aiaa.org/doi/10.2514/6.2023-0108)**. In Proc. AIAA SciTech 2023 Forum, National Harbor, MD, 2023. [[preprint](https://arxiv.org/abs/2301.05309)]
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2021-goswami-acc.jpg" | relative_url }}"><img src="{{ "/assets/figures/2021-goswami-acc.jpg" | relative_url }}" loading="lazy" alt="Figure from: D. Goswami, A. Wolek, D. A. Paley, Data-driven estimation using an Echo-State Neural Network equipped with an Ensemble K"></a>
+<div class="pub-body" markdown="1">
+
+D. Goswami, A. Wolek, D. A. Paley, **[Data-driven estimation using an Echo-State Neural Network equipped with an Ensemble Kalman Filter](https://doi.org/10.23919/ACC50511.2021.9483373)**. In Proc. 2021 American Control Conference, New Orleans, LA, 2021. [[preprint](https://cdcl.umd.edu/papers/acc21a.pdf)]
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2020-ghanem-acc.jpg" | relative_url }}"><img src="{{ "/assets/figures/2020-ghanem-acc.jpg" | relative_url }}" loading="lazy" alt="Figure from: P. Ghanem, A. Wolek, D. A. Paley, Planar formation control of a school of robotic fish. In Proc. 2020 American Control C"></a>
+<div class="pub-body" markdown="1">
+
+P. Ghanem, A. Wolek, D. A. Paley, **[Planar formation control of a school of robotic fish.](https://doi.org/10.23919/ACC45564.2020.9147969)** In Proc. 2020 American Control Conference, Denver, CO, 2020. [[preprint](https://cdcl.umd.edu/papers/acc20a.pdf)]
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2019-yetkin-icra.jpg" | relative_url }}"><img src="{{ "/assets/figures/2019-yetkin-icra.jpg" | relative_url }}" loading="lazy" alt="Figure from: H. Yetkin, J. McMahon, N. Topin, A. Wolek, Z. Waters, and D. Stilwell, Online planning for autonomous underwater vehicle"></a>
+<div class="pub-body" markdown="1">
+
+H. Yetkin, J. McMahon, N. Topin, A. Wolek, Z. Waters, and D. Stilwell, **[Online planning for autonomous underwater vehicles performing information gathering tasks in large sub-sea environments.](https://doi.org/10.1109/IROS40897.2019.8967898)** In Proc. IEEE/RSJ Int. Conf. Intelligent Robots Sys., Macau, China, 2019.
+</div>
+</li>
+<li class="pub"><span class="pub-fig pub-fig--none" aria-hidden="true"></span>
+<div class="pub-body" markdown="1">
+
+J. G. Jimenez, A. Wolek, D. Stilwell, J. McMahon, and B. Dzikowicz, **[Experimental results in bearings-only tracking with the sequential Monte-Carlo probability hypothesis density filter.](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11018/1101808/Experimental-results-in-bearings-only-tracking-using-the-sequential-Monte/10.1117/12.2519047.short?SSO=1)** In Proc. SPIE Defense + Commercial Sensing, Baltimore, MD, 2019.
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2019-simmonsetal-ciss.jpg" | relative_url }}"><img src="{{ "/assets/figures/2019-simmonsetal-ciss.jpg" | relative_url }}" loading="lazy" alt="Figure from: B. Simmons, P. Adwani, H. Pham, Y. Alhuthifi, and A. Wolek, Training a remote-control car to autonomously lane-follow us"></a>
+<div class="pub-body" markdown="1">
+
+B. Simmons, P. Adwani, H. Pham, Y. Alhuthifi, and A. Wolek, **[Training a remote-control car to autonomously lane-follow using end-to-end neural networks.](https://doi.org/10.1109/CISS.2019.8692851)** In Proc. IEEE Conf. Info. Sci. Sys., Baltimore, MD, 2019.
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2017-mcmahon-iros.jpg" | relative_url }}"><img src="{{ "/assets/figures/2017-mcmahon-iros.jpg" | relative_url }}" loading="lazy" alt="Figure from: J. McMahon, H. Yetkin, A. Wolek, Z. Waters, and D. J. Stilwell, Towards real-time search planning in subsea environments"></a>
+<div class="pub-body" markdown="1">
+
+J. McMahon, H. Yetkin, A. Wolek, Z. Waters, and D. J. Stilwell, **[Towards real-time search planning in subsea environments.](https://doi.org/10.1109/IROS.2017.8202142)** In Proc. IEEE/RSJ Int. Conf. Intelligent Robots Sys., Vancouver, Canada, 2017. [[preprint](https://arxiv.org/pdf/1707.07662.pdf)]
+</div>
+</li>
+<li class="pub"><span class="pub-fig pub-fig--none" aria-hidden="true"></span>
+<div class="pub-body" markdown="1">
+
+M. A. Wilson, J. McMahon, A. Wolek, D. Aha, and B. Houston, **[Toward goal reasoning for AUVs: responding to unexpected agents.](http://makro.ink/ijcai2016grw/papers/wilsonEtAl.towardGoalReasoningforAUVs.pdf)** In Proc. Workshop on Goal Reasoning at the 25th Int. Joint Conf. Artificial Intelligence, New York, NY, 2016.
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2015-wolek-oceans.jpg" | relative_url }}"><img src="{{ "/assets/figures/2015-wolek-oceans.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Wolek, T. Gode, C. A. Woolsey, J. Quenzer, K. A. and Morgansen, Testing a pneumatic underwater glider in shallow wate"></a>
+<div class="pub-body" markdown="1">
+
+A. Wolek, T. Gode, C. A. Woolsey, J. Quenzer, K. A. and Morgansen, **[Testing a pneumatic underwater glider in shallow water.](https://doi.org/10.23919/OCEANS.2015.7401980)** In Proc. MTS/IEEE OCEANS’15, Washington, DC, 2015. [[preprint](https://www.researchgate.net/profile/Artur-Wolek/publication/283506011_Testing_a_pneumatic_underwater_glider_in_shallow_water/links/5fc0fdce299bf104cf83ab65/Testing-a-pneumatic-underwater-glider-in-shallow-water.pdf)]
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2012-wolek-acc.jpg" | relative_url }}"><img src="{{ "/assets/figures/2012-wolek-acc.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Wolek, and C. A. Woolsey, Disturbance rejection in Dubins path planning. In Proc. American Control Conf., Montreal, C"></a>
+<div class="pub-body" markdown="1">
+
+A. Wolek, and C. A. Woolsey, **[Disturbance rejection in Dubins path planning.](https://doi.org/10.1109/ACC.2012.6315582)** In Proc. American Control Conf., Montreal, Canada, 2012.
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2012-wolek-oceans.jpg" | relative_url }}"><img src="{{ "/assets/figures/2012-wolek-oceans.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Wolek, J. Burns, C. A. Woolsey, J. Quenzer, L. Techy, and K. A. Morgansen., A maneuverable, pneumatic underwater glid"></a>
+<div class="pub-body" markdown="1">
+
+A. Wolek, J. Burns, C. A. Woolsey, J. Quenzer, L. Techy, and K. A. Morgansen., **[A maneuverable, pneumatic underwater glider.](https://doi.org/10.1109/OCEANS.2012.6404989)** In Proc. MTS/IEEE OCEANS’12 Conf. and Expo., Hampton Roads, VA, 2012.
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2012-fan-oceans.jpg" | relative_url }}"><img src="{{ "/assets/figures/2012-fan-oceans.jpg" | relative_url }}" loading="lazy" alt="Figure from: S. Fan, A. Wolek, and C. A. Woolsey, Stability and performance of underwater gliders. In Proc. MTS/IEEE OCEANS’12 Conf. "></a>
+<div class="pub-body" markdown="1">
+
+S. Fan, A. Wolek, and C. A. Woolsey, **[Stability and performance of underwater gliders.](https://doi.org/10.1109/OCEANS.2012.6404993)** In Proc. MTS/IEEE OCEANS’12 Conf. and Expo., Hampton Roads, VA, 2012.
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2011-bilgen-ssdm.jpg" | relative_url }}"><img src="{{ "/assets/figures/2011-bilgen-ssdm.jpg" | relative_url }}" loading="lazy" alt="Figure from: O. Bilgen, L. Butt, S. Day, C. Sossi, J. Weaver, A. Wolek, W. Mason, and D. Inman, A novel unmanned aircraft with solid-"></a>
+<div class="pub-body" markdown="1">
+
+O. Bilgen, L. Butt, S. Day, C. Sossi, J. Weaver, A. Wolek, W. Mason, and D. Inman, **[A novel unmanned aircraft with solid-state control surfaces.](https://doi.org/10.2514/6.2011-2071)** In Proc. 52nd AIAA Structural Dynamics and Materials Conf., Denver, CO, 2011.
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2010-butt-sawe.jpg" | relative_url }}"><img src="{{ "/assets/figures/2010-butt-sawe.jpg" | relative_url }}" loading="lazy" alt="Figure from: O. Bilgen, L. Butt, S. Day, C. Sossi, J. Weaver, A. Wolek, W. Mason, and D. Inman, Wing morphing design utilizing macro-"></a>
+<div class="pub-body" markdown="1">
+
+O. Bilgen, L. Butt, S. Day, C. Sossi, J. Weaver, A. Wolek, W. Mason, and D. Inman, **Wing morphing design utilizing macro-fiber composite smart materials.** In Proc. 69th Annual Conf. of The Society of Allied Weight Engineers, Virginia Beach, VA, 2010.
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2010-cotting-asm.jpg" | relative_url }}"><img src="{{ "/assets/figures/2010-cotting-asm.jpg" | relative_url }}" loading="lazy" alt="Figure from: M. C. Cotting, A. Wolek, J. F. Murtha, C. and A. Woolsey, Developmental flight testing of the SPAARO UAV. In Proc. 48th "></a>
+<div class="pub-body" markdown="1">
+
+M. C. Cotting, A. Wolek, J. F. Murtha, C. and A. Woolsey, **[Developmental flight testing of the SPAARO UAV.](https://doi.org/10.2514/6.2010-295)** In Proc. 48th AIAA Aerospace Sciences Meeting and Expo., Orlando, FL, 2010. [[preprint](https://web.archive.org/web/20141224020220id_/http://filebox.vt.edu/~woleka/SPAARO/2010_SPAAROFlightTest.pdf)]
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2009-murtha-afm.jpg" | relative_url }}"><img src="{{ "/assets/figures/2009-murtha-afm.jpg" | relative_url }}" loading="lazy" alt="Figure from: J. F. Murtha, M. C. Cotting, A. Wolek, T. Aarons, and C. A. Woolsey, The educational impact of creating a new UAV for cu"></a>
+<div class="pub-body" markdown="1">
+
+J. F. Murtha, M. C. Cotting, A. Wolek, T. Aarons, and C. A. Woolsey, **[The educational impact of creating a new UAV for curriculum enhancement.](https://doi.org/10.2514/6.2009-5851)** In Proc. AIAA Atmospheric Flight Mech. Conf., Chicago, IL, 2009.
+</div>
+</li>
+</ol>
 
 ## Undergraduate Research
-  1. A. Das, **[Aero-acoustic optimization and experimental validation of a NACA 2415 toroidal UAV propeller](https://engrxiv.org/preprint/view/6524/10681)**. In Proc. AIAA 2026 Region II Student Conference, Columbia, SC, 2026.
-  2. M. Nguyen, **[Off-road terrain mapping for autonomous ground vehicle energy-optimal path planning](https://region2.aiaastudentconference.org/collection/2025/manuscripts/99132.pdf)** , In Proc. AIAA 2025 Region II Student Conference, Greensboro, NC, 2025.
-  3. K. VanHorn, **[Experimental characterization of a quadrotor’s response to an air vortex cannon](https://region2.aiaastudentconference.org/collection/2025/manuscripts/99500.pdf)** , In Proc. AIAA 2025 Region II Student Conference, Greensboro, NC, 2025. 
-  4. K. VanHorn, **[Machine-learning-based wind detection and avoidance using a crazyflie micro drone](https://doi.org/10.2514/6.2024-85491)**. In Proc. AIAA 2024 Region II Student Conference, Kennedy Space Center, FL, 2024.
+
+<ol class="pub-list">
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2026-das-aiaa.jpg" | relative_url }}"><img src="{{ "/assets/figures/2026-das-aiaa.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Das, Aero-acoustic optimization and experimental validation of a NACA 2415 toroidal UAV propeller. In Proc. AIAA 2026"></a>
+<div class="pub-body" markdown="1">
+
+A. Das, **[Aero-acoustic optimization and experimental validation of a NACA 2415 toroidal UAV propeller](https://engrxiv.org/preprint/view/6524/10681)**. In Proc. AIAA 2026 Region II Student Conference, Columbia, SC, 2026.
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2025-nguyen-aiaa.jpg" | relative_url }}"><img src="{{ "/assets/figures/2025-nguyen-aiaa.jpg" | relative_url }}" loading="lazy" alt="Figure from: M. Nguyen, Off-road terrain mapping for autonomous ground vehicle energy-optimal path planning , In Proc. AIAA 2025 Regi"></a>
+<div class="pub-body" markdown="1">
+
+M. Nguyen, **[Off-road terrain mapping for autonomous ground vehicle energy-optimal path planning](https://region2.aiaastudentconference.org/collection/2025/manuscripts/99132.pdf)** , In Proc. AIAA 2025 Region II Student Conference, Greensboro, NC, 2025.
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2025-vanhorn-aiaa.jpg" | relative_url }}"><img src="{{ "/assets/figures/2025-vanhorn-aiaa.jpg" | relative_url }}" loading="lazy" alt="Figure from: K. VanHorn, Experimental characterization of a quadrotor’s response to an air vortex cannon , In Proc. AIAA 2025 Region "></a>
+<div class="pub-body" markdown="1">
+
+K. VanHorn, **[Experimental characterization of a quadrotor’s response to an air vortex cannon](https://region2.aiaastudentconference.org/collection/2025/manuscripts/99500.pdf)** , In Proc. AIAA 2025 Region II Student Conference, Greensboro, NC, 2025. 
+</div>
+</li>
+<li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2024-vanhorn-aiaa.jpg" | relative_url }}"><img src="{{ "/assets/figures/2024-vanhorn-aiaa.jpg" | relative_url }}" loading="lazy" alt="Figure from: K. VanHorn, Machine-learning-based wind detection and avoidance using a crazyflie micro drone. In Proc. AIAA 2024 Region"></a>
+<div class="pub-body" markdown="1">
+
+K. VanHorn, **[Machine-learning-based wind detection and avoidance using a crazyflie micro drone](https://doi.org/10.2514/6.2024-85491)**. In Proc. AIAA 2024 Region II Student Conference, Kennedy Space Center, FL, 2024.
+</div>
+</li>
+</ol>
