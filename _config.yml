@@ -1,0 +1,49 @@
+title: Autonomous Robots and Systems Laboratory
+abbr: ARSL
+description: >-
+  Research in aerospace and ocean vehicle guidance, dynamics, control, and path
+  planning — trajectory optimization, informative path planning, and aerial and
+  marine field robotics.
+
+# ---------------------------------------------------------------------------
+# Deploying as the organization site for github.com/robotics-uncc, i.e. from a
+# repo named exactly `robotics-uncc.github.io`, which serves at the org root.
+# If you use any other repo name instead, set baseurl: "/<repo-name>".
+# For a custom domain later, set url to it and add a CNAME file.
+# ---------------------------------------------------------------------------
+url: "https://robotics-uncc.github.io"
+baseurl: ""
+
+scholar: https://scholar.google.com/citations?hl=en&user=D38WTZ8AAAAJ&view_op=list_works&sortby=pubdate
+linkedin: https://www.linkedin.com/in/arturwolek/
+youtube: https://www.youtube.com/playlist?list=PL2kZN0CkV04iDJmyfa4pZN371wuY8tPPI
+
+contact_html: >
+  <p>Dr. Artur Wolek<br>
+  Assistant Professor<br>
+  Department of Mechanical Engineering and Engineering Science<br>
+  8415 Phillips Rd, Charlotte, NC 28223<br>
+  Email: awolek [at] charlotte [dot] edu</p>
+
+locations_html: >
+  <p><strong>Duke Lab</strong> — Duke Centennial Hall, Room 370<br>
+  <strong>Water tank &amp; student offices</strong> — BATT CAVE Research Building, Room 124<br>
+  <strong>Office</strong> — BATT CAVE Research Building, Room 103</p>
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+defaults:
+  - scope: { path: "" }
+    values: { layout: "default" }
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

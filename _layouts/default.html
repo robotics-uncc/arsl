@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if page.title and page.title != site.title %}{{ page.title }} &middot; {{ site.abbr }}{% else %}{{ site.title }}{% endif %}</title>
+<meta name="description" content="{{ page.description | default: site.description }}">
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+<link rel="icon" href="{{ '/assets/images/2023-04/ARSL_clearb.png' | relative_url }}">
+</head>
+<body>
+<a class="skip-link" href="#content">Skip to content</a>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <span class="logo-plate"><img src="{{ '/assets/images/2023-04/ARSL_clearb.png' | relative_url }}" alt=""></span>
+      <span class="brand-text">
+        <span class="brand-abbr">{{ site.abbr }}</span>
+        <span class="brand-full">{{ site.title }}</span>
+      </span>
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      {% assign navpages = site.pages | where_exp: "p", "p.nav_order" | sort: "nav_order" %}
+      {% for p in navpages %}
+      <a href="{{ p.url | relative_url }}"{% if p.url == page.url %} aria-current="page"{% endif %}>{{ p.nav_title | default: p.title }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>
+
+{% unless page.hide_title %}
+<div class="page-title-band">
+  <div class="inner"><h1>{{ page.heading | default: page.title }}</h1></div>
+</div>
+{% endunless %}
+
+<main id="content">
+  <div class="prose{% if page.wide %} wide{% endif %}">
+    {{ content }}
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <h2>Contact</h2>
+      {{ site.contact_html }}
+    </div>
+    <div>
+      <h2>Lab locations</h2>
+      {{ site.locations_html }}
+    </div>
+    <div>
+      <h2>Elsewhere</h2>
+      <p>
+        <a href="{{ site.scholar }}">Google Scholar</a><br>
+        <a href="{{ site.linkedin }}">LinkedIn</a><br>
+        <a href="{{ site.youtube }}">YouTube playlist</a>
+      </p>
+    </div>
+  </div>
+  <div class="footer-bottom">&copy; {{ 'now' | date: "%Y" }} {{ site.title }}.</div>
+</footer>
+</body>
+</html>
