@@ -1,0 +1,107 @@
+---
+# Front matter required so Jekyll processes this file.
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+/* ------------------------------------------------------------------ */
+/* ARSL additions on top of the theme                                  */
+/* ------------------------------------------------------------------ */
+
+/* Figures are plots and multi-panel diagrams drawn on transparent or white
+   grounds, so they get a white mat and survive any skin, light or dark. */
+figure.fig {
+  margin: 2em 0;
+  padding: 0.75em;
+  background: #fff;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+
+  img { display: block; width: 100%; }
+
+  figcaption {
+    margin-top: 0.6em;
+    padding: 0 0.25em;
+    font-size: 0.75em;
+    color: $muted-text-color;
+  }
+}
+
+/* The ARSL wordmark is dark artwork on transparency: keep it on white so the
+   dark skins do not swallow it. */
+.page__hero--overlay .page__lead img,
+.sidebar .author__avatar img { background: #fff; }
+
+/* People and lab-director cards */
+.person {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 1.5em;
+  align-items: start;
+  margin-bottom: 2.5em;
+
+  .person-photo img {
+    width: 100%;
+    border-radius: $border-radius;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+  }
+
+  .person-body > h3:first-child { margin-top: 0; }
+
+  .person-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    margin-top: 0.75em;
+
+    a {
+      display: inline-block;
+      padding: 0.4em 0.75em;
+      font-size: 0.7em;
+      font-family: $sans-serif;
+      text-decoration: none;
+      color: $primary-color;
+      background: mix(#fff, $primary-color, 88%);
+      border-radius: $border-radius;
+
+      &:hover { color: #fff; background: $primary-color; }
+    }
+  }
+}
+
+@include breakpoint(max-width $small) {
+  .person { grid-template-columns: 110px 1fr; gap: 1em; }
+}
+
+/* Gallery: thumbnails in a grid, each linking to the full-resolution image */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 0.75em;
+  margin: 1.5em 0 2em;
+
+  a {
+    display: block;
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    border-radius: $border-radius;
+    background: $muted-text-color;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.35s ease;
+  }
+
+  a:hover img { transform: scale(1.05); }
+}
+
+/* Publication lists are dense; tighten them up. */
+.page__content ol li { margin-bottom: 0.6em; }
