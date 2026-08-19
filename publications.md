@@ -4,8 +4,6 @@ permalink: /publications/
 nav_order: 3
 ---
 
-The full, authoritative list is on [Google Scholar](https://scholar.google.com/citations?hl=en&user=D38WTZ8AAAAJ&view_op=list_works&sortby=pubdate).
-
 ## Journal Publications and Book Chapters
   1. A. Wolek and D. Maity, **Optimal duty-cycle-based control design to regulate a linear system**. Submitted.
   2. C. Hague and A. Wolek **Occlusion-aware ground target search by a UAV in an urban environment.** Submitted. [[preprint](https://arxiv.org/abs/2511.07822)]

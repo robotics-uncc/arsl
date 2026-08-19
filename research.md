@@ -20,7 +20,7 @@ nav_order: 2
   * **Safe-to-Unmask Behaviors** (Naval Research Laboratory; 2025-2026 collaboration with J. McMahon, J. Turner, and P. Baldoni)
   * **Determination Real-Time of Energy-Management for Aircraft Maneuverability – Project Have DREAM** (US Air Force Test Pilot School; 2025, collaboration with J. Peterson and I. Weintraub)
 
-## Sponsors and Collaborators
+## Current/Past Sponsors & Collaborators
 <figure class="fig">
   <img src="{{ "/assets/images/2026-03/sponsors.png" | relative_url }}" alt="Logos of ARSL sponsors and collaborators: DEFENSEWERX, the Air Force Research Laboratory, the U.S. Army SBIR/STTR program, the U.S. Naval Research Laboratory, the National Science Foundation, the Coastal Studies Institute, and the N.C. Department of Transportation.">
 </figure>
@@ -30,7 +30,6 @@ This research investigates flow-field mapping/estimation and optimization-based 
 
 <figure class="fig">
   <img src="{{ "/assets/images/2025-10/flow_work-1.png" | relative_url }}" alt="Seven-panel figure on vehicles in flow fields: collaborative sensing with ultrasonic anemometers, urban wind-field mapping by Gaussian process regression, batch flow-field estimation from ground velocity and heading, quadrotor response to an air vortex cannon, takeoff trajectory planning in an uncertain wind field, quadrotor flight in a CFD-generated urban wind field, and a model of the response to a blast pressure wave.">
-  <figcaption>Representative results from research area 1.</figcaption>
 </figure>
 #### Examples of past and ongoing work
   * Modeling and control of a UAV in a blast pressure wave [[Link](https://doi.org/10.2514/6.2025-0659)]
@@ -46,7 +45,6 @@ This research investigates the design of autonomous motion control algorithms or
 
 <figure class="fig">
   <img src="{{ "/assets/images/2025-10/behaviors_work.png" | relative_url }}" alt="Six-panel figure on adaptive motion-control behaviors: urban mapping and search using mutual information, occlusion-aware ground target tracking by a Dubins vehicle using visibility volumes, underwater vehicle behaviors for passive sonar target tracking, path planning for a cooperative navigation aid serving multiple agents, planar formation control of a school of robotic fish, and adaptive sampling of a Gaussian spatial process by a heterogeneous robot team.">
-  <figcaption>Representative results from research area 2.</figcaption>
 </figure>
 #### Examples of past and ongoing work
   * Multi-vehicle cooperative navigation with intermittent aiding: [[Link](https://arxiv.org/pdf/2402.17071.pdf)]
@@ -61,7 +59,6 @@ This research investigates optimal path planning of aircraft, spacecraft, and oc
 
 <figure class="fig">
   <img src="{{ "/assets/images/2025-10/dubins_work-2.png" | relative_url }}" alt="Seven-panel figure on trajectory optimization: maximum kinetic energy paths for a decaying-speed Dubins vehicle, sampling-based risk-aware planning around dynamic engagement zones, energy-optimal glider paths with speed and load factor controls, the orbiting Dubins traveling salesman problem, time-optimal planning for a variable-speed kinematic car, and minimum-time Dubins airplane inspection tours with visibility and dwell constraints.">
-  <figcaption>Representative results from research area 3.</figcaption>
 </figure>
 #### Examples of past and ongoing work
   * Spacecraft trajectories with optimized thruster allocation

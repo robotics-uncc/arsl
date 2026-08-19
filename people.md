@@ -59,7 +59,7 @@ Dissertation Topic: Autonomous Quadrotors in Uncertain Disturbances: Control, Es
   4. Jacob Herbert, MS ME (2023). [[thesis](https://www.proquest.com/pqdtlocal1006002/dissertations-theses/design-system-identification-miniature-underwater/docview/2847208132/sem-2?accountid=14605)] Next Position: Teledyne FLIR.
   5. Michael Brancato, MS ME (2022). [[thesis](https://www.proquest.com/pqdtlocal1006002/dissertations-theses/autonomous-sensing-gaussian-spatial-process-with/docview/2697792774/sem-2?accountid=14605)] Next Position: Draper Laboratory.
 
-## Undergraduate Researchers
+## Undergraduates
 The ARSL typically supports between 1-3 undergraduate students per semester along with several senior design teams and other undergraduate student organizations.
 
 ## Interested in Joining the ARSL?

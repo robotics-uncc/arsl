@@ -5,9 +5,7 @@ nav_order: 8
 wide: true
 ---
 
-Photographs from the lab, the water tank, and the field.
-
-Video: [ARSL YouTube playlist](https://www.youtube.com/playlist?list=PL2kZN0CkV04iDJmyfa4pZN371wuY8tPPI)
+Lab YouTube Video Playlist: [[Link]](https://www.youtube.com/playlist?list=PL2kZN0CkV04iDJmyfa4pZN371wuY8tPPI)
 
 <div class="gallery-grid">
   <a href="{{ "/assets/images/2025-05/2025.4_VanHorn_AirCannonDrone-1024x721-1.jpg" | relative_url }}"><img src="{{ "/assets/thumbs/2025-05/2025.4_VanHorn_AirCannonDrone-1024x721-1.jpg" | relative_url }}" loading="lazy" width="640" alt="A student fires a vortex air cannon in a darkened lab, sending a visible smoke ring toward a small quadrotor."></a>

@@ -4,13 +4,13 @@ permalink: /teaching/
 nav_order: 6
 ---
 
-## Ph.D. Graduate Courses
+## PHD Graduate Courses
 ### MEGR 7090/8090: Dynamic System Learning and Estimation (UNC Charlotte)
 Review of linear systems and probability theory, observability, Luenberg observer, system ID via least-square parameter estimation and stepwise model determination, maximum likelihood estimation, Kalman filters (discrete-time, continuous-time, extended KF, unscented KF), recursive Bayesian estimation, particle filters, machine-learning-based regression (neural networks and Gaussian processes) for dynamic system modeling, and dynamic mode decomposition.  
 **Textbooks:** (1) D. Simon, Optimal State Estimation: Kalman, H infinity, and Nonlinear Approaches, John Wiley & Sons, 2006. (2) course lecture notes.  
 **Semesters Taught:** Fall 2022, Fall 2024
 
-## Master's Graduate Courses
+## Masters Graduate Courses
 ### MEGR 4090/5090: Astromechanics (UNC Charlotte)
 Introduction to astromechanics. Newton’s law of gravitation. The two-body problem and types of orbits. Kepler’s Laws. Orbital elements. Orbit determination. Energy and time-of-flight relations. Orbit transfers. Interplanetary trajectories (patched conic approximation). Spacecraft mission design.  
 **Textbooks:** (1) Howard D. Curtis (2020). Orbital Mechanics for Engineering Students: Revised Reprint (Aerospace Engineering) 4th edition. Butterworth-Heinemann, (2) Bate, R. R., Mueller, D. D., and White, J. E. (1971). Fundamentals of Astrodynamics. Dover Publications.   
