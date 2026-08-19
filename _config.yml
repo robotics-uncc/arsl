@@ -6,13 +6,13 @@ description: >-
   marine field robotics.
 
 # ---------------------------------------------------------------------------
-# Deploying as the organization site for github.com/robotics-uncc, i.e. from a
-# repo named exactly `robotics-uncc.github.io`, which serves at the org root.
-# If you use any other repo name instead, set baseurl: "/<repo-name>".
-# For a custom domain later, set url to it and add a CNAME file.
+# Project site: repo github.com/robotics-uncc/arsl serves at
+# https://robotics-uncc.github.io/arsl/ , so every URL needs the /arsl prefix.
+# The Pages workflow passes the same value via --baseurl at build time.
+# For a custom domain later: set url to it, set baseurl to "", and add a CNAME.
 # ---------------------------------------------------------------------------
 url: "https://robotics-uncc.github.io"
-baseurl: ""
+baseurl: "/arsl"
 
 scholar: https://scholar.google.com/citations?hl=en&user=D38WTZ8AAAAJ&view_op=list_works&sortby=pubdate
 linkedin: https://www.linkedin.com/in/arturwolek/
