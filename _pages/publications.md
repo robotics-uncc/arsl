@@ -69,7 +69,7 @@ A. Nikonowicz and A. Wolek, **[Performance characterization of a small portable 
 
 <p class="pub-summary">Reports 41 hours of on-water testing of a small commercial uncrewed surface vessel at ten lakes and rivers, assessing its fitness for bridge-scour bathymetry work by a state transportation agency. Quantifies battery consumption, GNSS quality near occluding structures, and survey performance.</p>
 
-<p class="pub-tags"><span class="pub-tag">surface vessels</span><span class="pub-tag">sonar</span><span class="pub-tag">surveys</span><span class="pub-tag">bathymetry</span></p>
+<p class="pub-tags"><span class="pub-tag">surface vessels</span><span class="pub-tag">sonar</span><span class="pub-tag">bathymetry</span></p>
 </div>
 </li>
 <li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2026-nikonowicz-surveyusv.jpg" | relative_url }}"><img src="{{ "/assets/figures/2026-nikonowicz-surveyusv.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Nikonowicz and A. Wolek, A survey of uncrewed surface vessels for inland bathymetric data collection by U.S. state tr"></a>
@@ -197,7 +197,7 @@ A. Wolek, B. R. Dzikowicz, J. McMahon, and B. H. Houston, **[At-sea evaluation o
 
 M. A. Wilson, J. McMahon, A. Wolek, D. Aha, and B. H. Houston, **[Goal reasoning for autonomous underwater vehicles: responding to unexpected agents.](https://doi.org/10.3233/AIC-180755)** AI Comm. 31(2):151-166, 2018.
 
-<p class="pub-summary">Applies a goal reasoning agent to an underwater vehicle operating in a partially observable, dynamic environment: an AUV pursuing a survey goal unexpectedly detects a potentially hostile surface vessel and must decide what to do. Simulations show goal-driven autonomy can reason about the situation within the limited computation available on an underwater platform. (Summarised from the conference version of this work; the journal paper is not on file.)</p>
+<p class="pub-summary">Applies a goal reasoning agent to an underwater vehicle operating in a partially observable, dynamic environment: an AUV pursuing a survey goal unexpectedly detects a potentially hostile surface vessel and must decide what to do. Simulations show goal-driven autonomy can reason about the situation within the limited computation available on an underwater platform.</p>
 
 <p class="pub-tags"><span class="pub-tag">underwater vehicles</span><span class="pub-tag">goal reasoning</span><span class="pub-tag">field robotics</span></p>
 </div>
@@ -396,6 +396,8 @@ H. Moradi, A. Wolek, and S. D. Kelly, **[Mechanics and control of a freely rolli
 
 A. Wolek, I. E. Weintraub, A. Von Moll, D. Casbeer, and S.G. Manyam, **[Sampling-based risk-aware path planning around dynamic engagement zones](https://doi.org/10.1016/j.ifacol.2025.01.030)** , In Proc. IFAC 2024 Modeling, Estimation and Control Conference, Chicago, IL, 2024. [[preprint](https://arxiv.org/pdf/2403.05480.pdf)]
 
+<p class="pub-summary">Plans a feasible route for a Dubins vehicle through a field of dynamic engagement zones. Because each zone couples to the vehicle through its heading, the moving two-dimensional obstacles become static three-dimensional ones in a lifted (x, y, heading) space — which an RRT* can then search, where calculus-of-variations methods scale poorly and converge to local minima.</p>
+
 <p class="pub-tags"><span class="pub-tag">risk-aware planning</span><span class="pub-tag">sampling-based planning</span><span class="pub-tag">path planning</span></p>
 </div>
 </li>
@@ -403,6 +405,8 @@ A. Wolek, I. E. Weintraub, A. Von Moll, D. Casbeer, and S.G. Manyam, **[Sampling
 <div class="pub-body" markdown="1">
 
 A. Wolek, **[Path planning for a cooperative navigation aid vehicle to assist multiple agents sequentially](https://doi.org/10.1016/j.ifacol.2024.10.044)**. In Proc. 15th IFAC Conference on Control Applications in Marine Systems, Robotics, and Vehicles, Blacksburg, VA, 2024. [[preprint](https://arxiv.org/pdf/2402.17071.pdf)]
+
+<p class="pub-summary">Plans a path for a single underwater cooperative navigation aid to intercept a set of agents in turn, minimising their average navigation uncertainty. Aiding is modelled by a scalar Kalman filter, and the planner also weighs surfacing to reset the aid's own uncertainty. A greedy scheduling heuristic is compared against exhaustive enumeration in Monte Carlo trials.</p>
 
 <p class="pub-tags"><span class="pub-tag">cooperative navigation</span><span class="pub-tag">multi-agent coordination</span><span class="pub-tag">path planning</span></p>
 </div>
