@@ -5,8 +5,6 @@ main:
     url: /research/
   - title: "Publications"
     url: /publications/
-  - title: "Software"
-    url: /software/
   - title: "People"
     url: /people/
   - title: "Facilities"
@@ -17,3 +15,5 @@ main:
     url: /outreach/
   - title: "Gallery"
     url: /gallery/
+  - title: "Software"
+    url: /software/

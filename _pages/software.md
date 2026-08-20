@@ -40,8 +40,7 @@ reserve for unsteady disturbances with a known upper bound.
 <span class="repo-meta">MATLAB &middot; MIT</span>
 
 Join an initial state to a terminal position while ignoring the final heading,
-for a given turn radius. The turn-straight case is implemented; turn-turn is
-not yet.
+for a given turn radius.
 </li>
 <li class="repo" markdown="1">
 
@@ -104,7 +103,7 @@ the figures of the paper it accompanies.
 <ul class="repo-list">
 <li class="repo" markdown="1">
 
-**[USV_Dataset](https://github.com/robotics-uncc/USV_Dataset)**
+**[USV Dataset](https://github.com/robotics-uncc/USV_Dataset)**
 <span class="repo-meta">MATLAB</span>
 
 Mass properties and performance characteristics of 91 uncrewed surface vessels,
@@ -113,7 +112,7 @@ origin — with a script that generates the scatter plots and histograms.
 </li>
 <li class="repo" markdown="1">
 
-**[VSTOL_UAS_Database](https://github.com/robotics-uncc/VSTOL_UAS_Database)**
+**[VSTOL UAS Database](https://github.com/robotics-uncc/VSTOL_UAS_Database)**
 <span class="repo-meta">MATLAB</span>
 
 Mass properties and performance characteristics of nearly two hundred

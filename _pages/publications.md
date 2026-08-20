@@ -22,11 +22,9 @@ classes: wide
 <div class="pub-body" markdown="1">
 
 A. Wolek and D. Maity, **Optimal duty-cycle-based control design to regulate a linear system**. Submitted.
-
-<p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/wolekoptimal/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
 </li>
-<li class="pub pub--nofig" data-year="2025" data-tags="occlusion-aware planning|fixed-wing UAVs|A* search|visibility volumes|Dubins paths">
+<li class="pub pub--nofig" data-year="" data-tags="occlusion-aware planning|fixed-wing UAVs|A* search|visibility volumes|Dubins paths">
 <div class="pub-body" markdown="1">
 
 C. Hague and A. Wolek **Occlusion-aware ground target search by a UAV in an urban environment**. Submitted. [[preprint](https://arxiv.org/abs/2511.07822)]
@@ -38,8 +36,6 @@ C. Hague and A. Wolek **Occlusion-aware ground target search by a UAV in an urba
 <span class="pub-tag">A* search</span>
 <span class="pub-tag">visibility volumes</span>
 <span class="pub-tag">Dubins paths</span></p>
-
-<p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/hague2025occlusion/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
 </li>
 <li class="pub pub--nofig" data-year="" data-tags="risk-aware planning">
@@ -48,8 +44,6 @@ C. Hague and A. Wolek **Occlusion-aware ground target search by a UAV in an urba
 A. Wolek, I. E. Weintraub, A. Von Moll, D. Casbeer, and S.G. Manyam, **Risk-aware autonomy for managing weapon engagement zones**. Submitted.
 
 <p class="pub-tags"><span class="pub-tag">risk-aware planning</span></p>
-
-<p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/wolekrisk/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
 </li>
 <li class="pub" data-year="2026" data-tags="blast loading|quadrotors|computational fluid dynamics"><a class="pub-fig" href="{{ "/assets/figures/2026-kakavitsas-blast.jpg" | relative_url }}"><img src="{{ "/assets/figures/2026-kakavitsas-blast.jpg" | relative_url }}" loading="lazy" alt="Figure from: N. Kakavitsas, A. Willis, D. Maity, and A. Wolek, Fast estimation of the diffractive loads on a quadrotor UAV following "></a>
@@ -401,8 +395,6 @@ D. Sims, A. Wolek, **Optimal spacecraft trajectory design with coupled thruster 
 
 <p class="pub-tags"><span class="pub-tag">spacecraft</span>
 <span class="pub-tag">trajectory optimization</span></p>
-
-<p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/simsoptimal/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
 </li>
 <li class="pub pub--nofig" data-year="" data-tags="path planning">
@@ -411,8 +403,6 @@ D. Sims, A. Wolek, **Optimal spacecraft trajectory design with coupled thruster 
 A. Wolek, D. Maity, A. Von Moll, S. Manyam, T. Chapman, D. Casbeer, I. Weintraub,**Sequential path planning through uncertain risk regions**. Submitted.
 
 <p class="pub-tags"><span class="pub-tag">path planning</span></p>
-
-<p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/woleksequential/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
 </li>
 <li class="pub pub--nofig" data-year="" data-tags="risk-aware planning">
@@ -421,8 +411,6 @@ A. Wolek, D. Maity, A. Von Moll, S. Manyam, T. Chapman, D. Casbeer, I. Weintraub
 D. Maity, A. Wolek, A. Von Moll, S. Manyam, T. Chapman, D. Casbeer, I. Weintraub,**Minimum-time paths exploiting escorts in the presence of mobile pursuers**. Submitted.
 
 <p class="pub-tags"><span class="pub-tag">risk-aware planning</span></p>
-
-<p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/maityminimum/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
 </li>
 <li class="pub pub--nofig" data-year="" data-tags="Lyapunov stability|reinforcement learning|neural networks">
@@ -435,8 +423,6 @@ F. Rankin, A. Wolek, A. Willis, and D. Maity, **Neural switching control with Ly
 <p class="pub-tags"><span class="pub-tag">Lyapunov stability</span>
 <span class="pub-tag">reinforcement learning</span>
 <span class="pub-tag">neural networks</span></p>
-
-<p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/rankinneural/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
 </li>
 <li class="pub" data-year="2025" data-tags="wave energy converters"><a class="pub-fig" href="{{ "/assets/figures/2025-hashemi-powernet.jpg" | relative_url }}"><img src="{{ "/assets/figures/2025-hashemi-powernet.jpg" | relative_url }}" loading="lazy" alt="Figure from: Z. Hashemi, D. Maity, and A. Wolek, POWER-Net: Predictive optimization and wave energy regulation in networked WEC syste"></a>
