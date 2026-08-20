@@ -576,6 +576,8 @@ J. McMahon, H. Yetkin, A. Wolek, Z. Waters, and D. J. Stilwell, **[Towards real-
 
 M. A. Wilson, J. McMahon, A. Wolek, D. Aha, and B. Houston, **[Toward goal reasoning for AUVs: responding to unexpected agents.](http://makro.ink/ijcai2016grw/papers/wilsonEtAl.towardGoalReasoningforAUVs.pdf)** In Proc. Workshop on Goal Reasoning at the 25th Int. Joint Conf. Artificial Intelligence, New York, NY, 2016.
 
+<p class="pub-summary">Preliminary work applying a goal reasoning agent to an underwater vehicle in a partially observable, dynamic environment: an AUV pursuing a survey goal unexpectedly detects a potentially hostile surface vessel. Simulations run ahead of at-sea tests suggest goal-driven autonomy can reason about the situation within the computation available on an underwater platform.</p>
+
 <p class="pub-tags"><span class="pub-tag">goal reasoning</span><span class="pub-tag">underwater vehicles</span><span class="pub-tag">field robotics</span></p>
 </div>
 </li>
