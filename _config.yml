@@ -25,6 +25,13 @@ baseurl                  : "/arsl"
 repository               : "robotics-uncc/arsl"
 logo                     : "/assets/images/2023-04/ARSL_clearb.png"
 
+# Fallback preview image for pages that set no header image of their own —
+# without it only the homepage gets a card when a link is shared. The homepage
+# still uses its own hero (header.overlay_image wins in _includes/seo.html);
+# this is the same photograph, so the two agree.
+og_image                 : "/assets/images/2025-05/dji_0038.jpg"
+og_image_alt             : "An ARSL quadrotor in flight over the UNC Charlotte campus"
+
 atom_feed:
   hide                   : true
 

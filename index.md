@@ -3,6 +3,7 @@ layout: splash
 permalink: /
 title: "Autonomous Robots and Systems Laboratory"
 excerpt: "ARSL &middot; UNC Charlotte"
+description: "The Autonomous Robots and Systems Laboratory at UNC Charlotte: research in aerospace and ocean vehicle guidance, dynamics, control, and path planning."
 header:
   overlay_image: /assets/images/2025-05/dji_0038.jpg
   overlay_filter: 0.55

@@ -4,9 +4,9 @@ title: "Teaching"
 permalink: /teaching/
 ---
 
-## PHD Graduate Courses
+## Ph.D. Graduate Courses
 ### MEGR 7090/8090: Dynamic System Learning and Estimation (UNC Charlotte)
-Review of linear systems and probability theory, observability, Luenberg observer, system ID via least-square parameter estimation and stepwise model determination, maximum likelihood estimation, Kalman filters (discrete-time, continuous-time, extended KF, unscented KF), recursive Bayesian estimation, particle filters, machine-learning-based regression (neural networks and Gaussian processes) for dynamic system modeling, and dynamic mode decomposition.  
+Review of linear systems and probability theory, observability, Luenberger observer, system ID via least-square parameter estimation and stepwise model determination, maximum likelihood estimation, Kalman filters (discrete-time, continuous-time, extended KF, unscented KF), recursive Bayesian estimation, particle filters, machine-learning-based regression (neural networks and Gaussian processes) for dynamic system modeling, and dynamic mode decomposition.  
 **Textbooks:** (1) D. Simon, Optimal State Estimation: Kalman, H infinity, and Nonlinear Approaches, John Wiley & Sons, 2006. (2) course lecture notes.  
 **Semesters Taught:** Fall 2022, Fall 2024
 
@@ -28,7 +28,7 @@ Bug algorithms, configuration spaces, forward/inverse kinematics for manipulator
 
 ## Undergraduate Courses
 ### MEGR 3310: Flight Mechanics (UNC Charlotte)
-This course is an introduction to the performance analysis and design of flight vehicles. Topics include: a) basic principles of flight-vehicle aerodynamics, b) performance of aircraft in gliding, climbing, level, and turning flight, c) estimation of take-off and landing distance distances as well as range and endurance, d) introduction to flight-vehicle design, and e) introduction to more advanced topics in flight modeling, simulation, and control.  
+This course is an introduction to the performance analysis and design of flight vehicles. Topics include: a) basic principles of flight-vehicle aerodynamics, b) performance of aircraft in gliding, climbing, level, and turning flight, c) estimation of take-off and landing distances as well as range and endurance, d) introduction to flight-vehicle design, and e) introduction to more advanced topics in flight modeling, simulation, and control.  
 **Textbooks:** (1) J. D. Anderson, Introduction to Flight, McGraw Hill, 2022 (9th edition); (2) J. G. Leishman, Eagle Pubs, Introduction to Aerospace Flight Vehicles, 2022, (3) B. Etkin, and L. D. Reid. Dynamics of flight: stability and control. John Wiley & Sons, 1995.  
 **Semesters:** Fall 2026
 
@@ -43,7 +43,7 @@ Particle kinematics and kinetics (2D), reference frames (rectangular, polar, pat
 **Semesters:** Fall 2021, Fall 2022, Fall 2023, Fall 2024, Fall 2025
 
 ### MEGR 3122: Dynamic Systems II (UNC Charlotte)
-Review of 1st and 2nd Order ODEs, Laplace transforms, inverse Laplace transforms, ODE solutions via Laplace transform, MATLAB simulation, damped harmonic oscillator, transfer functions for translational and rotational motion, lumped parameter models, basic models of thermal and electrical systems, sinsuoidal transfer function, resonance, transmissibility, vibration isolators, multi-DOF vibrations (modes/mode shapes), vibration aborbers, Bode diagrams, intro to block diagrams and PID control.  
+Review of 1st and 2nd Order ODEs, Laplace transforms, inverse Laplace transforms, ODE solutions via Laplace transform, MATLAB simulation, damped harmonic oscillator, transfer functions for translational and rotational motion, lumped parameter models, basic models of thermal and electrical systems, sinusoidal transfer function, resonance, transmissibility, vibration isolators, multi-DOF vibrations (modes/mode shapes), vibration absorbers, Bode diagrams, intro to block diagrams and PID control.  
 **Textbooks:** (1) M. A. Davies, T. L. Schmitz, System Dynamics for Mechanical Engineers, Springer, 2015; (2) K. Ogata. System Dynamics, Pearson Prentice Hall, 2004.  
 **Semesters:** Spring 2021, Spring 2022, Spring 2023, Spring 2024
 

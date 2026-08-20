@@ -5,6 +5,8 @@ main:
     url: /research/
   - title: "Publications"
     url: /publications/
+  - title: "Software"
+    url: /software/
   - title: "People"
     url: /people/
   - title: "Facilities"
