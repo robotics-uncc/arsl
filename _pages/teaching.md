@@ -2,9 +2,6 @@
 layout: single
 title: "Teaching"
 permalink: /teaching/
-toc: true
-toc_sticky: true
-toc_label: "Teaching"
 ---
 
 ## PHD Graduate Courses
