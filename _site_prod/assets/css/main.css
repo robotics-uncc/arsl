@@ -5292,7 +5292,13 @@ body {
 /* Figures are plots and multi-panel diagrams drawn on transparent or white
    grounds, so they get a white mat and survive any skin, light or dark. */
 figure.fig {
-  margin: 2em 0;
+  /* Now that the page runs the full width of the window, an unconstrained
+     figure becomes enormous. Cap it at a size that stays legible without
+     dominating the page, and centre it in the column. */
+  /* proportional as well as absolute, so the cap still bites on a narrow
+     window where 620px would be most of the column */
+  max-width: min(620px, 70%);
+  margin: 2em auto;
   padding: 0.75em;
   background: #fff;
   border: 1px solid #cecfd1;
@@ -5519,6 +5525,7 @@ figure.fig figcaption {
 
 .pub-fig {
   display: block;
+  max-width: 260px;
 }
 .pub-fig img {
   display: block;
@@ -5597,6 +5604,20 @@ figure.fig figcaption {
 .feature-cta {
   margin: 0.5em 0 2em;
   text-align: center;
+}
+
+/* Pages that want their figures smaller still. Outreach carries a single
+   photo, which at the general cap still dominated the page. */
+.figs-half figure.fig {
+  max-width: min(520px, 50%);
+}
+
+/* On a phone a capped figure just wastes width. */
+@media (max-width: 48em) {
+  figure.fig,
+  .figs-half figure.fig {
+    max-width: 100%;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

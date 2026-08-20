@@ -12,8 +12,6 @@ classes: wide
 <div class="pub-body" markdown="1">
 
 A. Wolek and D. Maity, **Optimal duty-cycle-based control design to regulate a linear system**. Submitted.
-
-<p class="pub-tags"><span class="pub-tag">Simulink simulation</span></p>
 </div>
 </li>
 <li class="pub pub--nofig">
@@ -41,7 +39,7 @@ N. Kakavitsas, A. Willis, D. Maity, and A. Wolek, **[Fast estimation of the diff
 
 <p class="pub-summary">Estimates the transient loads an explosive blast wave exerts on a quadrotor, modelling the airframe as four motor spheres and a central body joined by rods. Single-point overpressure models from the literature are extended to a wave sweeping over the moving vehicle, and checked against CFD.</p>
 
-<p class="pub-tags"><span class="pub-tag">blast loading</span><span class="pub-tag">fixed-wing UAVs</span><span class="pub-tag">quadrotors</span><span class="pub-tag">computational fluid dynamics</span></p>
+<p class="pub-tags"><span class="pub-tag">blast loading</span><span class="pub-tag">quadrotors</span><span class="pub-tag">computational fluid dynamics</span></p>
 </div>
 </li>
 <li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2026-hague-arxiv-tracking.jpg" | relative_url }}"><img src="{{ "/assets/figures/2026-hague-arxiv-tracking.jpg" | relative_url }}" loading="lazy" alt="Figure from: C. Hague and A. Wolek, Occlusion-aware ground target tracking by a Dubins vehicle using visibility volumes. AIAA J. Guid"></a>
@@ -91,7 +89,7 @@ C. Hague, A. Willis, D. Maity, and A. Wolek, **[Minimum-time Dubins airplane tou
 
 <p class="pub-summary">Plans a minimum-time inspection tour for a 3D Dubins airplane that must hold each target in view, unoccluded, for a required dwell time. Treats 3D visibility, camera model (body-fixed or gimbaled) and dwell constraints together, where earlier methods handled them separately.</p>
 
-<p class="pub-tags"><span class="pub-tag">Dubins paths</span><span class="pub-tag">fixed-wing UAVs</span><span class="pub-tag">visibility volumes</span><span class="pub-tag">occlusion-aware planning</span><span class="pub-tag">TSP</span></p>
+<p class="pub-tags"><span class="pub-tag">Dubins paths</span><span class="pub-tag">fixed-wing UAVs</span><span class="pub-tag">visibility volumes</span><span class="pub-tag">occlusion-aware planning</span><span class="pub-tag">traveling salesman problem</span></p>
 </div>
 </li>
 <li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2024-zhang-sensors.jpg" | relative_url }}"><img src="{{ "/assets/figures/2024-zhang-sensors.jpg" | relative_url }}" loading="lazy" alt="Figure from: J. Zhang, A. Wolek, and A. Willis. UAV-borne mapping algorithms for low-altitude and high-speed drone applications. Sens"></a>
@@ -101,7 +99,7 @@ J. Zhang, A. Wolek, and A. Willis. **[UAV-borne mapping algorithms for low-altit
 
 <p class="pub-summary">Benchmarks three visual odometry and mapping algorithms — DSO, Stereo DSO and DSO Lite — for low-altitude, high-speed drone flight. Experiments run in a high-realism environment built by fusing the AirSim simulator with Google 3D map models via Cesium Tiles, trading geometric accuracy against computational speed.</p>
 
-<p class="pub-tags"><span class="pub-tag">fixed-wing UAVs</span><span class="pub-tag">digital twin simulation</span><span class="pub-tag">visual odometry</span></p>
+<p class="pub-tags"><span class="pub-tag">digital twin simulation</span><span class="pub-tag">visual odometry</span></p>
 </div>
 </li>
 <li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2024-brancato-access.jpg" | relative_url }}"><img src="{{ "/assets/figures/2024-brancato-access.jpg" | relative_url }}" loading="lazy" alt="Figure from: M. Brancato and A. Wolek. Adaptive sampling of a stationary Gaussian spatial process by a team of robots with heterogene"></a>
@@ -151,7 +149,7 @@ A. Wolek, J. McMahon, B. R. Dzikowicz, and B. H. Houston, **[The orbiting Dubins
 
 <p class="pub-summary">Defines the orbiting Dubins traveling salesman problem: a minimum-time tour in which a curvature-constrained vehicle inspects each target by orbiting it along a circular arc. Motivated by minehunting, where sonar must observe an object from several relative geometries to classify it.</p>
 
-<p class="pub-tags"><span class="pub-tag">Dubins paths</span><span class="pub-tag">TSP</span><span class="pub-tag">search theory</span><span class="pub-tag">underwater vehicles</span></p>
+<p class="pub-tags"><span class="pub-tag">Dubins paths</span><span class="pub-tag">traveling salesman problem</span><span class="pub-tag">search theory</span><span class="pub-tag">underwater vehicles</span></p>
 </div>
 </li>
 <li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2021-wolek-sciencerobotics.jpg" | relative_url }}"><img src="{{ "/assets/figures/2021-wolek-sciencerobotics.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Wolek, D. A. Paley, A 3D underwater robotic collective called Blueswarm. Science Robotics, 6(50):eabf4315, 2021."></a>
@@ -159,7 +157,7 @@ A. Wolek, J. McMahon, B. R. Dzikowicz, and B. H. Houston, **[The orbiting Dubins
 
 A. Wolek, D. A. Paley, **[A 3D underwater robotic collective called Blueswarm](http://robotics.sciencemag.org/cgi/content/full/6/50/eabf4315?ijkey=ijQDZK6UycwEQ&keytype=ref&siteid=robotics)**. Science Robotics, 6(50):eabf4315, 2021.
 
-<p class="pub-summary">A Focus commentary rather than a research article: it discusses Blueswarm, a collective of agile fish-like underwater robots built by another group, which coordinate implicitly through vision alone to produce self-organizing three-dimensional behaviors in a laboratory tank. See the article for details of that system.</p>
+<p class="pub-summary">A Focus commentary discussing Blueswarm, a collective of agile fish-like underwater robots built by researchers at Harvard, which coordinate implicitly through vision alone to produce self-organizing three-dimensional behaviors in a laboratory tank.</p>
 
 <p class="pub-tags"><span class="pub-tag">multi-agent coordination</span><span class="pub-tag">underwater vehicles</span><span class="pub-tag">spotlight article</span></p>
 </div>
@@ -199,6 +197,8 @@ A. Wolek, B. R. Dzikowicz, J. McMahon, and B. H. Houston, **[At-sea evaluation o
 
 M. A. Wilson, J. McMahon, A. Wolek, D. Aha, and B. H. Houston, **[Goal reasoning for autonomous underwater vehicles: responding to unexpected agents.](https://doi.org/10.3233/AIC-180755)** AI Comm. 31(2):151-166, 2018.
 
+<p class="pub-summary">Applies a goal reasoning agent to an underwater vehicle operating in a partially observable, dynamic environment: an AUV pursuing a survey goal unexpectedly detects a potentially hostile surface vessel and must decide what to do. Simulations show goal-driven autonomy can reason about the situation within the limited computation available on an underwater platform. (Summarised from the conference version of this work; the journal paper is not on file.)</p>
+
 <p class="pub-tags"><span class="pub-tag">underwater vehicles</span><span class="pub-tag">goal reasoning</span><span class="pub-tag">field robotics</span></p>
 </div>
 </li>
@@ -219,7 +219,7 @@ A. Wolek, E. M. Cliff, and C. A. Woolsey, **[Time-optimal path planning for a ki
 
 <p class="pub-summary">Solves minimum-time paths for a kinematic car controlling both speed and turn rate. The minimum principle plus geometric argument reduces the problem to a finite candidate set, and reveals that optimal paths can include 'cornering' turns taken at minimum speed and maximum turn rate.</p>
 
-<p class="pub-tags"><span class="pub-tag">path planning</span><span class="pub-tag">PMP</span><span class="pub-tag">Dubins paths</span></p>
+<p class="pub-tags"><span class="pub-tag">path planning</span><span class="pub-tag">Pontryagin's minimum principle</span><span class="pub-tag">Dubins paths</span></p>
 </div>
 </li>
 <li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2016-wolek-jgcd-energyoptglides.jpg" | relative_url }}"><img src="{{ "/assets/figures/2016-wolek-jgcd-energyoptglides.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Wolek, E. M. Cliff, and C. A. Woolsey, Energy-optimal paths for a glider with speed and load factor controls. AIAA J."></a>
@@ -229,7 +229,7 @@ A. Wolek, E. M. Cliff, and C. A. Woolsey, **[Energy-optimal paths for a glider w
 
 <p class="pub-summary">Finds the path losing the least altitude for a glider reaching a specified position and heading, with speed and load factor as controls — extending Dubins-style planning to a vehicle whose sink rate depends on how it is flown.</p>
 
-<p class="pub-tags"><span class="pub-tag">energy-optimal flight</span><span class="pub-tag">gliders</span><span class="pub-tag">Dubins paths</span><span class="pub-tag">PMP</span></p>
+<p class="pub-tags"><span class="pub-tag">energy-optimal flight</span><span class="pub-tag">gliders</span><span class="pub-tag">Dubins paths</span><span class="pub-tag">Pontryagin's minimum principle</span></p>
 </div>
 </li>
 <li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2016-ts-wolekwoolsey.jpg" | relative_url }}"><img src="{{ "/assets/figures/2016-ts-wolekwoolsey.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Wolek, and C. A. Woolsey, Optimal paths in still air for a sailplane with a quadratic glide polar. Technical Soaring,"></a>
@@ -239,7 +239,7 @@ A. Wolek, and C. A. Woolsey, **[Optimal paths in still air for a sailplane with 
 
 <p class="pub-summary">Minimizes altitude loss for a sailplane maneuvering in still air to a nearby position and heading, modelling it from above as a kinematic car with bounded speed and turn rate, and a sink rate set by a quadratic glide polar.</p>
 
-<p class="pub-tags"><span class="pub-tag">energy-optimal flight</span><span class="pub-tag">gliders</span><span class="pub-tag">PMP</span></p>
+<p class="pub-tags"><span class="pub-tag">energy-optimal flight</span><span class="pub-tag">gliders</span><span class="pub-tag">Pontryagin's minimum principle</span></p>
 </div>
 </li>
 <li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2015-wolek-jgcd-feasibledubins-f3-1.jpg" | relative_url }}"><img src="{{ "/assets/figures/2015-wolek-jgcd-feasibledubins-f3-1.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Wolek, and C. A. Woolsey, Feasible Dubins paths in the presence of unknown, unsteady velocity disturbances. AIAA J. G"></a>
@@ -298,7 +298,7 @@ F. Rankin, A. Wolek, A. Willis, and D. Maity, **Neural switching control with Ly
 
 <p class="pub-summary">Combines reinforcement-learning control policies with Lyapunov stability constraints for UAVs carrying several controllers, extending neuro-Lyapunov methods beyond the usual single-controller, single-Lyapunov-function case.</p>
 
-<p class="pub-tags"><span class="pub-tag">Lyapunov stability</span><span class="pub-tag">fixed-wing UAVs</span><span class="pub-tag">reinforcement learning</span><span class="pub-tag">neural networks</span></p>
+<p class="pub-tags"><span class="pub-tag">Lyapunov stability</span><span class="pub-tag">reinforcement learning</span><span class="pub-tag">neural networks</span></p>
 </div>
 </li>
 <li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2025-hashemi-powernet.jpg" | relative_url }}"><img src="{{ "/assets/figures/2025-hashemi-powernet.jpg" | relative_url }}" loading="lazy" alt="Figure from: Z. Hashemi, D. Maity, and A. Wolek, POWER-Net: Predictive optimization and wave energy regulation in networked WEC syste"></a>
@@ -328,7 +328,7 @@ C. Beam, A. Wolek, and A. Willis, **[Recreation of 3D UAS flights in high-realis
 
 <p class="pub-summary">Recreates a real UAV flight inside a digital twin built from Unreal Engine, AirSim and the Cesium/Google Maps plugin, then measures how closely image telemetry and generated maps from the simulated flight match the real one.</p>
 
-<p class="pub-tags"><span class="pub-tag">fixed-wing UAVs</span><span class="pub-tag">digital twin simulation</span></p>
+<p class="pub-tags"><span class="pub-tag">digital twin simulation</span></p>
 </div>
 </li>
 <li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2025-parab-windfieldfourier.jpg" | relative_url }}"><img src="{{ "/assets/figures/2025-parab-windfieldfourier.jpg" | relative_url }}" loading="lazy" alt="Figure from: S. Parab, A. Wolek, D. Maity, and A. Willis, Real-time simulation of complex 4D wind fields and gusts for UAS control sy"></a>
@@ -348,7 +348,7 @@ C. Hahn, A. Wolek, and M. Uddin, **[Characterizing vortex ring state during UAV 
 
 <p class="pub-summary">Uses CFD to characterize when a UAV descending onto a moving ground vehicle enters vortex ring state — the condition in which the rotor settles into its own downwash and loses lift — during autonomous landing maneuvers.</p>
 
-<p class="pub-tags"><span class="pub-tag">blast loading</span><span class="pub-tag">computational fluid dynamics</span><span class="pub-tag">fixed-wing UAVs</span></p>
+<p class="pub-tags"><span class="pub-tag">blast loading</span><span class="pub-tag">computational fluid dynamics</span></p>
 </div>
 </li>
 <li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2025-kakavitsas-aiaa-morphology-f1-1.jpg" | relative_url }}"><img src="{{ "/assets/figures/2025-kakavitsas-aiaa-morphology-f1-1.jpg" | relative_url }}" loading="lazy" alt="Figure from: N. Kakavitsas and A. Wolek, Mapping urban wind fields via Gaussian processes regression models that consider building mo"></a>
@@ -368,7 +368,7 @@ N. Kakavitsas, A. Willis, D. Maity, and A. Wolek, **[A quadrotor model for evalu
 
 <p class="pub-summary">Models a quadrotor as four spherical motor elements and a central body connected by rods, driven by blast overpressure and induced-velocity models adapted from the literature and compared against CFD, to predict the vehicle's dynamic response.</p>
 
-<p class="pub-tags"><span class="pub-tag">blast loading</span><span class="pub-tag">quadrotors</span><span class="pub-tag">computational fluid dynamics</span><span class="pub-tag">fixed-wing UAVs</span></p>
+<p class="pub-tags"><span class="pub-tag">blast loading</span><span class="pub-tag">quadrotors</span><span class="pub-tag">computational fluid dynamics</span></p>
 </div>
 </li>
 <li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2025-wolek-aiaa-decayingspeed-f1-1.jpg" | relative_url }}"><img src="{{ "/assets/figures/2025-wolek-aiaa-decayingspeed-f1-1.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Wolek, D. Casbeer, I. Weintraub, and A. Von Moll, Maximum kinetic energy paths for a decaying-speed Dubins vehicle , "></a>
@@ -378,7 +378,7 @@ A. Wolek, D. Casbeer, I. Weintraub, and A. Von Moll, **[Maximum kinetic energy p
 
 <p class="pub-summary">Steers a Dubins vehicle whose speed decays linearly with turn rate to a terminal point and heading while retaining maximum kinetic energy. Pontryagin's minimum principle yields extremals composed of straight segments and spiral-shaped turns.</p>
 
-<p class="pub-tags"><span class="pub-tag">Dubins paths</span><span class="pub-tag">energy-optimal flight</span><span class="pub-tag">PMP</span></p>
+<p class="pub-tags"><span class="pub-tag">Dubins paths</span><span class="pub-tag">energy-optimal flight</span><span class="pub-tag">Pontryagin's minimum principle</span></p>
 </div>
 </li>
 <li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2024-moradi-mecc-submission.jpg" | relative_url }}"><img src="{{ "/assets/figures/2024-moradi-mecc-submission.jpg" | relative_url }}" loading="lazy" alt="Figure from: H. Moradi, A. Wolek, and S. D. Kelly, Mechanics and control of a freely rolling two-link robot with joint actuation , In"></a>
@@ -504,7 +504,7 @@ C. Hague, A. Willis, D. Maity, and A. Wolek, **[Planning visual inspection tours
 
 <p class="pub-summary">Plans a minimum-length tour for a 3D Dubins airplane inspecting targets on the ground or on the exterior of buildings, modelled as 2.5D extruded polygons, with visibility volumes defining where each target can be viewed without occlusion.</p>
 
-<p class="pub-tags"><span class="pub-tag">Dubins paths</span><span class="pub-tag">occlusion-aware planning</span><span class="pub-tag">fixed-wing UAVs</span><span class="pub-tag">visibility volumes</span></p>
+<p class="pub-tags"><span class="pub-tag">Dubins paths</span><span class="pub-tag">occlusion-aware planning</span><span class="pub-tag">visibility volumes</span></p>
 </div>
 </li>
 <li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2021-goswami-acc.jpg" | relative_url }}"><img src="{{ "/assets/figures/2021-goswami-acc.jpg" | relative_url }}" loading="lazy" alt="Figure from: D. Goswami, A. Wolek, D. A. Paley, Data-driven estimation using an Echo-State Neural Network equipped with an Ensemble K"></a>
@@ -524,7 +524,7 @@ P. Ghanem, A. Wolek, D. A. Paley, **[Planar formation control of a school of rob
 
 <p class="pub-summary">Nonlinear control for parallel and circular collective motion in a school of robotic fish modelled as Chaplygin sleighs driven by internal rotors, coupled through a connected, undirected communication graph.</p>
 
-<p class="pub-tags"><span class="pub-tag">formation control</span><span class="pub-tag">multi-agent coordination</span><span class="pub-tag">Chaplygin sleigh model</span><span class="pub-tag">feedback linearization</span><span class="pub-tag">nonholonomic reduction</span></p>
+<p class="pub-tags"><span class="pub-tag">formation control</span><span class="pub-tag">multi-agent coordination</span><span class="pub-tag">Chaplygin sleigh model</span><span class="pub-tag">nonholonomic reduction</span></p>
 </div>
 </li>
 <li class="pub"><a class="pub-fig" href="{{ "/assets/figures/2019-yetkin-icra.jpg" | relative_url }}"><img src="{{ "/assets/figures/2019-yetkin-icra.jpg" | relative_url }}" loading="lazy" alt="Figure from: H. Yetkin, J. McMahon, N. Topin, A. Wolek, Z. Waters, and D. Stilwell, Online planning for autonomous underwater vehicle"></a>
