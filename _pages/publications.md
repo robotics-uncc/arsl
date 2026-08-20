@@ -2,9 +2,6 @@
 layout: single
 title: "Publications"
 permalink: /publications/
-toc: true
-toc_sticky: true
-toc_label: "Publications"
 classes: wide
 ---
 

@@ -2,6 +2,7 @@
 layout: single
 title: "Outreach"
 permalink: /outreach/
+classes: figs-half
 ---
 
 Our lab participates in and organizes various outreach events (summer camps, lab demos, tours) each year to educate about our research and promote STEM education, aerospace engineering, and robotics for K-12 students in the Charlotte region. The lab also provides opportunities for undergraduate students to gain research experience and supports undergraduate student competition teams and professional organizations such as the Design-Build-Fly team, AIAA Charlotte Student Branch, and Charlotte Space Program. We also host many industry, academic, and government visitors on campus.
