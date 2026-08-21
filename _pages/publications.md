@@ -9,7 +9,7 @@ classes: wide
 <label for="pub-filter-year">Year</label>
 <select id="pub-filter-year"><option value="">All years</option><option value="2026">2026</option><option value="2025">2025</option><option value="2024">2024</option><option value="2023">2023</option><option value="2022">2022</option><option value="2021">2021</option><option value="2020">2020</option><option value="2019">2019</option><option value="2018">2018</option><option value="2017">2017</option><option value="2016">2016</option><option value="2015">2015</option><option value="2012">2012</option><option value="2011">2011</option><option value="2010">2010</option><option value="2009">2009</option></select>
 <label for="pub-filter-tag">Keyword</label>
-<select id="pub-filter-tag"><option value="">All keywords</option><option value="A* search">A* search</option><option value="acoustics">acoustics</option><option value="adaptive sampling">adaptive sampling</option><option value="aerodynamic modelling">aerodynamic modelling</option><option value="Bayesian estimation">Bayesian estimation</option><option value="bearings-only tracking">bearings-only tracking</option><option value="blast loading">blast loading</option><option value="Chaplygin sleigh model">Chaplygin sleigh model</option><option value="computational fluid dynamics">computational fluid dynamics</option><option value="computer vision">computer vision</option><option value="consensus &amp; graph theory">consensus &amp; graph theory</option><option value="cooperative navigation">cooperative navigation</option><option value="coverage planning">coverage planning</option><option value="cross-track error">cross-track error</option><option value="curvature-constrained motion">curvature-constrained motion</option><option value="dataset">dataset</option><option value="Dubins paths">Dubins paths</option><option value="echosounder / bathymetry">echosounder / bathymetry</option><option value="end-to-end learning">end-to-end learning</option><option value="energy-optimal flight">energy-optimal flight</option><option value="engagement / weapon systems">engagement / weapon systems</option><option value="engineering education">engineering education</option><option value="event-triggered control">event-triggered control</option><option value="experimental validation">experimental validation</option><option value="feedback linearization">feedback linearization</option><option value="field experiments">field experiments</option><option value="fixed-wing UAVs">fixed-wing UAVs</option><option value="flow field estimation">flow field estimation</option><option value="formation control">formation control</option><option value="Gaussian process regression">Gaussian process regression</option><option value="GNSS positioning">GNSS positioning</option><option value="goal reasoning">goal reasoning</option><option value="graph search">graph search</option><option value="ground robots">ground robots</option><option value="hardware design">hardware design</option><option value="heterogeneous teams">heterogeneous teams</option><option value="high-realism simulation">high-realism simulation</option><option value="hydrodynamic modelling">hydrodynamic modelling</option><option value="indoor water tank">indoor water tank</option><option value="inspection planning">inspection planning</option><option value="Kalman filtering">Kalman filtering</option><option value="least-squares estimation">least-squares estimation</option><option value="linear quadratic regulator">linear quadratic regulator</option><option value="Lyapunov control">Lyapunov control</option><option value="mapping">mapping</option><option value="mixed-integer programming">mixed-integer programming</option><option value="Monte Carlo tree search">Monte Carlo tree search</option><option value="morphing wings">morphing wings</option><option value="multi-agent coordination">multi-agent coordination</option><option value="multitarget tracking">multitarget tracking</option><option value="mutual information">mutual information</option><option value="neural networks">neural networks</option><option value="nonlinear control">nonlinear control</option><option value="numerical optimal control">numerical optimal control</option><option value="occlusion-aware planning">occlusion-aware planning</option><option value="optimal control">optimal control</option><option value="particle filtering">particle filtering</option><option value="passive sonar">passive sonar</option><option value="path planning">path planning</option><option value="performance characterization">performance characterization</option><option value="Pontryagin&#x27;s minimum principle">Pontryagin&#x27;s minimum principle</option><option value="potential flow / dipole model">potential flow / dipole model</option><option value="probability hypothesis density filter">probability hypothesis density filter</option><option value="propellers">propellers</option><option value="pursuit-evasion">pursuit-evasion</option><option value="quadrotors">quadrotors</option><option value="reinforcement learning">reinforcement learning</option><option value="risk-aware planning">risk-aware planning</option><option value="road networks">road networks</option><option value="robotic fish">robotic fish</option><option value="sailplanes">sailplanes</option><option value="sampling-based planning">sampling-based planning</option><option value="search theory">search theory</option><option value="software-in-the-loop">software-in-the-loop</option><option value="spacecraft">spacecraft</option><option value="spherical pendulum">spherical pendulum</option><option value="spotlight article">spotlight article</option><option value="surface vessels">surface vessels</option><option value="survey / review">survey / review</option><option value="switching / hybrid control">switching / hybrid control</option><option value="takeoff &amp; landing">takeoff &amp; landing</option><option value="target tracking">target tracking</option><option value="task allocation &amp; scheduling">task allocation &amp; scheduling</option><option value="trajectory optimization">trajectory optimization</option><option value="transportation agencies">transportation agencies</option><option value="traveling salesman problem">traveling salesman problem</option><option value="uncrewed aerial vehicles">uncrewed aerial vehicles</option><option value="underwater gliders">underwater gliders</option><option value="underwater vehicles">underwater vehicles</option><option value="visibility volumes">visibility volumes</option><option value="visual odometry &amp; SLAM">visual odometry &amp; SLAM</option><option value="vortex lattice method">vortex lattice method</option><option value="vortex ring state">vortex ring state</option><option value="wave energy converters">wave energy converters</option><option value="wind field estimation">wind field estimation</option></select>
+<select id="pub-filter-tag"><option value="">All keywords</option><option value="A* search">A* search</option><option value="acoustics">acoustics</option><option value="adaptive sampling">adaptive sampling</option><option value="aerodynamic modelling">aerodynamic modelling</option><option value="Bayesian estimation">Bayesian estimation</option><option value="bearings-only tracking">bearings-only tracking</option><option value="blast loading">blast loading</option><option value="Chaplygin sleigh model">Chaplygin sleigh model</option><option value="computational fluid dynamics">computational fluid dynamics</option><option value="computer vision">computer vision</option><option value="consensus &amp; graph theory">consensus &amp; graph theory</option><option value="cooperative navigation">cooperative navigation</option><option value="coverage planning">coverage planning</option><option value="cross-track error">cross-track error</option><option value="curvature-constrained motion">curvature-constrained motion</option><option value="dataset">dataset</option><option value="Dubins paths">Dubins paths</option><option value="echosounder / bathymetry">echosounder / bathymetry</option><option value="end-to-end learning">end-to-end learning</option><option value="energy-optimal flight">energy-optimal flight</option><option value="engagement / weapon systems">engagement / weapon systems</option><option value="engineering education">engineering education</option><option value="event-triggered control">event-triggered control</option><option value="experimental validation">experimental validation</option><option value="feedback linearization">feedback linearization</option><option value="field experiments">field experiments</option><option value="fixed-wing UAVs">fixed-wing UAVs</option><option value="flow field estimation">flow field estimation</option><option value="formation control">formation control</option><option value="Gaussian process regression">Gaussian process regression</option><option value="gliders">gliders</option><option value="GNSS positioning">GNSS positioning</option><option value="goal reasoning">goal reasoning</option><option value="graph search">graph search</option><option value="ground robots">ground robots</option><option value="hardware design">hardware design</option><option value="heterogeneous teams">heterogeneous teams</option><option value="high-realism simulation">high-realism simulation</option><option value="indoor water tank">indoor water tank</option><option value="inspection planning">inspection planning</option><option value="Kalman filtering">Kalman filtering</option><option value="least-squares estimation">least-squares estimation</option><option value="linear quadratic regulator">linear quadratic regulator</option><option value="linear systems">linear systems</option><option value="Lyapunov control">Lyapunov control</option><option value="mapping">mapping</option><option value="mixed-integer programming">mixed-integer programming</option><option value="Monte Carlo tree search">Monte Carlo tree search</option><option value="morphing wings">morphing wings</option><option value="multi-agent coordination">multi-agent coordination</option><option value="multitarget tracking">multitarget tracking</option><option value="mutual information">mutual information</option><option value="neural networks">neural networks</option><option value="nonlinear control">nonlinear control</option><option value="novel actuators">novel actuators</option><option value="numerical optimal control">numerical optimal control</option><option value="occlusion-aware planning">occlusion-aware planning</option><option value="optimal control">optimal control</option><option value="particle filtering">particle filtering</option><option value="passive sonar">passive sonar</option><option value="path planning">path planning</option><option value="performance characterization">performance characterization</option><option value="Pontryagin&#x27;s minimum principle">Pontryagin&#x27;s minimum principle</option><option value="potential flow / dipole model">potential flow / dipole model</option><option value="probability hypothesis density filter">probability hypothesis density filter</option><option value="propellers">propellers</option><option value="pursuit-evasion">pursuit-evasion</option><option value="quadrotors">quadrotors</option><option value="regulator">regulator</option><option value="reinforcement learning">reinforcement learning</option><option value="risk-aware planning">risk-aware planning</option><option value="road networks">road networks</option><option value="robotic fish">robotic fish</option><option value="sampling-based planning">sampling-based planning</option><option value="search theory">search theory</option><option value="software-in-the-loop">software-in-the-loop</option><option value="spacecraft">spacecraft</option><option value="spherical pendulum">spherical pendulum</option><option value="spotlight article">spotlight article</option><option value="stability analysis">stability analysis</option><option value="surface vessels">surface vessels</option><option value="survey / review">survey / review</option><option value="switching / hybrid control">switching / hybrid control</option><option value="takeoff &amp; landing">takeoff &amp; landing</option><option value="target tracking">target tracking</option><option value="task allocation &amp; scheduling">task allocation &amp; scheduling</option><option value="trajectory optimization">trajectory optimization</option><option value="transportation agencies">transportation agencies</option><option value="traveling salesman problem">traveling salesman problem</option><option value="uncrewed aerial vehicles">uncrewed aerial vehicles</option><option value="underwater vehicles">underwater vehicles</option><option value="visibility volumes">visibility volumes</option><option value="visual odometry &amp; SLAM">visual odometry &amp; SLAM</option><option value="vortex lattice method">vortex lattice method</option><option value="vortex ring state">vortex ring state</option><option value="wave energy converters">wave energy converters</option><option value="wind field estimation">wind field estimation</option></select>
 <button type="button" id="pub-filter-clear">Clear</button>
 <span class="pub-filter-count" id="pub-filter-count"></span>
 </form>
@@ -18,13 +18,14 @@ classes: wide
 ## Journal Publications and Book Chapters
 
 <ol class="pub-list">
-<li class="pub pub--nofig" data-year="" data-tags="event-triggered control|optimal control">
+<li class="pub pub--nofig" data-year="" data-tags="optimal control|linear systems|regulator">
 <div class="pub-body" markdown="1">
 
 A. Wolek and D. Maity, **Optimal duty-cycle-based control design to regulate a linear system**. Submitted.
 
-<p class="pub-tags"><span class="pub-tag">event-triggered control</span>
-<span class="pub-tag">optimal control</span></p>
+<p class="pub-tags"><span class="pub-tag">optimal control</span>
+<span class="pub-tag">linear systems</span>
+<span class="pub-tag">regulator</span></p>
 </div>
 </li>
 <li class="pub pub--nofig" data-year="" data-tags="uncrewed aerial vehicles|occlusion-aware planning|A* search|road networks|visibility volumes|search theory|Dubins paths">
@@ -371,14 +372,14 @@ A. Wolek, E. M. Cliff, and C. A. Woolsey, **[Time-optimal path planning for a ki
 <p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/wolek2016time/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
 </li>
-<li class="pub" data-year="2016" data-tags="sailplanes|energy-optimal flight|path planning|Pontryagin&#x27;s minimum principle|Dubins paths|numerical optimal control"><a class="pub-fig" href="{{ "/assets/figures/2016-wolek-jgcd-energyoptglides.jpg" | relative_url }}"><img src="{{ "/assets/figures/2016-wolek-jgcd-energyoptglides.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Wolek, E. M. Cliff, and C. A. Woolsey, Energy-optimal paths for a glider with speed and load factor controls. AIAA J."></a>
+<li class="pub" data-year="2016" data-tags="gliders|energy-optimal flight|path planning|Pontryagin&#x27;s minimum principle|Dubins paths|numerical optimal control"><a class="pub-fig" href="{{ "/assets/figures/2016-wolek-jgcd-energyoptglides.jpg" | relative_url }}"><img src="{{ "/assets/figures/2016-wolek-jgcd-energyoptglides.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Wolek, E. M. Cliff, and C. A. Woolsey, Energy-optimal paths for a glider with speed and load factor controls. AIAA J."></a>
 <div class="pub-body" markdown="1">
 
 A. Wolek, E. M. Cliff, and C. A. Woolsey, **[Energy-optimal paths for a glider with speed and load factor controls.](https://doi.org/10.2514/1.G001345)** AIAA J. Guidance, Control, and Dynamics, 39(2):397-405, 2016.
 
 <p class="pub-summary">Finds the path losing the least altitude for a glider reaching a specified position and heading, with speed and load factor as controls — extending Dubins-style planning to a vehicle whose sink rate depends on how it is flown.</p>
 
-<p class="pub-tags"><span class="pub-tag">sailplanes</span>
+<p class="pub-tags"><span class="pub-tag">gliders</span>
 <span class="pub-tag">energy-optimal flight</span>
 <span class="pub-tag">path planning</span>
 <span class="pub-tag">Pontryagin's minimum principle</span>
@@ -388,14 +389,14 @@ A. Wolek, E. M. Cliff, and C. A. Woolsey, **[Energy-optimal paths for a glider w
 <p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/wolek2016energy/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
 </li>
-<li class="pub" data-year="2016" data-tags="sailplanes|Pontryagin&#x27;s minimum principle|optimal control|energy-optimal flight|Dubins paths"><a class="pub-fig" href="{{ "/assets/figures/2016-ts-wolekwoolsey.jpg" | relative_url }}"><img src="{{ "/assets/figures/2016-ts-wolekwoolsey.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Wolek, and C. A. Woolsey, Optimal paths in still air for a sailplane with a quadratic glide polar. Technical Soaring,"></a>
+<li class="pub" data-year="2016" data-tags="gliders|Pontryagin&#x27;s minimum principle|optimal control|energy-optimal flight|Dubins paths"><a class="pub-fig" href="{{ "/assets/figures/2016-ts-wolekwoolsey.jpg" | relative_url }}"><img src="{{ "/assets/figures/2016-ts-wolekwoolsey.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Wolek, and C. A. Woolsey, Optimal paths in still air for a sailplane with a quadratic glide polar. Technical Soaring,"></a>
 <div class="pub-body" markdown="1">
 
 A. Wolek, and C. A. Woolsey, **[Optimal paths in still air for a sailplane with a quadratic glide polar.](https://journals.sfu.ca/ts/index.php/ts/article/view/1246)** Technical Soaring, 40(2):9-23, 2016.
 
 <p class="pub-summary">Minimizes altitude loss for a sailplane maneuvering in still air to a nearby position and heading, modelling it from above as a kinematic car with bounded speed and turn rate, and a sink rate set by a quadratic glide polar.</p>
 
-<p class="pub-tags"><span class="pub-tag">sailplanes</span>
+<p class="pub-tags"><span class="pub-tag">gliders</span>
 <span class="pub-tag">Pontryagin's minimum principle</span>
 <span class="pub-tag">optimal control</span>
 <span class="pub-tag">energy-optimal flight</span>
@@ -497,7 +498,7 @@ Z. Hashemi, D. Maity, and A. Wolek, **[POWER-Net: Predictive optimization and wa
 <p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/hashemi2025power/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
 </li>
-<li class="pub" data-year="2025" data-tags="uncrewed aerial vehicles|reinforcement learning|switching / hybrid control|task allocation &amp; scheduling"><a class="pub-fig" href="{{ "/assets/figures/2025-albool-rlswitching.jpg" | relative_url }}"><img src="{{ "/assets/figures/2025-albool-rlswitching.jpg" | relative_url }}" loading="lazy" alt="Figure from: I. Albool, A. Willis, A. Wolek, and D. Maity, A reinforcement learning framework to adaptively schedule controllers for "></a>
+<li class="pub" data-year="2025" data-tags="uncrewed aerial vehicles|reinforcement learning|switching / hybrid control"><a class="pub-fig" href="{{ "/assets/figures/2025-albool-rlswitching.jpg" | relative_url }}"><img src="{{ "/assets/figures/2025-albool-rlswitching.jpg" | relative_url }}" loading="lazy" alt="Figure from: I. Albool, A. Willis, A. Wolek, and D. Maity, A reinforcement learning framework to adaptively schedule controllers for "></a>
 <div class="pub-body" markdown="1">
 
 I. Albool, A. Willis, A. Wolek, and D. Maity, **[A reinforcement learning framework to adaptively schedule controllers for UAVs operating under harsh environmental conditions](https://doi.org/10.1109/ICUAS65942.2025.11007841)**. In Proc. 2025 International Conference on Unmanned Aerial Systems (ICUAS), Charlotte, NC, 2025.
@@ -506,8 +507,7 @@ I. Albool, A. Willis, A. Wolek, and D. Maity, **[A reinforcement learning framew
 
 <p class="pub-tags"><span class="pub-tag">uncrewed aerial vehicles</span>
 <span class="pub-tag">reinforcement learning</span>
-<span class="pub-tag">switching / hybrid control</span>
-<span class="pub-tag">task allocation & scheduling</span></p>
+<span class="pub-tag">switching / hybrid control</span></p>
 
 <p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/albool2025reinforcement/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
@@ -910,16 +910,17 @@ M. A. Wilson, J. McMahon, A. Wolek, D. Aha, and B. Houston, **[Toward goal reaso
 <p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/wilson2016goal/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
 </li>
-<li class="pub" data-year="2015" data-tags="underwater gliders|hydrodynamic modelling|field experiments"><a class="pub-fig" href="{{ "/assets/figures/2015-wolek-oceans.jpg" | relative_url }}"><img src="{{ "/assets/figures/2015-wolek-oceans.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Wolek, T. Gode, C. A. Woolsey, J. Quenzer, K. A. and Morgansen, Testing a pneumatic underwater glider in shallow wate"></a>
+<li class="pub" data-year="2015" data-tags="gliders|field experiments|hardware design|novel actuators"><a class="pub-fig" href="{{ "/assets/figures/2015-wolek-oceans.jpg" | relative_url }}"><img src="{{ "/assets/figures/2015-wolek-oceans.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Wolek, T. Gode, C. A. Woolsey, J. Quenzer, K. A. and Morgansen, Testing a pneumatic underwater glider in shallow wate"></a>
 <div class="pub-body" markdown="1">
 
 A. Wolek, T. Gode, C. A. Woolsey, J. Quenzer, K. A. and Morgansen, **[Testing a pneumatic underwater glider in shallow water.](https://doi.org/10.23919/OCEANS.2015.7401980)** In Proc. MTS/IEEE OCEANS’15, Washington, DC, 2015. [[preprint](https://www.researchgate.net/profile/Artur-Wolek/publication/283506011_Testing_a_pneumatic_underwater_glider_in_shallow_water/links/5fc0fdce299bf104cf83ab65/Testing-a-pneumatic-underwater-glider-in-shallow-water.pdf)]
 
 <p class="pub-summary">Shallow-water trials of a glider with a pneumatic buoyancy engine intended for fast, maneuverable littoral operation. The engine worked reliably, but bladder compressibility and the weight lost by venting air each dive dominated the trimming problem.</p>
 
-<p class="pub-tags"><span class="pub-tag">underwater gliders</span>
-<span class="pub-tag">hydrodynamic modelling</span>
-<span class="pub-tag">field experiments</span></p>
+<p class="pub-tags"><span class="pub-tag">gliders</span>
+<span class="pub-tag">field experiments</span>
+<span class="pub-tag">hardware design</span>
+<span class="pub-tag">novel actuators</span></p>
 
 <p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/wolek2015testing/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
@@ -938,28 +939,29 @@ A. Wolek, and C. A. Woolsey, **[Disturbance rejection in Dubins path planning.](
 <p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/wolek2012disturbance/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
 </li>
-<li class="pub" data-year="2012" data-tags="underwater gliders|hydrodynamic modelling"><a class="pub-fig" href="{{ "/assets/figures/2012-wolek-oceans.jpg" | relative_url }}"><img src="{{ "/assets/figures/2012-wolek-oceans.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Wolek, J. Burns, C. A. Woolsey, J. Quenzer, L. Techy, and K. A. Morgansen., A maneuverable, pneumatic underwater glid"></a>
+<li class="pub" data-year="2012" data-tags="gliders|hardware design|novel actuators"><a class="pub-fig" href="{{ "/assets/figures/2012-wolek-oceans.jpg" | relative_url }}"><img src="{{ "/assets/figures/2012-wolek-oceans.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Wolek, J. Burns, C. A. Woolsey, J. Quenzer, L. Techy, and K. A. Morgansen., A maneuverable, pneumatic underwater glid"></a>
 <div class="pub-body" markdown="1">
 
 A. Wolek, J. Burns, C. A. Woolsey, J. Quenzer, L. Techy, and K. A. Morgansen., **[A maneuverable, pneumatic underwater glider.](https://doi.org/10.1109/OCEANS.2012.6404989)** In Proc. MTS/IEEE OCEANS’12 Conf. and Expo., Hampton Roads, VA, 2012.
 
 <p class="pub-summary">A 100 m coastal underwater glider with a pneumatic buoyancy engine and fast moving-mass actuators giving unrestricted roll, which makes asymmetric geometries such as wing camber usable. Built as a testbed for perception, planning and control algorithms.</p>
 
-<p class="pub-tags"><span class="pub-tag">underwater gliders</span>
-<span class="pub-tag">hydrodynamic modelling</span></p>
+<p class="pub-tags"><span class="pub-tag">gliders</span>
+<span class="pub-tag">hardware design</span>
+<span class="pub-tag">novel actuators</span></p>
 
 <p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/wolek2012maneuverable/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
 </li>
-<li class="pub" data-year="2012" data-tags="underwater gliders|hardware design"><a class="pub-fig" href="{{ "/assets/figures/2012-fan-oceans.jpg" | relative_url }}"><img src="{{ "/assets/figures/2012-fan-oceans.jpg" | relative_url }}" loading="lazy" alt="Figure from: S. Fan, A. Wolek, and C. A. Woolsey, Stability and performance of underwater gliders. In Proc. MTS/IEEE OCEANS’12 Conf. "></a>
+<li class="pub" data-year="2012" data-tags="gliders|stability analysis"><a class="pub-fig" href="{{ "/assets/figures/2012-fan-oceans.jpg" | relative_url }}"><img src="{{ "/assets/figures/2012-fan-oceans.jpg" | relative_url }}" loading="lazy" alt="Figure from: S. Fan, A. Wolek, and C. A. Woolsey, Stability and performance of underwater gliders. In Proc. MTS/IEEE OCEANS’12 Conf. "></a>
 <div class="pub-body" markdown="1">
 
 S. Fan, A. Wolek, and C. A. Woolsey, **[Stability and performance of underwater gliders.](https://doi.org/10.1109/OCEANS.2012.6404993)** In Proc. MTS/IEEE OCEANS’12 Conf. and Expo., Hampton Roads, VA, 2012.
 
 <p class="pub-summary">Relates a conventional underwater glider's geometry — fineness ratio among other parameters — to its stability and performance at two flight conditions: minimum drag and maximum horizontal speed.</p>
 
-<p class="pub-tags"><span class="pub-tag">underwater gliders</span>
-<span class="pub-tag">hardware design</span></p>
+<p class="pub-tags"><span class="pub-tag">gliders</span>
+<span class="pub-tag">stability analysis</span></p>
 
 <p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/shuangshuangfan2012stability/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
@@ -1062,7 +1064,7 @@ M. Nguyen, **[Off-road terrain mapping for autonomous ground vehicle energy-opti
 <p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/nguyen2025off/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
 </li>
-<li class="pub" data-year="2025" data-tags="vortex ring state|quadrotors|uncrewed aerial vehicles|experimental validation"><a class="pub-fig" href="{{ "/assets/figures/2025-vanhorn-aiaa-f16-2-5.jpg" | relative_url }}"><img src="{{ "/assets/figures/2025-vanhorn-aiaa-f16-2-5.jpg" | relative_url }}" loading="lazy" alt="Figure from: K. VanHorn, Experimental characterization of a quadrotor’s response to an air vortex cannon , In Proc. AIAA 2025 Region "></a>
+<li class="pub" data-year="2025" data-tags="vortex ring state|quadrotors|uncrewed aerial vehicles|experimental validation|blast loading"><a class="pub-fig" href="{{ "/assets/figures/2025-vanhorn-aiaa-f16-2-5.jpg" | relative_url }}"><img src="{{ "/assets/figures/2025-vanhorn-aiaa-f16-2-5.jpg" | relative_url }}" loading="lazy" alt="Figure from: K. VanHorn, Experimental characterization of a quadrotor’s response to an air vortex cannon , In Proc. AIAA 2025 Region "></a>
 <div class="pub-body" markdown="1">
 
 K. VanHorn, **[Experimental characterization of a quadrotor’s response to an air vortex cannon](https://region2.aiaastudentconference.org/collection/2025/manuscripts/99500.pdf)** , In Proc. AIAA 2025 Region II Student Conference, Greensboro, NC, 2025. 
@@ -1072,7 +1074,8 @@ K. VanHorn, **[Experimental characterization of a quadrotor’s response to an a
 <p class="pub-tags"><span class="pub-tag">vortex ring state</span>
 <span class="pub-tag">quadrotors</span>
 <span class="pub-tag">uncrewed aerial vehicles</span>
-<span class="pub-tag">experimental validation</span></p>
+<span class="pub-tag">experimental validation</span>
+<span class="pub-tag">blast loading</span></p>
 
 <p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/vanhorn2025experimental/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
