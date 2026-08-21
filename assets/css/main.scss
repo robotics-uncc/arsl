@@ -131,7 +131,8 @@ figure.fig {
      dominating the page, and centre it in the column. */
   /* proportional as well as absolute, so the cap still bites on a narrow
      window where 620px would be most of the column */
-  max-width: min(620px, 70%);
+  /* 2026-08-21: he asked for these 35% larger — 620 -> 837, 70% -> 94%. */
+  max-width: min(837px, 94%);
   margin: 2em auto;
   padding: 0.75em;
   background: #fff;
@@ -157,7 +158,8 @@ figure.fig {
 /* People and lab-director cards */
 .person {
   display: grid;
-  grid-template-columns: 180px 1fr;
+  /* 35% wider than the 180px this used to be */
+  grid-template-columns: 243px 1fr;
   gap: 1.5em;
   align-items: start;
   margin-bottom: 2.5em;
@@ -192,7 +194,7 @@ figure.fig {
 }
 
 @include breakpoint(max-width $small) {
-  .person { grid-template-columns: 110px 1fr; gap: 1em; }
+  .person { grid-template-columns: 149px 1fr; gap: 1em; }
 }
 
 /* Gallery: thumbnails in a grid, each linking to the full-resolution image */
@@ -663,7 +665,7 @@ $bib-color: mix(#000, $danger-color, 30%);
 
 /* Pages that want their figures smaller still. Outreach carries a single
    photo, which at the general cap still dominated the page. */
-.figs-half figure.fig { max-width: min(520px, 50%); }
+.figs-half figure.fig { max-width: min(702px, 68%); }
 
 /* On a phone a capped figure just wastes width. */
 @include breakpoint(max-width $medium) {
