@@ -420,10 +420,6 @@ figure.fig {
    revealed by assets/js/pub-filter.js, so the controls never appear without
    something behind them. */
 .pub-filter {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 0.5em 0.75em;
   margin: 0 0 1.6em;
   padding: 0.8em 1em;
   background: $lighter-gray;
@@ -461,11 +457,67 @@ figure.fig {
   }
 }
 
+.pub-filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5em 0.75em;
+}
+
+/* the second row separates "which entries" from "how much of each" */
+.pub-filter-show {
+  margin-top: 0.7em;
+  padding-top: 0.7em;
+  border-top: 1px solid $border-color;
+  gap: 0.5em 1.1em;
+}
+
+.pub-filter-legend {
+  font-family: $sans-serif;
+  font-size: 0.8em;
+  font-weight: bold;
+  color: $muted-text-color;
+}
+
+.pub-check {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
+  margin: 0;
+  font-family: $sans-serif;
+  font-size: 0.8em;
+  font-weight: normal;
+  color: $muted-text-color;
+  cursor: pointer;
+
+  input {
+    width: auto;
+    margin: 0;
+    cursor: pointer;
+  }
+
+  &:hover { color: $primary-color; }
+}
+
 .pub-filter-count {
   margin-left: auto;
   font-family: $sans-serif;
   font-size: 0.8em;
   color: $muted-text-color;
+}
+
+/* ---- what the "Show" checkboxes turn off -------------------------------- */
+/* Dropping the figure has to collapse its column too, or every entry keeps a
+   260px hole where the picture was. Same shape as .pub--nofig. */
+.pub-list.hide-figures {
+  .pub-fig { display: none; }
+  .pub { grid-template-columns: 2.4em 1fr; }
+}
+
+.pub-list.hide-summaries .pub-summary { display: none; }
+
+.pub-list.hide-tags {
+  .pub-tags, .pub-cite-line { display: none; }
 }
 
 /* The filter hides by class rather than the hidden attribute: .pub sets
@@ -488,6 +540,8 @@ figure.fig {
     select { max-width: 100%; flex: 1 1 100%; }
     .pub-filter-count { margin-left: 0; flex: 1 1 100%; }
   }
+
+  .pub-list.hide-figures .pub { grid-template-columns: 2em 1fr; }
 }
 
 /* BibTeX link under each entry's keywords, and the page it opens.

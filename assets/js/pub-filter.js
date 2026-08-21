@@ -103,6 +103,54 @@
     });
   });
 
+  // ------------------------------------------------------------------
+  // How much of each entry to show. Separate from the filters above: those
+  // choose *which* papers are listed and belong in the URL so a filtered view
+  // can be linked; these are a reading preference, so they persist per browser
+  // instead of cluttering the link.
+  // ------------------------------------------------------------------
+  var VIEW_KEY = 'arsl-pub-view';
+  var views = [
+    { id: 'pub-show-figures',   cls: 'hide-figures' },
+    { id: 'pub-show-summaries', cls: 'hide-summaries' },
+    { id: 'pub-show-tags',      cls: 'hide-tags' }
+  ];
+  var lists = [].slice.call(document.querySelectorAll('.pub-list'));
+
+  function readStored() {
+    try {
+      return JSON.parse(window.localStorage.getItem(VIEW_KEY)) || {};
+    } catch (e) {
+      return {};
+    }
+  }
+
+  function applyViews(save) {
+    var state = {};
+    views.forEach(function (v) {
+      var box = document.getElementById(v.id);
+      if (!box) { return; }
+      state[v.id] = box.checked;
+      lists.forEach(function (list) {
+        list.classList.toggle(v.cls, !box.checked);
+      });
+    });
+    if (save) {
+      try {
+        window.localStorage.setItem(VIEW_KEY, JSON.stringify(state));
+      } catch (e) { /* private browsing: the choice just does not persist */ }
+    }
+  }
+
+  var stored = readStored();
+  views.forEach(function (v) {
+    var box = document.getElementById(v.id);
+    if (!box) { return; }
+    if (typeof stored[v.id] === 'boolean') { box.checked = stored[v.id]; }
+    box.addEventListener('change', function () { applyViews(true); });
+  });
+  applyViews(false);
+
   form.hidden = false;
   apply(false);
 })();
