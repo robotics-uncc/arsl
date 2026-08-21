@@ -519,7 +519,10 @@ figure.fig {
 .pub-list.hide-summaries .pub-summary { display: none; }
 
 .pub-list.hide-tags {
-  .pub-tags, .pub-cite-line { display: none; }
+  .pub-tags, .pub-bib { display: none; }
+
+  /* with the citation chip gone the row may be empty; collapse its margin */
+  .pub-cite-line:empty { display: none; }
 }
 
 /* The filter hides by class rather than the hidden attribute: .pub sets
@@ -554,9 +557,17 @@ figure.fig {
    too light to read at chip size on white. */
 $bib-color: mix(#000, $danger-color, 30%);
 
-.pub-cite-line { margin: 0.5em 0 0; }
+.pub-cite-line {
+  margin: 0.5em 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35em;
+}
 
-.pub-bib {
+/* Action chips — where to read it, where the preprint is, how to cite it.
+   Same shape as a keyword chip so the page has one vocabulary of chips, in a
+   different colour because these do something rather than describe something. */
+.pub-link {
   display: inline-flex;
   align-items: center;
   gap: 0.4em;
@@ -584,8 +595,8 @@ $bib-color: mix(#000, $danger-color, 30%);
 /* Minimal Mistakes underlines every non-button link in the page body on hover
    (`.page__content a:not(.btn):hover`). A chip is not a run of prose, so match
    that selector's weight to keep the underline off it. */
-.page__content a.pub-bib:hover,
-.page__content a.pub-bib:focus { text-decoration: none; }
+.page__content a.pub-link:hover,
+.page__content a.pub-link:focus { text-decoration: none; }
 
 .bib-cite {
   font-size: $type-size-6;
