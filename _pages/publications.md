@@ -18,7 +18,7 @@ classes: wide
 <span class="pub-filter-legend">Show</span>
 <label class="pub-check"><input type="checkbox" id="pub-show-figures" checked> Images</label>
 <label class="pub-check"><input type="checkbox" id="pub-show-summaries" checked> AI summaries</label>
-<label class="pub-check"><input type="checkbox" id="pub-show-tags" checked> Keywords &amp; BibTeX</label>
+<label class="pub-check"><input type="checkbox" id="pub-show-tags" checked> Keywords, BibTeX &amp; links</label>
 </div>
 </form>
 
@@ -122,7 +122,7 @@ M. Nguyen, N. Kakavitsas, and A. Wolek, **[Spherical pendulum in wind: an inexpe
 <a class="pub-link pub-bib" href='{{ "/publications/bib/nguyen2026spherical/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
 </li>
-<li class="pub" data-year="2026" data-tags="echosounder / bathymetry|surface vessels|mapping|GNSS positioning|field robotics|experimental validation|coverage planning"><a class="pub-fig" href="{{ "/assets/figures/2026-nikonowicz-performanceusv-dsa.jpg" | relative_url }}"><img src="{{ "/assets/figures/2026-nikonowicz-performanceusv-dsa.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Nikonowicz and A. Wolek, Performance characterization of a small portable uncrewed surface vessel for bathymetry mapp"></a>
+<li class="pub" data-year="2026" data-tags="echosounder / bathymetry|surface vessels|mapping|GNSS positioning|field robotics|experimental validation|coverage planning"><a class="pub-fig" href="{{ "/assets/figures/2026-nikonowicz-performanceusv-dsa-p3-clip.jpg" | relative_url }}"><img src="{{ "/assets/figures/2026-nikonowicz-performanceusv-dsa-p3-clip.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Nikonowicz and A. Wolek, Performance characterization of a small portable uncrewed surface vessel for bathymetry mapp"></a>
 <div class="pub-body" markdown="1">
 
 A. Nikonowicz and A. Wolek, **[Performance characterization of a small portable uncrewed surface vessel for bathymetry mapping near bridges using a single-beam echosounder](http://doi.org/10.1139/dsa-2025-0051)** , Drone Systems and Applications, 14:1-16, 2026. 
@@ -236,7 +236,7 @@ J. Jimenez, D. Stilwell, A. Wolek, J. McMahon, and B. R. Dzikowicz, **[Improved 
 <a class="pub-link pub-bib" href='{{ "/publications/bib/jimenez2023improved/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
 </li>
-<li class="pub" data-year="2022" data-tags="underwater vehicles|multitarget tracking|passive sonar|surface vessels|target tracking|field robotics|bearings-only tracking|experimental validation|particle filtering"><a class="pub-fig" href="{{ "/assets/figures/2020-wolek-joe.jpg" | relative_url }}"><img src="{{ "/assets/figures/2020-wolek-joe.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Wolek, J. McMahon, B. R. Dzikowicz, B. H. Houston, Tracking multiple surface vessels with an autonomous underwater ve"></a>
+<li class="pub" data-year="2022" data-tags="underwater vehicles|multitarget tracking|passive sonar|surface vessels|target tracking|field robotics|bearings-only tracking|experimental validation|particle filtering"><a class="pub-fig" href="{{ "/assets/figures/2020-wolek-joe-p11-clip.jpg" | relative_url }}"><img src="{{ "/assets/figures/2020-wolek-joe-p11-clip.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Wolek, J. McMahon, B. R. Dzikowicz, B. H. Houston, Tracking multiple surface vessels with an autonomous underwater ve"></a>
 <div class="pub-body" markdown="1">
 
 A. Wolek, J. McMahon, B. R. Dzikowicz, B. H. Houston, **[Tracking multiple surface vessels with an autonomous underwater vehicle: Field results.](https://doi.org/10.1109/JOE.2020.3015415)** IEEE J. Oceanic Engineering, 47(1):32-45, 2022.
@@ -400,7 +400,7 @@ A. Wolek and C. A. Woolsey, **[Model-based path planning](https://doi.org/10.100
 <a class="pub-link pub-bib" href='{{ "/publications/bib/wolek2017model/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
 </li>
-<li class="pub" data-year="2016" data-tags="path planning|optimal control|Dubins paths|curvature-constrained motion"><a class="pub-fig" href="{{ "/assets/figures/2016-wolek-jgcd-varspeeddubins.jpg" | relative_url }}"><img src="{{ "/assets/figures/2016-wolek-jgcd-varspeeddubins.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Wolek, E. M. Cliff, and C. A. Woolsey, Time-optimal path planning for a kinematic car with variable speed. AIAA J. Gu"></a>
+<li class="pub" data-year="2016" data-tags="path planning|optimal control|Dubins paths|curvature-constrained motion"><a class="pub-fig" href="{{ "/assets/figures/2016-wolek-jgcd-varspeeddubins-p10-clip.jpg" | relative_url }}"><img src="{{ "/assets/figures/2016-wolek-jgcd-varspeeddubins-p10-clip.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Wolek, E. M. Cliff, and C. A. Woolsey, Time-optimal path planning for a kinematic car with variable speed. AIAA J. Gu"></a>
 <div class="pub-body" markdown="1">
 
 A. Wolek, E. M. Cliff, and C. A. Woolsey, **[Time-optimal path planning for a kinematic car with variable speed.](https://doi.org/10.2514/1.G001317)** AIAA J. Guidance, Control, and Dynamics, 39(10):2374-2390, 2016.

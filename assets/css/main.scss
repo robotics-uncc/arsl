@@ -518,11 +518,10 @@ figure.fig {
 
 .pub-list.hide-summaries .pub-summary { display: none; }
 
+/* Everything under the citation goes, leaving a plain CV-style list. The
+   citation still hyperlinks its own title, so no route to the paper is lost. */
 .pub-list.hide-tags {
-  .pub-tags, .pub-bib { display: none; }
-
-  /* with the citation chip gone the row may be empty; collapse its margin */
-  .pub-cite-line:empty { display: none; }
+  .pub-tags, .pub-cite-line { display: none; }
 }
 
 /* The filter hides by class rather than the hidden attribute: .pub sets
