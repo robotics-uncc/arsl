@@ -10,7 +10,7 @@ classes: wide
 <label for="pub-filter-year">Year</label>
 <select id="pub-filter-year"><option value="">All years</option><option value="2026">2026</option><option value="2025">2025</option><option value="2024">2024</option><option value="2023">2023</option><option value="2022">2022</option><option value="2021">2021</option><option value="2020">2020</option><option value="2019">2019</option><option value="2018">2018</option><option value="2017">2017</option><option value="2016">2016</option><option value="2015">2015</option><option value="2012">2012</option><option value="2011">2011</option><option value="2010">2010</option><option value="2009">2009</option></select>
 <label for="pub-filter-tag">Keyword</label>
-<select id="pub-filter-tag"><option value="">All keywords</option><option value="A* search">A* search</option><option value="acoustics">acoustics</option><option value="adaptive sampling">adaptive sampling</option><option value="aerodynamic modelling">aerodynamic modelling</option><option value="Bayesian estimation">Bayesian estimation</option><option value="bearings-only tracking">bearings-only tracking</option><option value="blast loading">blast loading</option><option value="Chaplygin sleigh model">Chaplygin sleigh model</option><option value="computational fluid dynamics">computational fluid dynamics</option><option value="computer vision">computer vision</option><option value="consensus &amp; graph theory">consensus &amp; graph theory</option><option value="cooperative navigation">cooperative navigation</option><option value="coverage planning">coverage planning</option><option value="cross-track error">cross-track error</option><option value="curvature-constrained motion">curvature-constrained motion</option><option value="dataset">dataset</option><option value="Dubins paths">Dubins paths</option><option value="echosounder / bathymetry">echosounder / bathymetry</option><option value="end-to-end learning">end-to-end learning</option><option value="energy-optimal flight">energy-optimal flight</option><option value="engagement / weapon systems">engagement / weapon systems</option><option value="engineering education">engineering education</option><option value="event-triggered control">event-triggered control</option><option value="experimental validation">experimental validation</option><option value="feedback linearization">feedback linearization</option><option value="field experiments">field experiments</option><option value="fixed-wing UAVs">fixed-wing UAVs</option><option value="flow field estimation">flow field estimation</option><option value="formation control">formation control</option><option value="Gaussian process regression">Gaussian process regression</option><option value="gliders">gliders</option><option value="GNSS positioning">GNSS positioning</option><option value="goal reasoning">goal reasoning</option><option value="graph search">graph search</option><option value="ground robots">ground robots</option><option value="hardware design">hardware design</option><option value="heterogeneous teams">heterogeneous teams</option><option value="high-realism simulation">high-realism simulation</option><option value="indoor water tank">indoor water tank</option><option value="inspection planning">inspection planning</option><option value="Kalman filtering">Kalman filtering</option><option value="least-squares estimation">least-squares estimation</option><option value="linear quadratic regulator">linear quadratic regulator</option><option value="linear systems">linear systems</option><option value="Lyapunov control">Lyapunov control</option><option value="mapping">mapping</option><option value="mixed-integer programming">mixed-integer programming</option><option value="Monte Carlo tree search">Monte Carlo tree search</option><option value="morphing wings">morphing wings</option><option value="multi-agent coordination">multi-agent coordination</option><option value="multitarget tracking">multitarget tracking</option><option value="mutual information">mutual information</option><option value="neural networks">neural networks</option><option value="nonlinear control">nonlinear control</option><option value="novel actuators">novel actuators</option><option value="numerical optimal control">numerical optimal control</option><option value="occlusion-aware planning">occlusion-aware planning</option><option value="optimal control">optimal control</option><option value="particle filtering">particle filtering</option><option value="passive sonar">passive sonar</option><option value="path planning">path planning</option><option value="performance characterization">performance characterization</option><option value="Pontryagin&#x27;s minimum principle">Pontryagin&#x27;s minimum principle</option><option value="potential flow / dipole model">potential flow / dipole model</option><option value="probability hypothesis density filter">probability hypothesis density filter</option><option value="propellers">propellers</option><option value="pursuit-evasion">pursuit-evasion</option><option value="quadrotors">quadrotors</option><option value="regulator">regulator</option><option value="reinforcement learning">reinforcement learning</option><option value="risk-aware planning">risk-aware planning</option><option value="road networks">road networks</option><option value="robotic fish">robotic fish</option><option value="sampling-based planning">sampling-based planning</option><option value="search theory">search theory</option><option value="software-in-the-loop">software-in-the-loop</option><option value="spacecraft">spacecraft</option><option value="spherical pendulum">spherical pendulum</option><option value="spotlight article">spotlight article</option><option value="stability analysis">stability analysis</option><option value="surface vessels">surface vessels</option><option value="survey / review">survey / review</option><option value="switching / hybrid control">switching / hybrid control</option><option value="takeoff &amp; landing">takeoff &amp; landing</option><option value="target tracking">target tracking</option><option value="task allocation &amp; scheduling">task allocation &amp; scheduling</option><option value="trajectory optimization">trajectory optimization</option><option value="transportation agencies">transportation agencies</option><option value="traveling salesman problem">traveling salesman problem</option><option value="uncrewed aerial vehicles">uncrewed aerial vehicles</option><option value="underwater vehicles">underwater vehicles</option><option value="visibility volumes">visibility volumes</option><option value="visual odometry &amp; SLAM">visual odometry &amp; SLAM</option><option value="vortex lattice method">vortex lattice method</option><option value="vortex ring state">vortex ring state</option><option value="wave energy converters">wave energy converters</option><option value="wind field estimation">wind field estimation</option></select>
+<select id="pub-filter-tag"><option value="">All keywords</option><option value="A* search">A* search</option><option value="acoustics">acoustics</option><option value="adaptive sampling">adaptive sampling</option><option value="Bayesian estimation">Bayesian estimation</option><option value="bearings-only tracking">bearings-only tracking</option><option value="blast loading">blast loading</option><option value="Chaplygin sleigh model">Chaplygin sleigh model</option><option value="computational fluid dynamics">computational fluid dynamics</option><option value="computer vision">computer vision</option><option value="consensus &amp; graph theory">consensus &amp; graph theory</option><option value="cooperative navigation">cooperative navigation</option><option value="coverage planning">coverage planning</option><option value="cross-track error">cross-track error</option><option value="curvature-constrained motion">curvature-constrained motion</option><option value="dataset">dataset</option><option value="Dubins paths">Dubins paths</option><option value="echosounder / bathymetry">echosounder / bathymetry</option><option value="end-to-end learning">end-to-end learning</option><option value="energy-optimal control">energy-optimal control</option><option value="engagement / weapon systems">engagement / weapon systems</option><option value="engineering education">engineering education</option><option value="event-triggered control">event-triggered control</option><option value="experimental validation">experimental validation</option><option value="feedback linearization">feedback linearization</option><option value="field robotics">field robotics</option><option value="fixed-wing UAVs">fixed-wing UAVs</option><option value="flow-field estimation">flow-field estimation</option><option value="formation control">formation control</option><option value="Gaussian process regression">Gaussian process regression</option><option value="gliders">gliders</option><option value="GNSS positioning">GNSS positioning</option><option value="goal reasoning">goal reasoning</option><option value="graph search">graph search</option><option value="ground robots">ground robots</option><option value="hardware design">hardware design</option><option value="heterogeneous teams">heterogeneous teams</option><option value="high-realism simulation">high-realism simulation</option><option value="indoor water tank">indoor water tank</option><option value="inspection planning">inspection planning</option><option value="Kalman filtering">Kalman filtering</option><option value="least-squares estimation">least-squares estimation</option><option value="linear quadratic regulator">linear quadratic regulator</option><option value="linear systems">linear systems</option><option value="Lyapunov control">Lyapunov control</option><option value="mapping">mapping</option><option value="mixed-integer programming">mixed-integer programming</option><option value="Monte Carlo tree search">Monte Carlo tree search</option><option value="morphing wings">morphing wings</option><option value="multi-agent coordination">multi-agent coordination</option><option value="multitarget tracking">multitarget tracking</option><option value="mutual information">mutual information</option><option value="neural networks">neural networks</option><option value="nonlinear control">nonlinear control</option><option value="novel actuators">novel actuators</option><option value="numerical optimal control">numerical optimal control</option><option value="occlusion-aware planning">occlusion-aware planning</option><option value="optimal control">optimal control</option><option value="particle filtering">particle filtering</option><option value="passive sonar">passive sonar</option><option value="path planning">path planning</option><option value="performance characterization">performance characterization</option><option value="Pontryagin&#x27;s minimum principle">Pontryagin&#x27;s minimum principle</option><option value="potential flow / dipole model">potential flow / dipole model</option><option value="probability hypothesis density filter">probability hypothesis density filter</option><option value="propellers">propellers</option><option value="pursuit-evasion">pursuit-evasion</option><option value="quadrotors">quadrotors</option><option value="regulator">regulator</option><option value="reinforcement learning">reinforcement learning</option><option value="risk-aware planning">risk-aware planning</option><option value="road networks">road networks</option><option value="robotic fish">robotic fish</option><option value="sampling-based planning">sampling-based planning</option><option value="search theory">search theory</option><option value="software-in-the-loop">software-in-the-loop</option><option value="spacecraft">spacecraft</option><option value="spherical pendulum">spherical pendulum</option><option value="spotlight article">spotlight article</option><option value="stability analysis">stability analysis</option><option value="surface vessels">surface vessels</option><option value="survey / review">survey / review</option><option value="switching / hybrid control">switching / hybrid control</option><option value="takeoff &amp; landing">takeoff &amp; landing</option><option value="target tracking">target tracking</option><option value="task allocation &amp; scheduling">task allocation &amp; scheduling</option><option value="trajectory optimization">trajectory optimization</option><option value="transportation agencies">transportation agencies</option><option value="traveling salesman problem">traveling salesman problem</option><option value="uncrewed aerial vehicles">uncrewed aerial vehicles</option><option value="underwater vehicles">underwater vehicles</option><option value="visibility volumes">visibility volumes</option><option value="visual odometry &amp; SLAM">visual odometry &amp; SLAM</option><option value="vortex lattice method">vortex lattice method</option><option value="vortex ring state">vortex ring state</option><option value="wave energy converters">wave energy converters</option></select>
 <button type="button" id="pub-filter-clear">Clear</button>
 <span class="pub-filter-count" id="pub-filter-count"></span>
 </div>
@@ -36,7 +36,7 @@ A. Wolek and D. Maity, **Optimal duty-cycle-based control design to regulate a l
 <span class="pub-tag">regulator</span></p>
 </div>
 </li>
-<li class="pub pub--nofig" data-year="" data-tags="uncrewed aerial vehicles|occlusion-aware planning|A* search|road networks|visibility volumes|search theory|Dubins paths">
+<li class="pub pub--nofig" data-year="" data-tags="uncrewed aerial vehicles|occlusion-aware planning|A* search|road networks|visibility volumes|search theory|Dubins paths|curvature-constrained motion|graph search">
 <div class="pub-body" markdown="1">
 
 C. Hague and A. Wolek **Occlusion-aware ground target search by a UAV in an urban environment**. Submitted. [[preprint](https://arxiv.org/abs/2511.07822)]
@@ -49,7 +49,9 @@ C. Hague and A. Wolek **Occlusion-aware ground target search by a UAV in an urba
 <span class="pub-tag">road networks</span>
 <span class="pub-tag">visibility volumes</span>
 <span class="pub-tag">search theory</span>
-<span class="pub-tag">Dubins paths</span></p>
+<span class="pub-tag">Dubins paths</span>
+<span class="pub-tag">curvature-constrained motion</span>
+<span class="pub-tag">graph search</span></p>
 </div>
 </li>
 <li class="pub pub--nofig" data-year="" data-tags="engagement / weapon systems|risk-aware planning">
@@ -76,7 +78,7 @@ N. Kakavitsas, A. Willis, D. Maity, and A. Wolek, **[Fast estimation of the diff
 <p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/kakavitsas2026fast/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
 </li>
-<li class="pub" data-year="2026" data-tags="visibility volumes|Dubins paths|occlusion-aware planning|target tracking|uncrewed aerial vehicles|field experiments|Lyapunov control|quadrotors"><a class="pub-fig" href="{{ "/assets/figures/2026-hague-arxiv-tracking.jpg" | relative_url }}"><img src="{{ "/assets/figures/2026-hague-arxiv-tracking.jpg" | relative_url }}" loading="lazy" alt="Figure from: C. Hague and A. Wolek, Occlusion-aware ground target tracking by a Dubins vehicle using visibility volumes. AIAA J. Guid"></a>
+<li class="pub" data-year="2026" data-tags="visibility volumes|Dubins paths|occlusion-aware planning|target tracking|uncrewed aerial vehicles|field robotics|Lyapunov control|quadrotors|curvature-constrained motion|experimental validation"><a class="pub-fig" href="{{ "/assets/figures/2026-hague-arxiv-tracking.jpg" | relative_url }}"><img src="{{ "/assets/figures/2026-hague-arxiv-tracking.jpg" | relative_url }}" loading="lazy" alt="Figure from: C. Hague and A. Wolek, Occlusion-aware ground target tracking by a Dubins vehicle using visibility volumes. AIAA J. Guid"></a>
 <div class="pub-body" markdown="1">
 
 C. Hague and A. Wolek, **Occlusion-aware ground target tracking by a Dubins vehicle using visibility volumes**. AIAA J. Guidance, Control, and Dynamics. Accepted. In press, 2026. [[preprint](https://arxiv.org/abs/2506.03400)]
@@ -88,14 +90,16 @@ C. Hague and A. Wolek, **Occlusion-aware ground target tracking by a Dubins vehi
 <span class="pub-tag">occlusion-aware planning</span>
 <span class="pub-tag">target tracking</span>
 <span class="pub-tag">uncrewed aerial vehicles</span>
-<span class="pub-tag">field experiments</span>
+<span class="pub-tag">field robotics</span>
 <span class="pub-tag">Lyapunov control</span>
-<span class="pub-tag">quadrotors</span></p>
+<span class="pub-tag">quadrotors</span>
+<span class="pub-tag">curvature-constrained motion</span>
+<span class="pub-tag">experimental validation</span></p>
 
 <p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/hague2026occlusion/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
 </li>
-<li class="pub" data-year="2026" data-tags="spherical pendulum|wind field estimation|engineering education|nonlinear control|computer vision|Kalman filtering"><a class="pub-fig" href="{{ "/assets/figures/2026-nguyen-penduluminwind.jpg" | relative_url }}"><img src="{{ "/assets/figures/2026-nguyen-penduluminwind.jpg" | relative_url }}" loading="lazy" alt="Figure from: M. Nguyen, N. Kakavitsas, and A. Wolek, Spherical pendulum in wind: an inexpensive laboratory-scale experiment for explo"></a>
+<li class="pub" data-year="2026" data-tags="spherical pendulum|flow-field estimation|engineering education|nonlinear control|computer vision|Kalman filtering"><a class="pub-fig" href="{{ "/assets/figures/2026-nguyen-penduluminwind.jpg" | relative_url }}"><img src="{{ "/assets/figures/2026-nguyen-penduluminwind.jpg" | relative_url }}" loading="lazy" alt="Figure from: M. Nguyen, N. Kakavitsas, and A. Wolek, Spherical pendulum in wind: an inexpensive laboratory-scale experiment for explo"></a>
 <div class="pub-body" markdown="1">
 
 M. Nguyen, N. Kakavitsas, and A. Wolek, **[Spherical pendulum in wind: an inexpensive laboratory-scale experiment for exploring nonlinear dynamics and estimation](https://doi.org/10.1177/03064190261463677)**. International Journal of Mechanical Engineering Education, 2026.
@@ -103,7 +107,7 @@ M. Nguyen, N. Kakavitsas, and A. Wolek, **[Spherical pendulum in wind: an inexpe
 <p class="pub-summary">Derives the nonlinear dynamics of a spherical pendulum under quadratic aerodynamic drag in a steady horizontal wind, then realises it as a ping-pong ball on a string. The apparatus doubles as an inexpensive wind sensor and as a teaching experiment in nonlinear dynamics and estimation.</p>
 
 <p class="pub-tags"><span class="pub-tag">spherical pendulum</span>
-<span class="pub-tag">wind field estimation</span>
+<span class="pub-tag">flow-field estimation</span>
 <span class="pub-tag">engineering education</span>
 <span class="pub-tag">nonlinear control</span>
 <span class="pub-tag">computer vision</span>
@@ -112,7 +116,7 @@ M. Nguyen, N. Kakavitsas, and A. Wolek, **[Spherical pendulum in wind: an inexpe
 <p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/nguyen2026spherical/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
 </li>
-<li class="pub" data-year="2026" data-tags="echosounder / bathymetry|surface vessels|mapping|performance characterization|GNSS positioning|field experiments"><a class="pub-fig" href="{{ "/assets/figures/2026-nikonowicz-performanceusv-dsa.jpg" | relative_url }}"><img src="{{ "/assets/figures/2026-nikonowicz-performanceusv-dsa.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Nikonowicz and A. Wolek, Performance characterization of a small portable uncrewed surface vessel for bathymetry mapp"></a>
+<li class="pub" data-year="2026" data-tags="echosounder / bathymetry|surface vessels|mapping|performance characterization|GNSS positioning|field robotics|experimental validation|coverage planning"><a class="pub-fig" href="{{ "/assets/figures/2026-nikonowicz-performanceusv-dsa.jpg" | relative_url }}"><img src="{{ "/assets/figures/2026-nikonowicz-performanceusv-dsa.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Nikonowicz and A. Wolek, Performance characterization of a small portable uncrewed surface vessel for bathymetry mapp"></a>
 <div class="pub-body" markdown="1">
 
 A. Nikonowicz and A. Wolek, **[Performance characterization of a small portable uncrewed surface vessel for bathymetry mapping near bridges using a single-beam echosounder](http://doi.org/10.1139/dsa-2025-0051)** , Drone Systems and Applications, 14:1-16, 2026. 
@@ -124,7 +128,9 @@ A. Nikonowicz and A. Wolek, **[Performance characterization of a small portable 
 <span class="pub-tag">mapping</span>
 <span class="pub-tag">performance characterization</span>
 <span class="pub-tag">GNSS positioning</span>
-<span class="pub-tag">field experiments</span></p>
+<span class="pub-tag">field robotics</span>
+<span class="pub-tag">experimental validation</span>
+<span class="pub-tag">coverage planning</span></p>
 
 <p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/nikonowicz2026performance/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
@@ -147,7 +153,7 @@ A. Nikonowicz and A. Wolek, **A survey of uncrewed surface vessels for inland ba
 <p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/nikonowicz2026survey/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
 </li>
-<li class="pub" data-year="2026" data-tags="Dubins paths|fixed-wing UAVs|inspection planning|visibility volumes|occlusion-aware planning|traveling salesman problem"><a class="pub-fig" href="{{ "/assets/figures/2026-hague-dubinsairplanetsp.jpg" | relative_url }}"><img src="{{ "/assets/figures/2026-hague-dubinsairplanetsp.jpg" | relative_url }}" loading="lazy" alt="Figure from: C. Hague, A. Willis, D. Maity, and A. Wolek, Minimum-time Dubins airplane tours to inspect targets with visibility and d"></a>
+<li class="pub" data-year="2026" data-tags="Dubins paths|fixed-wing UAVs|inspection planning|visibility volumes|occlusion-aware planning|curvature-constrained motion|traveling salesman problem"><a class="pub-fig" href="{{ "/assets/figures/2026-hague-dubinsairplanetsp.jpg" | relative_url }}"><img src="{{ "/assets/figures/2026-hague-dubinsairplanetsp.jpg" | relative_url }}" loading="lazy" alt="Figure from: C. Hague, A. Willis, D. Maity, and A. Wolek, Minimum-time Dubins airplane tours to inspect targets with visibility and d"></a>
 <div class="pub-body" markdown="1">
 
 C. Hague, A. Willis, D. Maity, and A. Wolek, **[Minimum-time Dubins airplane tours to inspect targets with visibility and dwell time constraints](https://doi.org/10.2514/1.I011541)**. AIAA J. Aerospace Information Systems, 23(6):507-528, 2026.
@@ -159,12 +165,13 @@ C. Hague, A. Willis, D. Maity, and A. Wolek, **[Minimum-time Dubins airplane tou
 <span class="pub-tag">inspection planning</span>
 <span class="pub-tag">visibility volumes</span>
 <span class="pub-tag">occlusion-aware planning</span>
+<span class="pub-tag">curvature-constrained motion</span>
 <span class="pub-tag">traveling salesman problem</span></p>
 
 <p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/hague2026minimum/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
 </li>
-<li class="pub" data-year="2024" data-tags="mapping|uncrewed aerial vehicles|visual odometry &amp; SLAM|high-realism simulation"><a class="pub-fig" href="{{ "/assets/figures/2024-zhang-sensors.jpg" | relative_url }}"><img src="{{ "/assets/figures/2024-zhang-sensors.jpg" | relative_url }}" loading="lazy" alt="Figure from: J. Zhang, A. Wolek, and A. Willis. UAV-borne mapping algorithms for low-altitude and high-speed drone applications. Sens"></a>
+<li class="pub" data-year="2024" data-tags="mapping|uncrewed aerial vehicles|visual odometry &amp; SLAM|high-realism simulation|computer vision"><a class="pub-fig" href="{{ "/assets/figures/2024-zhang-sensors.jpg" | relative_url }}"><img src="{{ "/assets/figures/2024-zhang-sensors.jpg" | relative_url }}" loading="lazy" alt="Figure from: J. Zhang, A. Wolek, and A. Willis. UAV-borne mapping algorithms for low-altitude and high-speed drone applications. Sens"></a>
 <div class="pub-body" markdown="1">
 
 J. Zhang, A. Wolek, and A. Willis. **[UAV-borne mapping algorithms for low-altitude and high-speed drone applications](https://doi.org/10.3390/s24072204)**. Sensors, 24(7):1-22, 2024. [[preprint](https://arxiv.org/pdf/2401.06407v1.pdf)]
@@ -174,7 +181,8 @@ J. Zhang, A. Wolek, and A. Willis. **[UAV-borne mapping algorithms for low-altit
 <p class="pub-tags"><span class="pub-tag">mapping</span>
 <span class="pub-tag">uncrewed aerial vehicles</span>
 <span class="pub-tag">visual odometry & SLAM</span>
-<span class="pub-tag">high-realism simulation</span></p>
+<span class="pub-tag">high-realism simulation</span>
+<span class="pub-tag">computer vision</span></p>
 
 <p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/zhang2024uav/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
@@ -216,7 +224,7 @@ J. Jimenez, D. Stilwell, A. Wolek, J. McMahon, and B. R. Dzikowicz, **[Improved 
 <p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/jimenez2023improved/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
 </li>
-<li class="pub" data-year="2022" data-tags="underwater vehicles|multitarget tracking|passive sonar|surface vessels|target tracking|field experiments|bearings-only tracking"><a class="pub-fig" href="{{ "/assets/figures/2020-wolek-joe.jpg" | relative_url }}"><img src="{{ "/assets/figures/2020-wolek-joe.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Wolek, J. McMahon, B. R. Dzikowicz, B. H. Houston, Tracking multiple surface vessels with an autonomous underwater ve"></a>
+<li class="pub" data-year="2022" data-tags="underwater vehicles|multitarget tracking|passive sonar|surface vessels|target tracking|field robotics|bearings-only tracking|experimental validation"><a class="pub-fig" href="{{ "/assets/figures/2020-wolek-joe.jpg" | relative_url }}"><img src="{{ "/assets/figures/2020-wolek-joe.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Wolek, J. McMahon, B. R. Dzikowicz, B. H. Houston, Tracking multiple surface vessels with an autonomous underwater ve"></a>
 <div class="pub-body" markdown="1">
 
 A. Wolek, J. McMahon, B. R. Dzikowicz, B. H. Houston, **[Tracking multiple surface vessels with an autonomous underwater vehicle: Field results.](https://doi.org/10.1109/JOE.2020.3015415)** IEEE J. Oceanic Engineering, 47(1):32-45, 2022.
@@ -228,8 +236,9 @@ A. Wolek, J. McMahon, B. R. Dzikowicz, B. H. Houston, **[Tracking multiple surfa
 <span class="pub-tag">passive sonar</span>
 <span class="pub-tag">surface vessels</span>
 <span class="pub-tag">target tracking</span>
-<span class="pub-tag">field experiments</span>
-<span class="pub-tag">bearings-only tracking</span></p>
+<span class="pub-tag">field robotics</span>
+<span class="pub-tag">bearings-only tracking</span>
+<span class="pub-tag">experimental validation</span></p>
 
 <p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/wolek2022tracking/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
@@ -302,7 +311,7 @@ D. A. Paley, and A. Wolek, **[Mobile sensor networks and control: Adaptive sampl
 <p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/paley2020mobile/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
 </li>
-<li class="pub" data-year="2020" data-tags="mapping|mutual information|cooperative navigation|task allocation &amp; scheduling|graph search|quadrotors|multi-agent coordination|search theory|coverage planning"><a class="pub-fig" href="{{ "/assets/figures/2020-wolek-ral.jpg" | relative_url }}"><img src="{{ "/assets/figures/2020-wolek-ral.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Wolek, S. Cheng, D. Goswami, D. A. Paley, Cooperative mapping and target search over an unknown occupancy graph using"></a>
+<li class="pub" data-year="2020" data-tags="mapping|mutual information|task allocation &amp; scheduling|graph search|quadrotors|multi-agent coordination|search theory|coverage planning|Bayesian estimation|Gaussian process regression"><a class="pub-fig" href="{{ "/assets/figures/2020-wolek-ral.jpg" | relative_url }}"><img src="{{ "/assets/figures/2020-wolek-ral.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Wolek, S. Cheng, D. Goswami, D. A. Paley, Cooperative mapping and target search over an unknown occupancy graph using"></a>
 <div class="pub-body" markdown="1">
 
 A. Wolek, S. Cheng, D. Goswami, D. A. Paley, **[Cooperative mapping and target search over an unknown occupancy graph using mutual information.](https://doi.org/10.1109/LRA.2020.2966394)** IEEE Robotics and Automation Letters, 5(2):1071-1078, 2020.
@@ -311,18 +320,19 @@ A. Wolek, S. Cheng, D. Goswami, D. A. Paley, **[Cooperative mapping and target s
 
 <p class="pub-tags"><span class="pub-tag">mapping</span>
 <span class="pub-tag">mutual information</span>
-<span class="pub-tag">cooperative navigation</span>
 <span class="pub-tag">task allocation & scheduling</span>
 <span class="pub-tag">graph search</span>
 <span class="pub-tag">quadrotors</span>
 <span class="pub-tag">multi-agent coordination</span>
 <span class="pub-tag">search theory</span>
-<span class="pub-tag">coverage planning</span></p>
+<span class="pub-tag">coverage planning</span>
+<span class="pub-tag">Bayesian estimation</span>
+<span class="pub-tag">Gaussian process regression</span></p>
 
 <p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/wolek2020cooperative/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
 </li>
-<li class="pub" data-year="2019" data-tags="underwater vehicles|bearings-only tracking|passive sonar|field experiments|target tracking"><a class="pub-fig" href="{{ "/assets/figures/2018-wolek-joe.jpg" | relative_url }}"><img src="{{ "/assets/figures/2018-wolek-joe.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Wolek, B. R. Dzikowicz, J. McMahon, and B. H. Houston, At-sea evaluation of an underwater vehicle behavior for passiv"></a>
+<li class="pub" data-year="2019" data-tags="underwater vehicles|bearings-only tracking|passive sonar|field robotics|target tracking|experimental validation"><a class="pub-fig" href="{{ "/assets/figures/2018-wolek-joe.jpg" | relative_url }}"><img src="{{ "/assets/figures/2018-wolek-joe.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Wolek, B. R. Dzikowicz, J. McMahon, and B. H. Houston, At-sea evaluation of an underwater vehicle behavior for passiv"></a>
 <div class="pub-body" markdown="1">
 
 A. Wolek, B. R. Dzikowicz, J. McMahon, and B. H. Houston, **[At-sea evaluation of an underwater vehicle behavior for passive target tracking.](https://doi.org/10.1109/JOE.2018.2817268)** IEEE J. Oceanic Engineering, 44(2):514-523, 2019.
@@ -332,8 +342,9 @@ A. Wolek, B. R. Dzikowicz, J. McMahon, and B. H. Houston, **[At-sea evaluation o
 <p class="pub-tags"><span class="pub-tag">underwater vehicles</span>
 <span class="pub-tag">bearings-only tracking</span>
 <span class="pub-tag">passive sonar</span>
-<span class="pub-tag">field experiments</span>
-<span class="pub-tag">target tracking</span></p>
+<span class="pub-tag">field robotics</span>
+<span class="pub-tag">target tracking</span>
+<span class="pub-tag">experimental validation</span></p>
 
 <p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/wolek2019evaluation/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
@@ -380,7 +391,7 @@ A. Wolek, E. M. Cliff, and C. A. Woolsey, **[Time-optimal path planning for a ki
 <p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/wolek2016time/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
 </li>
-<li class="pub" data-year="2016" data-tags="gliders|energy-optimal flight|path planning|Pontryagin&#x27;s minimum principle|Dubins paths|numerical optimal control"><a class="pub-fig" href="{{ "/assets/figures/2016-wolek-jgcd-energyoptglides.jpg" | relative_url }}"><img src="{{ "/assets/figures/2016-wolek-jgcd-energyoptglides.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Wolek, E. M. Cliff, and C. A. Woolsey, Energy-optimal paths for a glider with speed and load factor controls. AIAA J."></a>
+<li class="pub" data-year="2016" data-tags="gliders|energy-optimal control|path planning|Pontryagin&#x27;s minimum principle|Dubins paths|numerical optimal control|curvature-constrained motion"><a class="pub-fig" href="{{ "/assets/figures/2016-wolek-jgcd-energyoptglides.jpg" | relative_url }}"><img src="{{ "/assets/figures/2016-wolek-jgcd-energyoptglides.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Wolek, E. M. Cliff, and C. A. Woolsey, Energy-optimal paths for a glider with speed and load factor controls. AIAA J."></a>
 <div class="pub-body" markdown="1">
 
 A. Wolek, E. M. Cliff, and C. A. Woolsey, **[Energy-optimal paths for a glider with speed and load factor controls.](https://doi.org/10.2514/1.G001345)** AIAA J. Guidance, Control, and Dynamics, 39(2):397-405, 2016.
@@ -388,16 +399,17 @@ A. Wolek, E. M. Cliff, and C. A. Woolsey, **[Energy-optimal paths for a glider w
 <p class="pub-summary">Finds the path losing the least altitude for a glider reaching a specified position and heading, with speed and load factor as controls — extending Dubins-style planning to a vehicle whose sink rate depends on how it is flown.</p>
 
 <p class="pub-tags"><span class="pub-tag">gliders</span>
-<span class="pub-tag">energy-optimal flight</span>
+<span class="pub-tag">energy-optimal control</span>
 <span class="pub-tag">path planning</span>
 <span class="pub-tag">Pontryagin's minimum principle</span>
 <span class="pub-tag">Dubins paths</span>
-<span class="pub-tag">numerical optimal control</span></p>
+<span class="pub-tag">numerical optimal control</span>
+<span class="pub-tag">curvature-constrained motion</span></p>
 
 <p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/wolek2016energy/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
 </li>
-<li class="pub" data-year="2016" data-tags="gliders|Pontryagin&#x27;s minimum principle|optimal control|energy-optimal flight|Dubins paths"><a class="pub-fig" href="{{ "/assets/figures/2016-ts-wolekwoolsey.jpg" | relative_url }}"><img src="{{ "/assets/figures/2016-ts-wolekwoolsey.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Wolek, and C. A. Woolsey, Optimal paths in still air for a sailplane with a quadratic glide polar. Technical Soaring,"></a>
+<li class="pub" data-year="2016" data-tags="gliders|Pontryagin&#x27;s minimum principle|optimal control|energy-optimal control|Dubins paths|curvature-constrained motion"><a class="pub-fig" href="{{ "/assets/figures/2016-ts-wolekwoolsey.jpg" | relative_url }}"><img src="{{ "/assets/figures/2016-ts-wolekwoolsey.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Wolek, and C. A. Woolsey, Optimal paths in still air for a sailplane with a quadratic glide polar. Technical Soaring,"></a>
 <div class="pub-body" markdown="1">
 
 A. Wolek, and C. A. Woolsey, **[Optimal paths in still air for a sailplane with a quadratic glide polar.](https://journals.sfu.ca/ts/index.php/ts/article/view/1246)** Technical Soaring, 40(2):9-23, 2016.
@@ -407,8 +419,9 @@ A. Wolek, and C. A. Woolsey, **[Optimal paths in still air for a sailplane with 
 <p class="pub-tags"><span class="pub-tag">gliders</span>
 <span class="pub-tag">Pontryagin's minimum principle</span>
 <span class="pub-tag">optimal control</span>
-<span class="pub-tag">energy-optimal flight</span>
-<span class="pub-tag">Dubins paths</span></p>
+<span class="pub-tag">energy-optimal control</span>
+<span class="pub-tag">Dubins paths</span>
+<span class="pub-tag">curvature-constrained motion</span></p>
 
 <p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/wolek2016optimal/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
@@ -428,7 +441,7 @@ A. Wolek, and C. A. Woolsey, **[Feasible Dubins paths in the presence of unknown
 <p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/wolek2015feasible/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
 </li>
-<li class="pub" data-year="2012" data-tags="morphing wings|field experiments|uncrewed aerial vehicles|experimental validation|fixed-wing UAVs|vortex lattice method"><a class="pub-fig" href="{{ "/assets/figures/2012-bilgen-jimss.jpg" | relative_url }}"><img src="{{ "/assets/figures/2012-bilgen-jimss.jpg" | relative_url }}" loading="lazy" alt="Figure from: O. Bilgen, L. Butt, S. Day, C. Sossi, J. Weaver, A. Wolek, W. Mason, and D. Inman, A novel unmanned aircraft with solid-"></a>
+<li class="pub" data-year="2012" data-tags="morphing wings|field robotics|uncrewed aerial vehicles|experimental validation|fixed-wing UAVs|vortex lattice method"><a class="pub-fig" href="{{ "/assets/figures/2012-bilgen-jimss.jpg" | relative_url }}"><img src="{{ "/assets/figures/2012-bilgen-jimss.jpg" | relative_url }}" loading="lazy" alt="Figure from: O. Bilgen, L. Butt, S. Day, C. Sossi, J. Weaver, A. Wolek, W. Mason, and D. Inman, A novel unmanned aircraft with solid-"></a>
 <div class="pub-body" markdown="1">
 
 O. Bilgen, L. Butt, S. Day, C. Sossi, J. Weaver, A. Wolek, W. Mason, and D. Inman, **[A novel unmanned aircraft with solid-state control surfaces.](https://doi.org/10.1177%2F1045389X12459592)** J. Intelligent Material Systems and Structures, 24(2):147-167, 2012.
@@ -436,7 +449,7 @@ O. Bilgen, L. Butt, S. Day, C. Sossi, J. Weaver, A. Wolek, W. Mason, and D. Inma
 <p class="pub-summary">A servo-less remotely piloted aircraft whose control surfaces are Macro-Fiber Composite piezoelectric actuators that change camber directly. Includes vortex-lattice aerodynamic analysis, wind tunnel testing and flight demonstration.</p>
 
 <p class="pub-tags"><span class="pub-tag">morphing wings</span>
-<span class="pub-tag">field experiments</span>
+<span class="pub-tag">field robotics</span>
 <span class="pub-tag">uncrewed aerial vehicles</span>
 <span class="pub-tag">experimental validation</span>
 <span class="pub-tag">fixed-wing UAVs</span>
@@ -459,13 +472,15 @@ D. Sims, A. Wolek, **Optimal spacecraft trajectory design with coupled thruster 
 <span class="pub-tag">trajectory optimization</span></p>
 </div>
 </li>
-<li class="pub pub--nofig" data-year="" data-tags="path planning|risk-aware planning">
+<li class="pub pub--nofig" data-year="" data-tags="path planning|risk-aware planning|Bayesian estimation|graph search">
 <div class="pub-body" markdown="1">
 
 A. Wolek, D. Maity, A. Von Moll, S. Manyam, T. Chapman, D. Casbeer, I. Weintraub,**Sequential path planning through uncertain risk regions**. Submitted.
 
 <p class="pub-tags"><span class="pub-tag">path planning</span>
-<span class="pub-tag">risk-aware planning</span></p>
+<span class="pub-tag">risk-aware planning</span>
+<span class="pub-tag">Bayesian estimation</span>
+<span class="pub-tag">graph search</span></p>
 </div>
 </li>
 <li class="pub pub--nofig" data-year="" data-tags="path planning|pursuit-evasion">
@@ -491,7 +506,7 @@ F. Rankin, A. Wolek, A. Willis, and D. Maity, **Neural switching control with Ly
 <span class="pub-tag">quadrotors</span></p>
 </div>
 </li>
-<li class="pub" data-year="2025" data-tags="wave energy converters|event-triggered control|energy-optimal flight|linear quadratic regulator"><a class="pub-fig" href="{{ "/assets/figures/2025-hashemi-powernet.jpg" | relative_url }}"><img src="{{ "/assets/figures/2025-hashemi-powernet.jpg" | relative_url }}" loading="lazy" alt="Figure from: Z. Hashemi, D. Maity, and A. Wolek, POWER-Net: Predictive optimization and wave energy regulation in networked WEC syste"></a>
+<li class="pub" data-year="2025" data-tags="wave energy converters|event-triggered control|energy-optimal control|linear quadratic regulator"><a class="pub-fig" href="{{ "/assets/figures/2025-hashemi-powernet.jpg" | relative_url }}"><img src="{{ "/assets/figures/2025-hashemi-powernet.jpg" | relative_url }}" loading="lazy" alt="Figure from: Z. Hashemi, D. Maity, and A. Wolek, POWER-Net: Predictive optimization and wave energy regulation in networked WEC syste"></a>
 <div class="pub-body" markdown="1">
 
 Z. Hashemi, D. Maity, and A. Wolek, **[POWER-Net: Predictive optimization and wave energy regulation in networked WEC systems](https://tethys-engineering.pnnl.gov/sites/default/files/publications/Hashemi_et_al_2025_paper.pdf)**. In Proc. 2025 University Marine Energy Research Community (UMERC) Annual Conference, Corvallis, OR, 2025.
@@ -500,7 +515,7 @@ Z. Hashemi, D. Maity, and A. Wolek, **[POWER-Net: Predictive optimization and wa
 
 <p class="pub-tags"><span class="pub-tag">wave energy converters</span>
 <span class="pub-tag">event-triggered control</span>
-<span class="pub-tag">energy-optimal flight</span>
+<span class="pub-tag">energy-optimal control</span>
 <span class="pub-tag">linear quadratic regulator</span></p>
 
 <p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/hashemi2025power/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
@@ -520,7 +535,7 @@ I. Albool, A. Willis, A. Wolek, and D. Maity, **[A reinforcement learning framew
 <p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/albool2025reinforcement/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
 </li>
-<li class="pub" data-year="2025" data-tags="high-realism simulation|uncrewed aerial vehicles|visual odometry &amp; SLAM"><a class="pub-fig" href="{{ "/assets/figures/2025-beam-reconstructingflights.jpg" | relative_url }}"><img src="{{ "/assets/figures/2025-beam-reconstructingflights.jpg" | relative_url }}" loading="lazy" alt="Figure from: C. Beam, A. Wolek, and A. Willis, Recreation of 3D UAS flights in high-realism virtual environments , In Proc. 2025 Inte"></a>
+<li class="pub" data-year="2025" data-tags="high-realism simulation|uncrewed aerial vehicles|visual odometry &amp; SLAM|computer vision"><a class="pub-fig" href="{{ "/assets/figures/2025-beam-reconstructingflights.jpg" | relative_url }}"><img src="{{ "/assets/figures/2025-beam-reconstructingflights.jpg" | relative_url }}" loading="lazy" alt="Figure from: C. Beam, A. Wolek, and A. Willis, Recreation of 3D UAS flights in high-realism virtual environments , In Proc. 2025 Inte"></a>
 <div class="pub-body" markdown="1">
 
 C. Beam, A. Wolek, and A. Willis, **[Recreation of 3D UAS flights in high-realism virtual environments](https://doi.org/10.1109/ICUAS65942.2025.11007798)** , In Proc. 2025 International Conference on Unmanned Aerial Systems (ICUAS), Charlotte, NC, 2025.
@@ -529,27 +544,28 @@ C. Beam, A. Wolek, and A. Willis, **[Recreation of 3D UAS flights in high-realis
 
 <p class="pub-tags"><span class="pub-tag">high-realism simulation</span>
 <span class="pub-tag">uncrewed aerial vehicles</span>
-<span class="pub-tag">visual odometry & SLAM</span></p>
+<span class="pub-tag">visual odometry & SLAM</span>
+<span class="pub-tag">computer vision</span></p>
 
 <p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/beam2025recreation/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
 </li>
-<li class="pub" data-year="2025" data-tags="uncrewed aerial vehicles|wind field estimation|software-in-the-loop|computational fluid dynamics"><a class="pub-fig" href="{{ "/assets/figures/2025-parab-windfieldfourier.jpg" | relative_url }}"><img src="{{ "/assets/figures/2025-parab-windfieldfourier.jpg" | relative_url }}" loading="lazy" alt="Figure from: S. Parab, A. Wolek, D. Maity, and A. Willis, Real-time simulation of complex 4D wind fields and gusts for UAS control sy"></a>
+<li class="pub" data-year="2025" data-tags="flow-field estimation|uncrewed aerial vehicles|software-in-the-loop|computational fluid dynamics"><a class="pub-fig" href="{{ "/assets/figures/2025-parab-windfieldfourier.jpg" | relative_url }}"><img src="{{ "/assets/figures/2025-parab-windfieldfourier.jpg" | relative_url }}" loading="lazy" alt="Figure from: S. Parab, A. Wolek, D. Maity, and A. Willis, Real-time simulation of complex 4D wind fields and gusts for UAS control sy"></a>
 <div class="pub-body" markdown="1">
 
 S. Parab, A. Wolek, D. Maity, and A. Willis, **[Real-time simulation of complex 4D wind fields and gusts for UAS control system development](https://doi.org/10.1109/ICUAS65942.2025.11007887)** , In Proc. 2025 International Conference on Unmanned Aerial Systems (ICUAS), Charlotte, NC, 2025.
 
 <p class="pub-summary">Gazebo plugins that inject time-varying 3D wind fields and short-duration gusts into ROS and PX4 software-in-the-loop simulation. A Fourier-based compression of large CFD datasets makes the fields cheap enough to evaluate in real time.</p>
 
-<p class="pub-tags"><span class="pub-tag">uncrewed aerial vehicles</span>
-<span class="pub-tag">wind field estimation</span>
+<p class="pub-tags"><span class="pub-tag">flow-field estimation</span>
+<span class="pub-tag">uncrewed aerial vehicles</span>
 <span class="pub-tag">software-in-the-loop</span>
 <span class="pub-tag">computational fluid dynamics</span></p>
 
 <p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/parab2025real/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
 </li>
-<li class="pub" data-year="2025" data-tags="uncrewed aerial vehicles|ground robots|takeoff &amp; landing|vortex ring state|computational fluid dynamics|flow field estimation"><a class="pub-fig" href="{{ "/assets/figures/2025-hahn-aiaa-vortexringstate.jpg" | relative_url }}"><img src="{{ "/assets/figures/2025-hahn-aiaa-vortexringstate.jpg" | relative_url }}" loading="lazy" alt="Figure from: C. Hahn, A. Wolek, and M. Uddin, Characterizing vortex ring state during UAV landing on a ground vehicle using CFD , In "></a>
+<li class="pub" data-year="2025" data-tags="uncrewed aerial vehicles|ground robots|takeoff &amp; landing|vortex ring state|computational fluid dynamics"><a class="pub-fig" href="{{ "/assets/figures/2025-hahn-aiaa-vortexringstate.jpg" | relative_url }}"><img src="{{ "/assets/figures/2025-hahn-aiaa-vortexringstate.jpg" | relative_url }}" loading="lazy" alt="Figure from: C. Hahn, A. Wolek, and M. Uddin, Characterizing vortex ring state during UAV landing on a ground vehicle using CFD , In "></a>
 <div class="pub-body" markdown="1">
 
 C. Hahn, A. Wolek, and M. Uddin, **[Characterizing vortex ring state during UAV landing on a ground vehicle using CFD](https://doi.org/10.2514/6.2025-1686)** , In Proc. AIAA SciTech 2025 Forum, Orlando, FL, 2025.
@@ -560,13 +576,12 @@ C. Hahn, A. Wolek, and M. Uddin, **[Characterizing vortex ring state during UAV 
 <span class="pub-tag">ground robots</span>
 <span class="pub-tag">takeoff & landing</span>
 <span class="pub-tag">vortex ring state</span>
-<span class="pub-tag">computational fluid dynamics</span>
-<span class="pub-tag">flow field estimation</span></p>
+<span class="pub-tag">computational fluid dynamics</span></p>
 
 <p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/hahn2025characterizing/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
 </li>
-<li class="pub" data-year="2025" data-tags="Gaussian process regression|wind field estimation|computational fluid dynamics|mapping"><a class="pub-fig" href="{{ "/assets/figures/2025-kakavitsas-aiaa-morphology-f1-1.jpg" | relative_url }}"><img src="{{ "/assets/figures/2025-kakavitsas-aiaa-morphology-f1-1.jpg" | relative_url }}" loading="lazy" alt="Figure from: N. Kakavitsas and A. Wolek, Mapping urban wind fields via Gaussian processes regression models that consider building mo"></a>
+<li class="pub" data-year="2025" data-tags="Gaussian process regression|flow-field estimation|computational fluid dynamics|mapping"><a class="pub-fig" href="{{ "/assets/figures/2025-kakavitsas-aiaa-morphology-f1-1.jpg" | relative_url }}"><img src="{{ "/assets/figures/2025-kakavitsas-aiaa-morphology-f1-1.jpg" | relative_url }}" loading="lazy" alt="Figure from: N. Kakavitsas and A. Wolek, Mapping urban wind fields via Gaussian processes regression models that consider building mo"></a>
 <div class="pub-body" markdown="1">
 
 N. Kakavitsas and A. Wolek, **[Mapping urban wind fields via Gaussian processes regression models that consider building morphology](https://doi.org/10.2514/6.2025-2282)** , In Proc. AIAA SciTech 2025 Forum, Orlando, FL, 2025. [[preprint](https://doi.org/10.36227/techrxiv.173386085.57156083/v1)]
@@ -574,7 +589,7 @@ N. Kakavitsas and A. Wolek, **[Mapping urban wind fields via Gaussian processes 
 <p class="pub-summary">Trains a Gaussian process on CFD data to reconstruct a steady urban wind field from sparse measurements. Instead of using measurement position alone, the covariance function incorporates building morphology, which is what actually shapes the flow.</p>
 
 <p class="pub-tags"><span class="pub-tag">Gaussian process regression</span>
-<span class="pub-tag">wind field estimation</span>
+<span class="pub-tag">flow-field estimation</span>
 <span class="pub-tag">computational fluid dynamics</span>
 <span class="pub-tag">mapping</span></p>
 
@@ -596,7 +611,7 @@ N. Kakavitsas, A. Willis, D. Maity, and A. Wolek, **[A quadrotor model for evalu
 <p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/kakavitsas2025quadrotor/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
 </li>
-<li class="pub" data-year="2025" data-tags="Dubins paths|energy-optimal flight|Pontryagin&#x27;s minimum principle|optimal control"><a class="pub-fig" href="{{ "/assets/figures/2025-wolek-aiaa-decayingspeed-f1-1.jpg" | relative_url }}"><img src="{{ "/assets/figures/2025-wolek-aiaa-decayingspeed-f1-1.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Wolek, D. Casbeer, I. Weintraub, and A. Von Moll, Maximum kinetic energy paths for a decaying-speed Dubins vehicle , "></a>
+<li class="pub" data-year="2025" data-tags="Dubins paths|energy-optimal control|Pontryagin&#x27;s minimum principle|optimal control|curvature-constrained motion"><a class="pub-fig" href="{{ "/assets/figures/2025-wolek-aiaa-decayingspeed-f1-1.jpg" | relative_url }}"><img src="{{ "/assets/figures/2025-wolek-aiaa-decayingspeed-f1-1.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Wolek, D. Casbeer, I. Weintraub, and A. Von Moll, Maximum kinetic energy paths for a decaying-speed Dubins vehicle , "></a>
 <div class="pub-body" markdown="1">
 
 A. Wolek, D. Casbeer, I. Weintraub, and A. Von Moll, **[Maximum kinetic energy paths for a decaying-speed Dubins vehicle](https://doi.org/10.2514/6.2025-1351)** , In Proc. AIAA SciTech 2025 Forum, Orlando, FL, 2025. [[preprint](https://doi.org/10.36227/techrxiv.173386166.63127385/v1)]
@@ -604,22 +619,22 @@ A. Wolek, D. Casbeer, I. Weintraub, and A. Von Moll, **[Maximum kinetic energy p
 <p class="pub-summary">Steers a Dubins vehicle whose speed decays linearly with turn rate to a terminal point and heading while retaining maximum kinetic energy. Pontryagin's minimum principle yields extremals composed of straight segments and spiral-shaped turns.</p>
 
 <p class="pub-tags"><span class="pub-tag">Dubins paths</span>
-<span class="pub-tag">energy-optimal flight</span>
+<span class="pub-tag">energy-optimal control</span>
 <span class="pub-tag">Pontryagin's minimum principle</span>
-<span class="pub-tag">optimal control</span></p>
+<span class="pub-tag">optimal control</span>
+<span class="pub-tag">curvature-constrained motion</span></p>
 
 <p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/wolek2025maximum/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
 </li>
-<li class="pub" data-year="2024" data-tags="nonlinear control|curvature-constrained motion"><a class="pub-fig" href="{{ "/assets/figures/2024-moradi-mecc-submission.jpg" | relative_url }}"><img src="{{ "/assets/figures/2024-moradi-mecc-submission.jpg" | relative_url }}" loading="lazy" alt="Figure from: H. Moradi, A. Wolek, and S. D. Kelly, Mechanics and control of a freely rolling two-link robot with joint actuation , In"></a>
+<li class="pub" data-year="2024" data-tags="nonlinear control"><a class="pub-fig" href="{{ "/assets/figures/2024-moradi-mecc-submission.jpg" | relative_url }}"><img src="{{ "/assets/figures/2024-moradi-mecc-submission.jpg" | relative_url }}" loading="lazy" alt="Figure from: H. Moradi, A. Wolek, and S. D. Kelly, Mechanics and control of a freely rolling two-link robot with joint actuation , In"></a>
 <div class="pub-body" markdown="1">
 
 H. Moradi, A. Wolek, and S. D. Kelly, **[Mechanics and control of a freely rolling two-link robot with joint actuation](https://doi.org/10.1016/j.ifacol.2025.01.118)** , In Proc. IFAC 2024 Modeling, Estimation and Control Conference, Chicago, IL, 2024.
 
 <p class="pub-summary">Reduces the dynamics of a two-link wheeled robot — hinged, free to roll and pivot but not slip, driven only by an internal joint torque — to a scalar nonholonomic momentum coupled to the joint angle, then uses that structure to steer it between target points.</p>
 
-<p class="pub-tags"><span class="pub-tag">nonlinear control</span>
-<span class="pub-tag">curvature-constrained motion</span></p>
+<p class="pub-tags"><span class="pub-tag">nonlinear control</span></p>
 
 <p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/moradi2024mechanics/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
@@ -638,7 +653,7 @@ A. Wolek, I. E. Weintraub, A. Von Moll, D. Casbeer, and S.G. Manyam, **[Sampling
 <p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/wolek2024sampling/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
 </li>
-<li class="pub" data-year="2024" data-tags="cooperative navigation|path planning"><a class="pub-fig" href="{{ "/assets/figures/2024-wolek-cams-cna-f3-1.jpg" | relative_url }}"><img src="{{ "/assets/figures/2024-wolek-cams-cna-f3-1.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Wolek, Path planning for a cooperative navigation aid vehicle to assist multiple agents sequentially. In Proc. 15th I"></a>
+<li class="pub" data-year="2024" data-tags="cooperative navigation|path planning|underwater vehicles"><a class="pub-fig" href="{{ "/assets/figures/2024-wolek-cams-cna-f3-1.jpg" | relative_url }}"><img src="{{ "/assets/figures/2024-wolek-cams-cna-f3-1.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Wolek, Path planning for a cooperative navigation aid vehicle to assist multiple agents sequentially. In Proc. 15th I"></a>
 <div class="pub-body" markdown="1">
 
 A. Wolek, **[Path planning for a cooperative navigation aid vehicle to assist multiple agents sequentially](https://doi.org/10.1016/j.ifacol.2024.10.044)**. In Proc. 15th IFAC Conference on Control Applications in Marine Systems, Robotics, and Vehicles, Blacksburg, VA, 2024. [[preprint](https://arxiv.org/pdf/2402.17071.pdf)]
@@ -646,12 +661,13 @@ A. Wolek, **[Path planning for a cooperative navigation aid vehicle to assist mu
 <p class="pub-summary">Plans a path for a single underwater cooperative navigation aid to intercept a set of agents in turn, minimising their average navigation uncertainty. Aiding is modelled by a scalar Kalman filter, and the planner also weighs surfacing to reset the aid's own uncertainty. A greedy scheduling heuristic is compared against exhaustive enumeration in Monte Carlo trials.</p>
 
 <p class="pub-tags"><span class="pub-tag">cooperative navigation</span>
-<span class="pub-tag">path planning</span></p>
+<span class="pub-tag">path planning</span>
+<span class="pub-tag">underwater vehicles</span></p>
 
 <p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/wolek2024path/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
 </li>
-<li class="pub" data-year="2024" data-tags="least-squares estimation|flow field estimation|underwater vehicles"><a class="pub-fig" href="{{ "/assets/figures/2024-wolek-cams-currents2.jpg" | relative_url }}"><img src="{{ "/assets/figures/2024-wolek-cams-currents2.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Wolek and J. McMahon, Batch estimation of a steady, uniform, flow-field from ground velocity and heading measurements"></a>
+<li class="pub" data-year="2024" data-tags="least-squares estimation|flow-field estimation|underwater vehicles"><a class="pub-fig" href="{{ "/assets/figures/2024-wolek-cams-currents2.jpg" | relative_url }}"><img src="{{ "/assets/figures/2024-wolek-cams-currents2.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Wolek and J. McMahon, Batch estimation of a steady, uniform, flow-field from ground velocity and heading measurements"></a>
 <div class="pub-body" markdown="1">
 
 A. Wolek and J. McMahon, **[Batch estimation of a steady, uniform, flow-field from ground velocity and heading measurements](https://doi.org/10.1016/j.ifacol.2024.10.071)**. In Proc. 15th IFAC Conference on Control Applications in Marine Systems, Robotics, and Vehicles, Blacksburg, VA, 2024. [[preprint](https://arxiv.org/pdf/2402.17078.pdf)]
@@ -659,13 +675,13 @@ A. Wolek and J. McMahon, **[Batch estimation of a steady, uniform, flow-field fr
 <p class="pub-summary">Three batch estimators that recover the speed and direction of a steady, uniform flow field from noisy ground-velocity and heading measurements taken while a vehicle flies a circular orbit. Monte Carlo trials show how accuracy varies with measurement noise and with how much heading the maneuver sweeps.</p>
 
 <p class="pub-tags"><span class="pub-tag">least-squares estimation</span>
-<span class="pub-tag">flow field estimation</span>
+<span class="pub-tag">flow-field estimation</span>
 <span class="pub-tag">underwater vehicles</span></p>
 
 <p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/wolek2024batch/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
 </li>
-<li class="pub" data-year="2024" data-tags="high-realism simulation|visual odometry &amp; SLAM|mapping"><a class="pub-fig" href="{{ "/assets/figures/2024-beam-southeastcon.jpg" | relative_url }}"><img src="{{ "/assets/figures/2024-beam-southeastcon.jpg" | relative_url }}" loading="lazy" alt="Figure from: C. Beam, J. Zhang, N. Kakavitsas, C. Hague, A. Wolek, and A. Willis, Cesium Tiles for high-realism simulation and compar"></a>
+<li class="pub" data-year="2024" data-tags="high-realism simulation|visual odometry &amp; SLAM|mapping|computer vision"><a class="pub-fig" href="{{ "/assets/figures/2024-beam-southeastcon.jpg" | relative_url }}"><img src="{{ "/assets/figures/2024-beam-southeastcon.jpg" | relative_url }}" loading="lazy" alt="Figure from: C. Beam, J. Zhang, N. Kakavitsas, C. Hague, A. Wolek, and A. Willis, Cesium Tiles for high-realism simulation and compar"></a>
 <div class="pub-body" markdown="1">
 
 C. Beam, J. Zhang, N. Kakavitsas, C. Hague, A. Wolek, and A. Willis, **[Cesium Tiles for high-realism simulation and comparing SLAM results in corresponding virtual and real-world environments](https://ieeexplore.ieee.org/document/10500076)**. In Proc. 2024 IEEE Southeast Con, Atlanta, GA, 2024. [[preprint](https://arxiv.org/pdf/2401.07962.pdf)]
@@ -674,7 +690,8 @@ C. Beam, J. Zhang, N. Kakavitsas, C. Hague, A. Wolek, and A. Willis, **[Cesium T
 
 <p class="pub-tags"><span class="pub-tag">high-realism simulation</span>
 <span class="pub-tag">visual odometry & SLAM</span>
-<span class="pub-tag">mapping</span></p>
+<span class="pub-tag">mapping</span>
+<span class="pub-tag">computer vision</span></p>
 
 <p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/beam2024cesium/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
@@ -693,7 +710,7 @@ A. Willis, C. Hague, A. Wolek, and K. Brink, **[GPU-Accelerated 3D polygon visib
 <p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/willis2024gpu/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
 </li>
-<li class="pub" data-year="2024" data-tags="quadrotors|mapping|target tracking|GNSS positioning|field experiments|uncrewed aerial vehicles|hardware design|visual odometry &amp; SLAM"><a class="pub-fig" href="{{ "/assets/figures/2024-hague-southeastcon.jpg" | relative_url }}"><img src="{{ "/assets/figures/2024-hague-southeastcon.jpg" | relative_url }}" loading="lazy" alt="Figure from: C. Hague, N. Kakavitsas, J. Zhang, C. Beam, A. Willis, and A. Wolek, Design and flight demonstration of a quadrotor for "></a>
+<li class="pub" data-year="2024" data-tags="quadrotors|mapping|target tracking|GNSS positioning|field robotics|uncrewed aerial vehicles|hardware design|visual odometry &amp; SLAM|experimental validation|computer vision"><a class="pub-fig" href="{{ "/assets/figures/2024-hague-southeastcon.jpg" | relative_url }}"><img src="{{ "/assets/figures/2024-hague-southeastcon.jpg" | relative_url }}" loading="lazy" alt="Figure from: C. Hague, N. Kakavitsas, J. Zhang, C. Beam, A. Willis, and A. Wolek, Design and flight demonstration of a quadrotor for "></a>
 <div class="pub-body" markdown="1">
 
 C. Hague, N. Kakavitsas, J. Zhang, C. Beam, A. Willis, and A. Wolek, **[Design and flight demonstration of a quadrotor for urban mapping and target tracking applications](https://ieeexplore.ieee.org/document/10500131)**. In Proc. 2024 IEEE Southeast Con, Atlanta, GA, 2024. [[preprint](https://arxiv.org/abs/2402.13195)]
@@ -704,10 +721,12 @@ C. Hague, N. Kakavitsas, J. Zhang, C. Beam, A. Willis, and A. Wolek, **[Design a
 <span class="pub-tag">mapping</span>
 <span class="pub-tag">target tracking</span>
 <span class="pub-tag">GNSS positioning</span>
-<span class="pub-tag">field experiments</span>
+<span class="pub-tag">field robotics</span>
 <span class="pub-tag">uncrewed aerial vehicles</span>
 <span class="pub-tag">hardware design</span>
-<span class="pub-tag">visual odometry & SLAM</span></p>
+<span class="pub-tag">visual odometry & SLAM</span>
+<span class="pub-tag">experimental validation</span>
+<span class="pub-tag">computer vision</span></p>
 
 <p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/hague2024design/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
@@ -727,7 +746,7 @@ J. Herbert and A. Wolek, **[Design of a miniature underwater vehicle and data co
 <p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/herbert2024design/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
 </li>
-<li class="pub" data-year="2024" data-tags="computational fluid dynamics|quadrotors|wind field estimation|software-in-the-loop|dataset"><a class="pub-fig" href="{{ "/assets/figures/2024-kakavitsas-aeroconf-urbanwindsim.jpg" | relative_url }}"><img src="{{ "/assets/figures/2024-kakavitsas-aeroconf-urbanwindsim.jpg" | relative_url }}" loading="lazy" alt="Figure from: N. Kakavitsas, A. Willis, R. Jacobik, M. Uddin, and A. Wolek, Quadrotor flight simulation in a CFD-generated urban wind "></a>
+<li class="pub" data-year="2024" data-tags="computational fluid dynamics|quadrotors|flow-field estimation|software-in-the-loop|dataset"><a class="pub-fig" href="{{ "/assets/figures/2024-kakavitsas-aeroconf-urbanwindsim.jpg" | relative_url }}"><img src="{{ "/assets/figures/2024-kakavitsas-aeroconf-urbanwindsim.jpg" | relative_url }}" loading="lazy" alt="Figure from: N. Kakavitsas, A. Willis, R. Jacobik, M. Uddin, and A. Wolek, Quadrotor flight simulation in a CFD-generated urban wind "></a>
 <div class="pub-body" markdown="1">
 
 N. Kakavitsas, A. Willis, R. Jacobik, M. Uddin, and A. Wolek, **[Quadrotor flight simulation in a CFD-generated urban wind field](https://doi.org/10.1109/AERO58975.2024.10521032)**. In Proc. 2024 IEEE Aerospace Conference, Big Sky, MT, 2024. [[preprint](https://d197for5662m48.cloudfront.net/documents/publicationstatus/200550/preprint_pdf/21cff21344349abf7e28ae6d4c24612a.pdf)]
@@ -736,7 +755,7 @@ N. Kakavitsas, A. Willis, R. Jacobik, M. Uddin, and A. Wolek, **[Quadrotor fligh
 
 <p class="pub-tags"><span class="pub-tag">computational fluid dynamics</span>
 <span class="pub-tag">quadrotors</span>
-<span class="pub-tag">wind field estimation</span>
+<span class="pub-tag">flow-field estimation</span>
 <span class="pub-tag">software-in-the-loop</span>
 <span class="pub-tag">dataset</span></p>
 
@@ -759,14 +778,14 @@ N. Kakavitsas, A. Willis, J. Conrad, and A. Wolek, **[Comparison of size and per
 <p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/kakavitsas2024comparison/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
 </li>
-<li class="pub" data-year="2024" data-tags="wind field estimation|trajectory optimization|quadrotors|takeoff &amp; landing|Gaussian process regression|optimal control|numerical optimal control"><a class="pub-fig" href="{{ "/assets/figures/2024-kakavitsas-aiaa-gp-trajplanner.jpg" | relative_url }}"><img src="{{ "/assets/figures/2024-kakavitsas-aiaa-gp-trajplanner.jpg" | relative_url }}" loading="lazy" alt="Figure from: N. Kakavitsas and A. Wolek, Quadrotor takeoff trajectory planning in a one-dimensional uncertain wind-field aided by win"></a>
+<li class="pub" data-year="2024" data-tags="flow-field estimation|trajectory optimization|quadrotors|takeoff &amp; landing|Gaussian process regression|optimal control|numerical optimal control"><a class="pub-fig" href="{{ "/assets/figures/2024-kakavitsas-aiaa-gp-trajplanner.jpg" | relative_url }}"><img src="{{ "/assets/figures/2024-kakavitsas-aiaa-gp-trajplanner.jpg" | relative_url }}" loading="lazy" alt="Figure from: N. Kakavitsas and A. Wolek, Quadrotor takeoff trajectory planning in a one-dimensional uncertain wind-field aided by win"></a>
 <div class="pub-body" markdown="1">
 
 N. Kakavitsas and A. Wolek, **[Quadrotor takeoff trajectory planning in a one-dimensional uncertain wind-field aided by wind-sensing infrastructure](https://doi.org/10.2514/6.2024-0987)**. In Proc. AIAA SciTech 2024 Forum, Orlando, FL, 2024. [[preprint](https://arxiv.org/pdf/2402.01518.pdf)]
 
 <p class="pub-summary">Plans an optimal takeoff for a quadrotor climbing through a one-dimensional wind field that drifts across the operating area at a known speed, using noisy anemometer measurements from ground-based wind-sensing infrastructure to reduce uncertainty ahead of the vehicle.</p>
 
-<p class="pub-tags"><span class="pub-tag">wind field estimation</span>
+<p class="pub-tags"><span class="pub-tag">flow-field estimation</span>
 <span class="pub-tag">trajectory optimization</span>
 <span class="pub-tag">quadrotors</span>
 <span class="pub-tag">takeoff & landing</span>
@@ -793,7 +812,7 @@ A. Wolek and D. A. Paley, **[Output feedback formation control of a school of ro
 <p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/wolek2023output/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
 </li>
-<li class="pub" data-year="2023" data-tags="Dubins paths|fixed-wing UAVs|inspection planning|visibility volumes|traveling salesman problem|occlusion-aware planning"><a class="pub-fig" href="{{ "/assets/figures/2022-hague-aiaa.jpg" | relative_url }}"><img src="{{ "/assets/figures/2022-hague-aiaa.jpg" | relative_url }}" loading="lazy" alt="Figure from: C. Hague, A. Willis, D. Maity, and A. Wolek, Planning visual inspection tours for a 3D Dubins airplane model in an urban"></a>
+<li class="pub" data-year="2023" data-tags="Dubins paths|fixed-wing UAVs|inspection planning|visibility volumes|traveling salesman problem|occlusion-aware planning|curvature-constrained motion"><a class="pub-fig" href="{{ "/assets/figures/2022-hague-aiaa.jpg" | relative_url }}"><img src="{{ "/assets/figures/2022-hague-aiaa.jpg" | relative_url }}" loading="lazy" alt="Figure from: C. Hague, A. Willis, D. Maity, and A. Wolek, Planning visual inspection tours for a 3D Dubins airplane model in an urban"></a>
 <div class="pub-body" markdown="1">
 
 C. Hague, A. Willis, D. Maity, and A. Wolek, **[Planning visual inspection tours for a 3D Dubins airplane model in an urban environment](https://arc.aiaa.org/doi/10.2514/6.2023-0108)**. In Proc. AIAA SciTech 2023 Forum, National Harbor, MD, 2023. [[preprint](https://arxiv.org/abs/2301.05309)]
@@ -805,7 +824,8 @@ C. Hague, A. Willis, D. Maity, and A. Wolek, **[Planning visual inspection tours
 <span class="pub-tag">inspection planning</span>
 <span class="pub-tag">visibility volumes</span>
 <span class="pub-tag">traveling salesman problem</span>
-<span class="pub-tag">occlusion-aware planning</span></p>
+<span class="pub-tag">occlusion-aware planning</span>
+<span class="pub-tag">curvature-constrained motion</span></p>
 
 <p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/hague2023planning/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
@@ -825,7 +845,7 @@ D. Goswami, A. Wolek, D. A. Paley, **[Data-driven estimation using an Echo-State
 <p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/goswami2021data/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
 </li>
-<li class="pub" data-year="2020" data-tags="formation control|multi-agent coordination|Chaplygin sleigh model|robotic fish|feedback linearization|nonlinear control|curvature-constrained motion"><a class="pub-fig" href="{{ "/assets/figures/2020-ghanem-acc-f3-1.jpg" | relative_url }}"><img src="{{ "/assets/figures/2020-ghanem-acc-f3-1.jpg" | relative_url }}" loading="lazy" alt="Figure from: P. Ghanem, A. Wolek, D. A. Paley, Planar formation control of a school of robotic fish. In Proc. 2020 American Control C"></a>
+<li class="pub" data-year="2020" data-tags="formation control|multi-agent coordination|Chaplygin sleigh model|robotic fish|feedback linearization|nonlinear control|consensus &amp; graph theory"><a class="pub-fig" href="{{ "/assets/figures/2020-ghanem-acc-f3-1.jpg" | relative_url }}"><img src="{{ "/assets/figures/2020-ghanem-acc-f3-1.jpg" | relative_url }}" loading="lazy" alt="Figure from: P. Ghanem, A. Wolek, D. A. Paley, Planar formation control of a school of robotic fish. In Proc. 2020 American Control C"></a>
 <div class="pub-body" markdown="1">
 
 P. Ghanem, A. Wolek, D. A. Paley, **[Planar formation control of a school of robotic fish.](https://doi.org/10.23919/ACC45564.2020.9147969)** In Proc. 2020 American Control Conference, Denver, CO, 2020. [[preprint](https://cdcl.umd.edu/papers/acc20a.pdf)]
@@ -838,7 +858,7 @@ P. Ghanem, A. Wolek, D. A. Paley, **[Planar formation control of a school of rob
 <span class="pub-tag">robotic fish</span>
 <span class="pub-tag">feedback linearization</span>
 <span class="pub-tag">nonlinear control</span>
-<span class="pub-tag">curvature-constrained motion</span></p>
+<span class="pub-tag">consensus & graph theory</span></p>
 
 <p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/ghanem2020planar/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
@@ -918,7 +938,7 @@ M. A. Wilson, J. McMahon, A. Wolek, D. Aha, and B. Houston, **[Toward goal reaso
 <p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/wilson2016goal/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
 </li>
-<li class="pub" data-year="2015" data-tags="gliders|field experiments|hardware design|novel actuators"><a class="pub-fig" href="{{ "/assets/figures/2015-wolek-oceans.jpg" | relative_url }}"><img src="{{ "/assets/figures/2015-wolek-oceans.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Wolek, T. Gode, C. A. Woolsey, J. Quenzer, K. A. and Morgansen, Testing a pneumatic underwater glider in shallow wate"></a>
+<li class="pub" data-year="2015" data-tags="gliders|field robotics|experimental validation|hardware design|novel actuators"><a class="pub-fig" href="{{ "/assets/figures/2015-wolek-oceans.jpg" | relative_url }}"><img src="{{ "/assets/figures/2015-wolek-oceans.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Wolek, T. Gode, C. A. Woolsey, J. Quenzer, K. A. and Morgansen, Testing a pneumatic underwater glider in shallow wate"></a>
 <div class="pub-body" markdown="1">
 
 A. Wolek, T. Gode, C. A. Woolsey, J. Quenzer, K. A. and Morgansen, **[Testing a pneumatic underwater glider in shallow water.](https://doi.org/10.23919/OCEANS.2015.7401980)** In Proc. MTS/IEEE OCEANS’15, Washington, DC, 2015. [[preprint](https://www.researchgate.net/profile/Artur-Wolek/publication/283506011_Testing_a_pneumatic_underwater_glider_in_shallow_water/links/5fc0fdce299bf104cf83ab65/Testing-a-pneumatic-underwater-glider-in-shallow-water.pdf)]
@@ -926,7 +946,8 @@ A. Wolek, T. Gode, C. A. Woolsey, J. Quenzer, K. A. and Morgansen, **[Testing a 
 <p class="pub-summary">Shallow-water trials of a glider with a pneumatic buoyancy engine intended for fast, maneuverable littoral operation. The engine worked reliably, but bladder compressibility and the weight lost by venting air each dive dominated the trimming problem.</p>
 
 <p class="pub-tags"><span class="pub-tag">gliders</span>
-<span class="pub-tag">field experiments</span>
+<span class="pub-tag">field robotics</span>
+<span class="pub-tag">experimental validation</span>
 <span class="pub-tag">hardware design</span>
 <span class="pub-tag">novel actuators</span></p>
 
@@ -974,7 +995,7 @@ S. Fan, A. Wolek, and C. A. Woolsey, **[Stability and performance of underwater 
 <p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/shuangshuangfan2012stability/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
 </li>
-<li class="pub" data-year="2011" data-tags="morphing wings|field experiments|uncrewed aerial vehicles|experimental validation|fixed-wing UAVs"><a class="pub-fig" href="{{ "/assets/figures/2011-bilgen-ssdm.jpg" | relative_url }}"><img src="{{ "/assets/figures/2011-bilgen-ssdm.jpg" | relative_url }}" loading="lazy" alt="Figure from: O. Bilgen, L. Butt, S. Day, C. Sossi, J. Weaver, A. Wolek, W. Mason, and D. Inman, A novel unmanned aircraft with solid-"></a>
+<li class="pub" data-year="2011" data-tags="morphing wings|field robotics|uncrewed aerial vehicles|experimental validation|fixed-wing UAVs"><a class="pub-fig" href="{{ "/assets/figures/2011-bilgen-ssdm.jpg" | relative_url }}"><img src="{{ "/assets/figures/2011-bilgen-ssdm.jpg" | relative_url }}" loading="lazy" alt="Figure from: O. Bilgen, L. Butt, S. Day, C. Sossi, J. Weaver, A. Wolek, W. Mason, and D. Inman, A novel unmanned aircraft with solid-"></a>
 <div class="pub-body" markdown="1">
 
 O. Bilgen, L. Butt, S. Day, C. Sossi, J. Weaver, A. Wolek, W. Mason, and D. Inman, **[A novel unmanned aircraft with solid-state control surfaces.](https://doi.org/10.2514/6.2011-2071)** In Proc. 52nd AIAA Structural Dynamics and Materials Conf., Denver, CO, 2011.
@@ -982,7 +1003,7 @@ O. Bilgen, L. Butt, S. Day, C. Sossi, J. Weaver, A. Wolek, W. Mason, and D. Inma
 <p class="pub-summary">Final results from the 2010 Virginia Tech Wing Morphing Design Team: analysis and flight demonstration of an aircraft controlled entirely by piezoelectric Macro-Fiber Composite surfaces rather than servos.</p>
 
 <p class="pub-tags"><span class="pub-tag">morphing wings</span>
-<span class="pub-tag">field experiments</span>
+<span class="pub-tag">field robotics</span>
 <span class="pub-tag">uncrewed aerial vehicles</span>
 <span class="pub-tag">experimental validation</span>
 <span class="pub-tag">fixed-wing UAVs</span></p>
@@ -1003,7 +1024,7 @@ O. Bilgen, L. Butt, S. Day, C. Sossi, J. Weaver, A. Wolek, W. Mason, and D. Inma
 <p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/bilgen2010wing/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
 </li>
-<li class="pub" data-year="2010" data-tags="fixed-wing UAVs|uncrewed aerial vehicles|field experiments|engineering education"><a class="pub-fig" href="{{ "/assets/figures/2010-cotting-asm.jpg" | relative_url }}"><img src="{{ "/assets/figures/2010-cotting-asm.jpg" | relative_url }}" loading="lazy" alt="Figure from: M. C. Cotting, A. Wolek, J. F. Murtha, C. and A. Woolsey, Developmental flight testing of the SPAARO UAV. In Proc. 48th "></a>
+<li class="pub" data-year="2010" data-tags="fixed-wing UAVs|uncrewed aerial vehicles|field robotics|engineering education|experimental validation"><a class="pub-fig" href="{{ "/assets/figures/2010-cotting-asm.jpg" | relative_url }}"><img src="{{ "/assets/figures/2010-cotting-asm.jpg" | relative_url }}" loading="lazy" alt="Figure from: M. C. Cotting, A. Wolek, J. F. Murtha, C. and A. Woolsey, Developmental flight testing of the SPAARO UAV. In Proc. 48th "></a>
 <div class="pub-body" markdown="1">
 
 M. C. Cotting, A. Wolek, J. F. Murtha, C. and A. Woolsey, **[Developmental flight testing of the SPAARO UAV.](https://doi.org/10.2514/6.2010-295)** In Proc. 48th AIAA Aerospace Sciences Meeting and Expo., Orlando, FL, 2010. [[preprint](https://web.archive.org/web/20141224020220id_/http://filebox.vt.edu/~woleka/SPAARO/2010_SPAAROFlightTest.pdf)]
@@ -1012,8 +1033,9 @@ M. C. Cotting, A. Wolek, J. F. Murtha, C. and A. Woolsey, **[Developmental fligh
 
 <p class="pub-tags"><span class="pub-tag">fixed-wing UAVs</span>
 <span class="pub-tag">uncrewed aerial vehicles</span>
-<span class="pub-tag">field experiments</span>
-<span class="pub-tag">engineering education</span></p>
+<span class="pub-tag">field robotics</span>
+<span class="pub-tag">engineering education</span>
+<span class="pub-tag">experimental validation</span></p>
 
 <p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/cotting2010developmental/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
@@ -1037,7 +1059,7 @@ J. F. Murtha, M. C. Cotting, A. Wolek, T. Aarons, and C. A. Woolsey, **[The educ
 ## Undergraduate Research
 
 <ol class="pub-list">
-<li class="pub" data-year="2026" data-tags="experimental validation|acoustics|uncrewed aerial vehicles|aerodynamic modelling|computational fluid dynamics|quadrotors|propellers"><a class="pub-fig" href="{{ "/assets/figures/2026-das-aiaa.jpg" | relative_url }}"><img src="{{ "/assets/figures/2026-das-aiaa.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Das, Aero-acoustic optimization and experimental validation of a NACA 2415 toroidal UAV propeller. In Proc. AIAA 2026"></a>
+<li class="pub" data-year="2026" data-tags="experimental validation|acoustics|uncrewed aerial vehicles|quadrotors|propellers"><a class="pub-fig" href="{{ "/assets/figures/2026-das-aiaa.jpg" | relative_url }}"><img src="{{ "/assets/figures/2026-das-aiaa.jpg" | relative_url }}" loading="lazy" alt="Figure from: A. Das, Aero-acoustic optimization and experimental validation of a NACA 2415 toroidal UAV propeller. In Proc. AIAA 2026"></a>
 <div class="pub-body" markdown="1">
 
 A. Das, **[Aero-acoustic optimization and experimental validation of a NACA 2415 toroidal UAV propeller](https://engrxiv.org/preprint/view/6524/10681)**. In Proc. AIAA 2026 Region II Student Conference, Columbia, SC, 2026.
@@ -1047,15 +1069,13 @@ A. Das, **[Aero-acoustic optimization and experimental validation of a NACA 2415
 <p class="pub-tags"><span class="pub-tag">experimental validation</span>
 <span class="pub-tag">acoustics</span>
 <span class="pub-tag">uncrewed aerial vehicles</span>
-<span class="pub-tag">aerodynamic modelling</span>
-<span class="pub-tag">computational fluid dynamics</span>
 <span class="pub-tag">quadrotors</span>
 <span class="pub-tag">propellers</span></p>
 
 <p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/das2026aero/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
 </li>
-<li class="pub" data-year="2025" data-tags="mapping|path planning|ground robots|energy-optimal flight|GNSS positioning|least-squares estimation"><a class="pub-fig" href="{{ "/assets/figures/2025-nguyen-aiaa.jpg" | relative_url }}"><img src="{{ "/assets/figures/2025-nguyen-aiaa.jpg" | relative_url }}" loading="lazy" alt="Figure from: M. Nguyen, Off-road terrain mapping for autonomous ground vehicle energy-optimal path planning , In Proc. AIAA 2025 Regi"></a>
+<li class="pub" data-year="2025" data-tags="mapping|path planning|ground robots|energy-optimal control|GNSS positioning|least-squares estimation|graph search"><a class="pub-fig" href="{{ "/assets/figures/2025-nguyen-aiaa.jpg" | relative_url }}"><img src="{{ "/assets/figures/2025-nguyen-aiaa.jpg" | relative_url }}" loading="lazy" alt="Figure from: M. Nguyen, Off-road terrain mapping for autonomous ground vehicle energy-optimal path planning , In Proc. AIAA 2025 Regi"></a>
 <div class="pub-body" markdown="1">
 
 M. Nguyen, **[Off-road terrain mapping for autonomous ground vehicle energy-optimal path planning](https://region2.aiaastudentconference.org/collection/2025/manuscripts/99132.pdf)** , In Proc. AIAA 2025 Region II Student Conference, Greensboro, NC, 2025.
@@ -1065,9 +1085,10 @@ M. Nguyen, **[Off-road terrain mapping for autonomous ground vehicle energy-opti
 <p class="pub-tags"><span class="pub-tag">mapping</span>
 <span class="pub-tag">path planning</span>
 <span class="pub-tag">ground robots</span>
-<span class="pub-tag">energy-optimal flight</span>
+<span class="pub-tag">energy-optimal control</span>
 <span class="pub-tag">GNSS positioning</span>
-<span class="pub-tag">least-squares estimation</span></p>
+<span class="pub-tag">least-squares estimation</span>
+<span class="pub-tag">graph search</span></p>
 
 <p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/nguyen2025off/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
@@ -1088,7 +1109,7 @@ K. VanHorn, **[Experimental characterization of a quadrotor’s response to an a
 <p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/vanhorn2025experimental/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
 </li>
-<li class="pub" data-year="2024" data-tags="uncrewed aerial vehicles|quadrotors|neural networks|wind field estimation"><a class="pub-fig" href="{{ "/assets/figures/2024-vanhorn-aiaa.jpg" | relative_url }}"><img src="{{ "/assets/figures/2024-vanhorn-aiaa.jpg" | relative_url }}" loading="lazy" alt="Figure from: K. VanHorn, Machine-learning-based wind detection and avoidance using a crazyflie micro drone. In Proc. AIAA 2024 Region"></a>
+<li class="pub" data-year="2024" data-tags="uncrewed aerial vehicles|quadrotors|neural networks|flow-field estimation"><a class="pub-fig" href="{{ "/assets/figures/2024-vanhorn-aiaa.jpg" | relative_url }}"><img src="{{ "/assets/figures/2024-vanhorn-aiaa.jpg" | relative_url }}" loading="lazy" alt="Figure from: K. VanHorn, Machine-learning-based wind detection and avoidance using a crazyflie micro drone. In Proc. AIAA 2024 Region"></a>
 <div class="pub-body" markdown="1">
 
 K. VanHorn, **[Machine-learning-based wind detection and avoidance using a crazyflie micro drone](https://doi.org/10.2514/6.2024-85491)**. In Proc. AIAA 2024 Region II Student Conference, Kennedy Space Center, FL, 2024.
@@ -1098,7 +1119,7 @@ K. VanHorn, **[Machine-learning-based wind detection and avoidance using a crazy
 <p class="pub-tags"><span class="pub-tag">uncrewed aerial vehicles</span>
 <span class="pub-tag">quadrotors</span>
 <span class="pub-tag">neural networks</span>
-<span class="pub-tag">wind field estimation</span></p>
+<span class="pub-tag">flow-field estimation</span></p>
 
 <p class="pub-cite-line"><a class="pub-bib" href='{{ "/publications/bib/vanhorn2024machine/" | relative_url }}' title="BibTeX citation for this paper"><i class="fas fa-quote-right" aria-hidden="true"></i><span>BibTeX</span></a></p>
 </div>
